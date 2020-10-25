@@ -54,6 +54,11 @@
                     <attribute id="UUID" type="guid" value="c940f242-8859-4645-87b3-98d5f1fd3441"/>
 					<attribute id="AGTT_Source" type="FixedString" value="Indoril"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="AGTT_BerserkerRage;"/>
+                    <attribute id="UUID" type="guid" value="0f2df3f9-34f0-4693-a67e-8149f909a067"/>
+					<attribute id="AGTT_Source" type="FixedString" value="Orsimer"/>
+                </node>
 			</children>
         </node>
     </region>

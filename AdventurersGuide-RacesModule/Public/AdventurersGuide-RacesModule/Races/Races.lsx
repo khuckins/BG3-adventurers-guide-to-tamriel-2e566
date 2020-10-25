@@ -4964,11 +4964,11 @@
 
 				<!-- Orsimer -->
                 <node id="Race">
-                    <attribute id="Description" type="FixedString" value="Orsimer, previously Orcs."/>
+                    <attribute id="Description" type="FixedString" value=""/>
                     <attribute id="DisplayName" type="FixedString" value="Orsimer"/>
                     <attribute id="Name" type="FixedString" value="Orsimer"/>
                     <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="86041cdd-2d60-4c22-87c4-ab8e88bef027"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
                     <attribute id="UUID" type="guid" value="bbf8bf21-de22-4b93-b25e-833737f42998"/>
                     <children>
@@ -5258,6 +5258,24 @@
                             <attribute id="Object" type="guid" value="3604fdeb-f956-424f-a073-899246213833"/>
                         </node>
                     </children>
+                </node>
+                <node id="Race">
+                    <attribute id="Description" type="FixedString" value="The Orsimer are much-maligned, previously considered Goblin-ken and called Orcs, the Orsimer are a nomadic people who value honor and strength. Their craftmanship is second to none, and most follow Malacath, god of Outcasts."/>
+                    <attribute id="DisplayName" type="FixedString" value="Iron Orsimer"/>
+                    <attribute id="Name" type="FixedString" value="Iron Orsimer"/>
+                    <attribute id="ParentGuid" type="guid" value="bbf8bf21-de22-4b93-b25e-833737f42998"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="feafabc0-8cc2-415a-ba10-0c21ddaac2cc"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
+                    <attribute id="UUID" type="guid" value="c6c0b61a-389f-4e31-84ff-d2e3a51d4229"/>
+                </node>
+                <node id="Race">
+                    <attribute id="Description" type="FixedString" value="Wood Orsimer are those who have settled in Valenwood, and have more in common with Bosmer than they do with other Orsimer. They prize agility and knowledge."/>
+                    <attribute id="DisplayName" type="FixedString" value="Wood Orsimer"/>
+                    <attribute id="Name" type="FixedString" value="Wood Orsimer"/>
+                    <attribute id="ParentGuid" type="guid" value="bbf8bf21-de22-4b93-b25e-833737f42998"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="f7629248-b39e-4acf-9771-ff4add8c59a5"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
+                    <attribute id="UUID" type="guid" value="5094c031-dbb4-464e-b81b-a0b3d6491726"/>
                 </node>
 
 			</children>

@@ -207,6 +207,44 @@
                     <attribute id="TableUUID" type="guid" value="ef15408f-08d3-4b1a-8ae3-2ec7ae28ada3"/>
                     <attribute id="UUID" type="guid" value="ac2d7f7f-120c-4cb9-9f04-ff16c4aec266"/>
                 </node>
+
+				<!-- Orsimer -->
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Orsimer"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(0f2df3f9-34f0-4693-a67e-8149f909a067,1,0,AGTT_OrsimerFeat,Strength,AlwaysPrepared"/>
+                    <attribute id="TableUUID" type="guid" value="86041cdd-2d60-4c22-87c4-ab8e88bef027"/>
+                    <attribute id="UUID" type="guid" value="1cb54ee3-21e0-483d-af57-ae89a7addc1c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Strength,2);ProficiencyBonus(Skill,Survival)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Iron Orsimer"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="feafabc0-8cc2-415a-ba10-0c21ddaac2cc"/>
+                    <attribute id="UUID" type="guid" value="2ea45a26-1355-4651-acff-80291d90fa1e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Dexterity,2);ProficiencyBonus(Skill,Nature)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Wood Orsimer"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="f7629248-b39e-4acf-9771-ff4add8c59a5"/>
+                    <attribute id="UUID" type="guid" value="e9f1e041-5bf0-45b8-9244-2edfe50307fb"/>
+                </node>
             </children>
         </node>
     </region>

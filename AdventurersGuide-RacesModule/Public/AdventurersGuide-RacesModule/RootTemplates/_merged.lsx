@@ -962,7 +962,105 @@
 					</children>
 				</node>
 				
-				<!-- Orsimer -->
+				<!-- Iron Orsimer -->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="cade33f4-fd9b-4936-b80e-ccd63aa6e1e4" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="015bd884-82d1-cc15-2a0f-0cb8524028f4-_(Icon_Elf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0cb8e66e-1c38-4f03-b291-eb852f1f6d7d" />
+					<attribute id="Name" type="LSString" value="Elves_Male_High_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f0930afd-8be6-410e-bae3-b0253262f861" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfMale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="5231681f-c415-41f6-a7f1-72c4ecb07cfe" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="d67bd924-3c1f-c33a-5298-feca5bbdc284-_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6a4f0e7d-f613-4291-86b0-92620e3fad4e" />
+					<attribute id="Name" type="LSString" value="Elves_Female_High_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="15daa7bd-9af6-4aea-8d61-a82dbf395670" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741859" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				
+				<!-- Wood Orsimer -->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="0f3d2877-f184-4d4f-a933-37553c665f2e" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="015bd884-82d1-cc15-2a0f-0cb8524028f4-_(Icon_Elf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ccd26399-d2df-4225-845e-334527d001bf" />
+					<attribute id="Name" type="LSString" value="Elves_Male_High_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f0930afd-8be6-410e-bae3-b0253262f861" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfMale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="5da2614c-82ca-4d23-b0e4-96cfa92df9ed" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="d67bd924-3c1f-c33a-5298-feca5bbdc284-_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b79c257c-7a4a-4fd4-a33c-799988899e53" />
+					<attribute id="Name" type="LSString" value="Elves_Female_High_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="15daa7bd-9af6-4aea-8d61-a82dbf395670" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741859" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>

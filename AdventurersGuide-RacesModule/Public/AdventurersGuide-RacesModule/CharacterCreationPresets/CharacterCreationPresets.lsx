@@ -284,6 +284,49 @@
 					<attribute id="SubRaceUUID" type="guid" value="2ab2d111-d195-48f7-b467-e1c4b2f82565"/>
                     <attribute id="UUID" type="guid" value="4149f87d-bfca-4003-86fa-91439b74dfa8"/>
                 </node>
+
+				<!-- Iron Orsimer -->
+                <node id="CharacterCreationPreset">
+                    <attribute id="CloseUpA" type="LSString" value="ELF_F_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="ELF_F_Camera_Closeup_B"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="Overview" type="LSString" value="ELF_F_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="bbf8bf21-de22-4b93-b25e-833737f42998"/>
+                    <attribute id="RootTemplate" type="guid" value="6a4f0e7d-f613-4291-86b0-92620e3fad4e"/>
+					<attribute id="SubRaceUUID" type="guid" value="c6c0b61a-389f-4e31-84ff-d2e3a51d4229"/>
+                    <attribute id="UUID" type="guid" value="459bf120-1e3a-405a-b442-8b3c77140579"/>
+                </node>
+                <node id="CharacterCreationPreset">
+                    <attribute id="CloseUpA" type="LSString" value="ELF_M_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="ELF_M_Camera_Closeup_B"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="Overview" type="LSString" value="ELF_M_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="bbf8bf21-de22-4b93-b25e-833737f42998"/>
+                    <attribute id="RootTemplate" type="guid" value="0cb8e66e-1c38-4f03-b291-eb852f1f6d7d"/>
+					<attribute id="SubRaceUUID" type="guid" value="c6c0b61a-389f-4e31-84ff-d2e3a51d4229"/>
+                    <attribute id="UUID" type="guid" value="b66da7ba-6347-43e2-9c3e-fdf7151ee070"/>
+                </node>
+				<!-- Wood Orsimer -->
+                <node id="CharacterCreationPreset">
+                    <attribute id="CloseUpA" type="LSString" value="ELF_F_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="ELF_F_Camera_Closeup_B"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="Overview" type="LSString" value="ELF_F_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="bbf8bf21-de22-4b93-b25e-833737f42998"/>
+                    <attribute id="RootTemplate" type="guid" value="b79c257c-7a4a-4fd4-a33c-799988899e53"/>
+					<attribute id="SubRaceUUID" type="guid" value="5094c031-dbb4-464e-b81b-a0b3d6491726"/>
+                    <attribute id="UUID" type="guid" value="7594d56f-68c7-4d99-bcdf-59de39b92b44"/>
+                </node>
+                <node id="CharacterCreationPreset">
+                    <attribute id="CloseUpA" type="LSString" value="ELF_M_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="ELF_M_Camera_Closeup_B"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="Overview" type="LSString" value="ELF_M_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="bbf8bf21-de22-4b93-b25e-833737f42998"/>
+                    <attribute id="RootTemplate" type="guid" value="ccd26399-d2df-4225-845e-334527d001bf"/>
+					<attribute id="SubRaceUUID" type="guid" value="5094c031-dbb4-464e-b81b-a0b3d6491726"/>
+                    <attribute id="UUID" type="guid" value="16ccc0ed-eeed-49b3-bd80-c7e3c95b7003"/>
+                </node>
             </children>
         </node>
     </region>
