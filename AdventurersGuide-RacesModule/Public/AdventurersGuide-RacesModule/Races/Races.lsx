@@ -4616,7 +4616,7 @@
                     <attribute id="DisplayName" type="FixedString" value="BaseDunmer"/>
                     <attribute id="Name" type="FixedString" value="Dunmer"/>
                     <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="8dfdb77c-5abf-4477-a708-f741e9677301"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
                     <attribute id="UUID" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
                     <children>
@@ -4912,7 +4912,7 @@
                     <attribute id="Description" type="FixedString" value="Dunmer, or Dark Elves, inhabit the Eastern Province of Morrowind. They hold a strong aptitude for magic, but are typically unfriendly toward outsiders - especially Nords. Their pride is second only to the Altmer."/>
                     <attribute id="Name" type="FixedString" value="Dunmer"/>
                     <attribute id="ParentGuid" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="cee411d2-082d-47f2-ba20-4347764e57ea"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
                     <attribute id="UUID" type="guid" value="f248e881-8e31-4879-afa8-b7ffdfd4e080"/>
                 </node>
@@ -4921,7 +4921,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Hlaalu"/>
                     <attribute id="Name" type="FixedString" value="Dunmer"/>
                     <attribute id="ParentGuid" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="e557e49a-15d6-4ad7-b521-4bded39c97c6"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
                     <attribute id="UUID" type="guid" value="aa4ce178-398c-475f-9e40-ddbcfac8ecac"/>
                 </node>
@@ -4930,7 +4930,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Redoran"/>
                     <attribute id="Name" type="FixedString" value="Dunmer"/>
                     <attribute id="ParentGuid" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="bb63f695-44d9-4f10-b0f0-ca221e099ffe"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
                     <attribute id="UUID" type="guid" value="53c5822b-ab09-4e5b-b483-41c17727667d"/>
                 </node>
@@ -4939,7 +4939,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Telvanni"/>
                     <attribute id="Name" type="FixedString" value="Dunmer"/>
                     <attribute id="ParentGuid" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="f9351f2c-dc19-49a6-9bd6-242a85f0ca2d"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
                     <attribute id="UUID" type="guid" value="0df8003a-162a-4dae-9c8d-29fe2b563418"/>
                 </node>
@@ -4948,7 +4948,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Indoril"/>
                     <attribute id="Name" type="FixedString" value="Dunmer"/>
                     <attribute id="ParentGuid" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="9d2720b5-8899-402e-9297-15b74f759461"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
                     <attribute id="UUID" type="guid" value="b577d245-f375-486e-94df-42c0b5af18dd"/>
                 </node>
@@ -4957,7 +4957,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Dres"/>
                     <attribute id="Name" type="FixedString" value="Dunmer"/>
                     <attribute id="ParentGuid" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ef15408f-08d3-4b1a-8ae3-2ec7ae28ada3"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
                     <attribute id="UUID" type="guid" value="2ab2d111-d195-48f7-b467-e1c4b2f82565"/>
                 </node>

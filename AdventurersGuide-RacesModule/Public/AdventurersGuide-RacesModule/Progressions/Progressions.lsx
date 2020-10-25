@@ -121,6 +121,92 @@
                     <attribute id="TableUUID" type="guid" value="16a27721-2176-4172-9507-c71fccb0961b"/>
                     <attribute id="UUID" type="guid" value="25fbb11f-99b9-4a63-aeb2-603c399f4928"/>
                 </node>
+				
+				<!-- Dunmer Progressions -->
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Wisdom,1);ActionResource(Movement,9,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Dunmer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="AGTT_Ashborn"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="8dfdb77c-5abf-4477-a708-f741e9677301"/>
+                    <attribute id="UUID" type="guid" value="0f9d4f27-7538-4690-82f9-41cff9672355"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Dexterity,1);"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="UnaffiliatedDunmer"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(ea8d078f-bfab-4d54-aaa3-7b4b1001bd53,1,0,AGTT_Dunmer_Protection,Wisdom,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="cee411d2-082d-47f2-ba20-4347764e57ea"/>
+                    <attribute id="UUID" type="guid" value="3edd63b7-4a70-4abb-87aa-995fbe85cdda"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,1);Proficiency(Persuasion)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Hlaalu"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="e557e49a-15d6-4ad7-b521-4bded39c97c6"/>
+                    <attribute id="UUID" type="guid" value="0466283e-8d04-4823-8d0e-c264034c922f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Strength,1);Proficiency(MartialWeapons)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Redoran"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="bb63f695-44d9-4f10-b0f0-ca221e099ffe"/>
+                    <attribute id="UUID" type="guid" value="80f5e560-ad79-4165-9aab-0c8b0c3b4082"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Intelligence,1)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Telvanni"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(67443d98-71ab-4aaf-9831-6ab08e40791f,1,0,AGTT_TelvanniCantrip,Intelligence,AlwaysPrepared"/>
+                    <attribute id="TableUUID" type="guid" value="f9351f2c-dc19-49a6-9bd6-242a85f0ca2d"/>
+                    <attribute id="UUID" type="guid" value="df7dbd47-f79e-4d8a-9ac4-d4a4e41ced82"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Wisdom,1)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Indoril"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(c940f242-8859-4645-87b3-98d5f1fd3441,1,0,AGTT_IndorilCantrip,Wisdom,AlwaysPrepared"/>
+                    <attribute id="TableUUID" type="guid" value="9d2720b5-8899-402e-9297-15b74f759461"/>
+                    <attribute id="UUID" type="guid" value="25a713e0-4d5b-477e-aa56-56900f7976f9"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Constitution,1);Proficiency(Skill,AnimalHandling);"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Dres"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="ef15408f-08d3-4b1a-8ae3-2ec7ae28ada3"/>
+                    <attribute id="UUID" type="guid" value="ac2d7f7f-120c-4cb9-9f04-ff16c4aec266"/>
+                </node>
             </children>
         </node>
     </region>

@@ -39,6 +39,21 @@
                     <attribute id="UUID" type="guid" value="00ab586f-de33-4915-b3ad-dc18ecbed38a"/>
 					<attribute id="AGTT_Source" type="FixedString" value="Bosmer"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="AGTT_AncestralProtection;"/>
+                    <attribute id="UUID" type="guid" value="ea8d078f-bfab-4d54-aaa3-7b4b1001bd53"/>
+					<attribute id="AGTT_Source" type="FixedString" value="Dunmer"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Target_Light;Target_ShockingGrasp;Target_ChillTouch;Target_DancingLights;Target_Friends;Target_TrueStrike;Projectile_FireBolt;Projectile_AcidSplash;Projectile_RayOfFrost"/>
+                    <attribute id="UUID" type="guid" value="67443d98-71ab-4aaf-9831-6ab08e40791f"/>
+					<attribute id="AGTT_Source" type="FixedString" value="Telvanni"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Target_Light;Target_DancingLights;Target_Guidance;Target_Resistance;Target_SpareTheDying;Target_Mending;Target_Shillelagh"/>
+                    <attribute id="UUID" type="guid" value="c940f242-8859-4645-87b3-98d5f1fd3441"/>
+					<attribute id="AGTT_Source" type="FixedString" value="Indoril"/>
+                </node>
 			</children>
         </node>
     </region>
