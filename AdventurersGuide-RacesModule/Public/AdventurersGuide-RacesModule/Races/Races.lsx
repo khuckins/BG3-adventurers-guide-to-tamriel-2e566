@@ -4311,16 +4311,16 @@
                         </node>
                     </children>
                 </node>
-				
+
 				<!-- Bosmer -->
                 <node id="Race">
-                    <attribute id="Description" type="FixedString" value="Altmer, or High Elves, are haughty, aristocratic, and hold themselves as superior to the other races. Already one of the most magically potent societies, the longer an Altmer lives, the stronger of a mage they may become - and nobody's quite sure if there's a limit."/>
+                    <attribute id="Description" type="FixedString" value="Bosmer, or Wood Elves."/>
                     <attribute id="DisplayName" type="FixedString" value="Bosmer"/>
                     <attribute id="Name" type="FixedString" value="Bosmer"/>
                     <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
-                    <attribute id="UUID" type="guid" value="ae8a5392-c28e-4159-83a3-f965d84c9580"/>
+                    <attribute id="UUID" type="guid" value="a84ee87e-3dc2-461f-a471-b13a2e86abc0"/>
                     <children>
                         <node id="HairColors">
                             <attribute id="Object" type="guid" value="b323f858-8991-4700-9a08-11725a00f784"/>
@@ -4609,16 +4609,16 @@
                         </node>
                     </children>
                 </node>
-				
+
 				<!-- Dunmer -->
                 <node id="Race">
-                    <attribute id="Description" type="FixedString" value="Altmer, or High Elves, are haughty, aristocratic, and hold themselves as superior to the other races. Already one of the most magically potent societies, the longer an Altmer lives, the stronger of a mage they may become - and nobody's quite sure if there's a limit."/>
+                    <attribute id="Description" type="FixedString" value="Dunmer, or Dark Elves"/>
                     <attribute id="DisplayName" type="FixedString" value="Dunmer"/>
                     <attribute id="Name" type="FixedString" value="Dunmer"/>
                     <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
-                    <attribute id="UUID" type="guid" value="ae8a5392-c28e-4159-83a3-f965d84c9580"/>
+                    <attribute id="UUID" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
                     <children>
                         <node id="HairColors">
                             <attribute id="Object" type="guid" value="b323f858-8991-4700-9a08-11725a00f784"/>
@@ -4907,16 +4907,16 @@
                         </node>
                     </children>
                 </node>
-				
+
 				<!-- Orsimer -->
                 <node id="Race">
-                    <attribute id="Description" type="FixedString" value="Altmer, or High Elves, are haughty, aristocratic, and hold themselves as superior to the other races. Already one of the most magically potent societies, the longer an Altmer lives, the stronger of a mage they may become - and nobody's quite sure if there's a limit."/>
+                    <attribute id="Description" type="FixedString" value="Orsimer, previously Orcs."/>
                     <attribute id="DisplayName" type="FixedString" value="Orsimer"/>
                     <attribute id="Name" type="FixedString" value="Orsimer"/>
                     <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
-                    <attribute id="UUID" type="guid" value="ae8a5392-c28e-4159-83a3-f965d84c9580"/>
+                    <attribute id="UUID" type="guid" value="bbf8bf21-de22-4b93-b25e-833737f42998"/>
                     <children>
                         <node id="HairColors">
                             <attribute id="Object" type="guid" value="b323f858-8991-4700-9a08-11725a00f784"/>
@@ -5205,7 +5205,7 @@
                         </node>
                     </children>
                 </node>
-				
+
 			</children>
         </node>
     </region>
