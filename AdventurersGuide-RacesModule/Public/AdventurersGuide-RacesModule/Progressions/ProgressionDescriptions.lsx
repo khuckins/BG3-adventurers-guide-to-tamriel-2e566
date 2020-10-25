@@ -109,6 +109,19 @@
                     <attribute id="Type" type="FixedString" value="Altmer"/>
                     <attribute id="UUID" type="guid" value="4b594c8b-194d-4044-b66b-c3f198c17d07"/>
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Bosmer"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Bosmer"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="25fbb11f-99b9-4a63-aeb2-603c399f4928"/>
+                    <attribute id="ProgressionTableId" type="guid" value="16a27721-2176-4172-9507-c71fccb0961b"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Bosmer"/>
+                    <attribute id="UUID" type="guid" value="a4c1afe8-96db-48a0-9b63-48bdd4d66f07"/>
+                </node>
 
 				<!-- Special Racial Progress Descriptions -->
                 <node id="ProgressionDescription">
@@ -214,6 +227,32 @@
                     <attribute id="SelectorId" type="FixedString" value="AGTT_Altmer_Cantrip;AGTT_Altmer_Spells"/>
                     <attribute id="Type" type="FixedString" value="Altmer"/>
                     <attribute id="UUID" type="guid" value="aca06843-0093-407b-987f-72d785a1444f"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Bosmer_FeatA"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Bosmer_FeatA"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="16a27721-2176-4172-9507-c71fccb0961b"/>
+                    <attribute id="SelectorId" type="FixedString" value="AGTT_Bosmer_Transformation"/>
+                    <attribute id="Type" type="FixedString" value="Bosmer"/>
+                    <attribute id="UUID" type="guid" value="203145a5-2bff-4c9b-a0e7-816d1a53b052"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Bosmer_FeatB"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Bosmer_FeatB"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="AGTT_BEASTTONGUE"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="16a27721-2176-4172-9507-c71fccb0961b"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Bosmer"/>
+                    <attribute id="UUID" type="guid" value="914cb4d3-1c5d-4d04-9d18-c48674641a1c"/>
                 </node>
             </children>
         </node>

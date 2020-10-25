@@ -4314,11 +4314,11 @@
 
 				<!-- Bosmer -->
                 <node id="Race">
-                    <attribute id="Description" type="FixedString" value="Bosmer, or Wood Elves."/>
+                    <attribute id="Description" type="FixedString" value="Bosmer are skilled bowmer, mischief-makers, and friends of the wild. Bound by Y'ffre not to harm the flora of Valenwood, they are largely carnivorous. "/>
                     <attribute id="DisplayName" type="FixedString" value="Bosmer"/>
                     <attribute id="Name" type="FixedString" value="Bosmer"/>
                     <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="16a27721-2176-4172-9507-c71fccb0961b"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
                     <attribute id="UUID" type="guid" value="a84ee87e-3dc2-461f-a471-b13a2e86abc0"/>
                     <children>
@@ -4612,7 +4612,7 @@
 
 				<!-- Dunmer -->
                 <node id="Race">
-                    <attribute id="Description" type="FixedString" value="Dunmer, or Dark Elves"/>
+                    <attribute id="Description" type="FixedString" value="Dunmer, or Dark Elves, inhabit the Eastern Province of Morrowind."/>
                     <attribute id="DisplayName" type="FixedString" value="Dunmer"/>
                     <attribute id="Name" type="FixedString" value="Dunmer"/>
                     <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
@@ -4907,6 +4907,60 @@
                         </node>
                     </children>
                 </node>
+                <!--node id="Race">
+                    <attribute id="Description" type="FixedString" value="Dunmer"/>
+                    <attribute id="DisplayName" type="FixedString" value="Dunmer"/>
+                    <attribute id="Name" type="FixedString" value="Dunmer"/>
+                    <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
+                    <attribute id="UUID" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
+                </node>
+                <node id="Race">
+                    <attribute id="Description" type="FixedString" value="Hlaalu"/>
+                    <attribute id="DisplayName" type="FixedString" value="Hlaalu"/>
+                    <attribute id="Name" type="FixedString" value="Dunmer"/>
+                    <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
+                    <attribute id="UUID" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
+                </node>
+                <node id="Race">
+                    <attribute id="Description" type="FixedString" value="Redoran"/>
+                    <attribute id="DisplayName" type="FixedString" value="Redoran"/>
+                    <attribute id="Name" type="FixedString" value="Dunmer"/>
+                    <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
+                    <attribute id="UUID" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
+                </node>
+                <node id="Race">
+                    <attribute id="Description" type="FixedString" value="Telvanni"/>
+                    <attribute id="DisplayName" type="FixedString" value="Telvanni"/>
+                    <attribute id="Name" type="FixedString" value="Dunmer"/>
+                    <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
+                    <attribute id="UUID" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
+                </node>
+                <node id="Race">
+                    <attribute id="Description" type="FixedString" value="Indoril"/>
+                    <attribute id="DisplayName" type="FixedString" value="Indoril"/>
+                    <attribute id="Name" type="FixedString" value="Dunmer"/>
+                    <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
+                    <attribute id="UUID" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
+                </node>
+                <node id="Race">
+                    <attribute id="Description" type="FixedString" value="Dres"/>
+                    <attribute id="DisplayName" type="FixedString" value="Dres"/>
+                    <attribute id="Name" type="FixedString" value="Dunmer"/>
+                    <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
+                    <attribute id="UUID" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
+                </node-->
 
 				<!-- Orsimer -->
                 <node id="Race">

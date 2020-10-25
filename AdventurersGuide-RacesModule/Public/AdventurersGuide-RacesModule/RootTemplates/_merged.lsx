@@ -415,9 +415,8 @@
 				</node>
 				
 				<!-- Altmer -->
-				
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="015bd884-82d1-cc15-2a0f-0cb8524028f4" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="245d5b2c-0232-4607-aa2b-8847700f468e" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Icon" type="FixedString" value="015bd884-82d1-cc15-2a0f-0cb8524028f4-_(Icon_Elf_Male)" />
 					<attribute id="LevelName" type="FixedString" value="" />
@@ -441,7 +440,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="d67bd924-3c1f-c33a-5298-feca5bbdc284" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="04c9fdb3-457b-4d45-a75a-0642e43b9e2a" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Icon" type="FixedString" value="d67bd924-3c1f-c33a-5298-feca5bbdc284-_(Icon_Elf_Female)" />
 					<attribute id="LevelName" type="FixedString" value="" />
@@ -464,6 +463,71 @@
 						</node>
 					</children>
 				</node>
+				
+				<!-- Bosmer -->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="2748e65a-352d-4ec5-bd18-4da2714c998e" />
+					<attribute id="Icon" type="FixedString" value="f0c009b2-7868-784e-f2fc-dde5ac934aba-_(Icon_Elf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="9f83e089-76c2-447c-9430-5be80407ebf8" />
+					<attribute id="Name" type="LSString" value="Elves_Male_Wood_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e4073a50-2d41-48a2-8a5f-a99b3f542e73" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfMale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741859" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="04c2b97e-60f5-45f1-8b78-b2641671736e" />
+					<attribute id="Icon" type="FixedString" value="69c6d55e-2faa-16a0-f0bd-7e3dce4529cf-_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="33714648-25d9-46c8-b3fb-724fececce37" />
+					<attribute id="Name" type="LSString" value="Elves_Female_Wood_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7e0ffe5c-8eb2-4ed1-926a-a6326c45cffd" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741859" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				
+				<!-- Dunmer... oh boy -->
+				<!-- Unaffiliated -->
+				
+				<!-- Hlaalu -->
+				
+				<!-- Redoran -->
+				
+				<!-- Telvanni -->
+				
+				<!-- Indoril -->
+				
+				<!-- Dres -->
+				
+				<!-- Orsimer -->
 			</children>
 		</node>
 	</region>
