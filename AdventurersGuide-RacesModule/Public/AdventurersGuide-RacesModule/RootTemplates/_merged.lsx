@@ -514,10 +514,10 @@
 					</children>
 				</node>
 				
-				<!-- Dunmer... oh boy -->
+				<!-- Dunmer -->
 				<!-- Unaffiliated -->
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="985a69ad-caff-48fe-9d8c-a6fc5bb9e28f" />
 					<attribute id="Icon" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0-_(Icon_Elf_Male)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="5c6822ab-49ee-4fc4-9aff-2e105cae8bf2" />
@@ -583,7 +583,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="190f8d92-8782-4de3-b635-1e7617955b6a" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hdc2e22ebg3fe1g4985g8f88gec55fc3aaad5" version="1" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Icon" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a-_(Icon_Elf_Female)" />
@@ -611,7 +611,7 @@
 				
 				<!-- Hlaalu -->
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="550b4fa1-cada-49a6-be0e-6c7807f6b34d" />
 					<attribute id="Icon" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0-_(Icon_Elf_Male)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="caa97f42-d8a5-4a33-b5f8-7b386bc266a6" />
@@ -677,7 +677,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="48785dc9-aa03-4c6d-907a-0ee4c421ae69" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hdc2e22ebg3fe1g4985g8f88gec55fc3aaad5" version="1" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Icon" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a-_(Icon_Elf_Female)" />
@@ -705,7 +705,7 @@
 				
 				<!-- Redoran -->
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="258e9a83-edfb-4271-9504-0216cff088ef" />
 					<attribute id="Icon" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2-_(Icon_Elf_Male)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="10a61df2-f4b9-4baf-9519-6dbb9514fee6" />
@@ -731,7 +731,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="ca6f8f9e-e0ea-4a72-af07-478c3be7e527" />
 					<attribute id="Icon" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a-_(Icon_Elf_Female)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="d336c77b-8446-4896-8086-14968c9ee65f" />
@@ -760,7 +760,7 @@
 				
 				<!-- Telvanni -->
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="e127da59-478a-4113-b73e-338b1e61eda8" />
 					<attribute id="Icon" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2-_(Icon_Elf_Male)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="435f7591-f2ea-4810-8689-9b78f57cd472" />
@@ -786,7 +786,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="08134ef8-152e-40a9-aaad-9c014bff3864" />
 					<attribute id="Icon" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a-_(Icon_Elf_Female)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="461a950d-7907-4426-ac2c-63e4088fa267" />
@@ -815,7 +815,7 @@
 				
 				<!-- Indoril -->
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="54a7e4bb-d660-4902-a20b-3f723b19a82e" />
 					<attribute id="Icon" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2-_(Icon_Elf_Male)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="98bb0cb8-bed8-4bef-8389-dc75f04e0e54" />
@@ -841,7 +841,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="ead1e6f1-856c-402b-82e5-f97360cef6b2" />
 					<attribute id="Icon" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a-_(Icon_Elf_Female)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="befa2300-d303-4aa4-ba9a-2b90b0b95b1a" />
@@ -870,7 +870,7 @@
 				
 				<!-- Dres -->
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="6a8f2394-7914-4534-9ff6-0fd78bbb73d6" />
 					<attribute id="Icon" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0-_(Icon_Elf_Male)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="6cd74bfb-e332-4e4d-b6db-cb7607626c2b" />
@@ -936,7 +936,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="f3510cb4-e964-4783-b5e5-d76610621458" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hdc2e22ebg3fe1g4985g8f88gec55fc3aaad5" version="1" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Icon" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a-_(Icon_Elf_Female)" />
