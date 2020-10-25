@@ -82,7 +82,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Adrenaline Rush"/>
                     <attribute id="Description" type="FixedString" value="The Reguard have a bonus to Strength and Dexterity, proficiency in Scimitars and Longswords, resistance to poison, and access to the Adrenaline Rush ability."/>
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Ability(Strength,1),Ability(Dexterity,1);Proficiency(Longsword);Proficiency(Scimitars)"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Strength,1),Ability(Dexterity,1);Proficiency(Longswords);Proficiency(Scimitars);Resistance(Poison, Resistant)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Redguard"/>
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_RedguardImmunity"/>
@@ -97,7 +97,7 @@
                 <node id="Progression">
                     <attribute id="DisplayName" type="FixedString" value="Highborne"/>
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Ability(Intelligence,2);ActionResource(Movement,9,0);Resistance(Poison,Immune);ActionResource(Movement,9,0)"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Intelligence,2);ActionResource(Movement,9,0);Resistance(Poison, Immune);ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Altmer"/>
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_Highborne"/>
@@ -149,7 +149,7 @@
                 </node>
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,1);Proficiency(Persuasion)"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,1);ProficiencyBonus(Skill,Persuasion)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Hlaalu"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -197,7 +197,7 @@
                 </node>
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Ability(Constitution,1);Proficiency(Skill,AnimalHandling);"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Constitution,1);ProficiencyBonus(Skill,AnimalHandling);"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Dres"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>

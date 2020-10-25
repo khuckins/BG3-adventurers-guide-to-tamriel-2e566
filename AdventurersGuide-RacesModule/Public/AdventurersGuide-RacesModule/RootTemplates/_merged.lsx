@@ -516,16 +516,451 @@
 				
 				<!-- Dunmer... oh boy -->
 				<!-- Unaffiliated -->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0" />
+					<attribute id="Icon" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0-_(Icon_Elf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5c6822ab-49ee-4fc4-9aff-2e105cae8bf2" />
+					<attribute id="Name" type="LSString" value="Elves_Male_Drow_Lolth_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23b9c247-f9b9-4f7a-b97d-eefc4c3de672" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfMale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdc2e22ebg3fe1g4985g8f88gec55fc3aaad5" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a-_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="77d77ef8-07a4-494f-95dd-e0f3b1d48eee" />
+					<attribute id="Name" type="LSString" value="Elves_Female_Drow_Lolth_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="eda0ef2a-a1c5-455e-8805-e1f95c56113d" />
+					<attribute id="ReadinessFlags" type="uint32" value="8" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741859" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 				
 				<!-- Hlaalu -->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0" />
+					<attribute id="Icon" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0-_(Icon_Elf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="caa97f42-d8a5-4a33-b5f8-7b386bc266a6" />
+					<attribute id="Name" type="LSString" value="Elves_Male_Drow_Lolth_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23b9c247-f9b9-4f7a-b97d-eefc4c3de672" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfMale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdc2e22ebg3fe1g4985g8f88gec55fc3aaad5" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a-_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e70ea591-e22b-4f37-aa2f-dea4576805c6" />
+					<attribute id="Name" type="LSString" value="Elves_Female_Drow_Lolth_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="eda0ef2a-a1c5-455e-8805-e1f95c56113d" />
+					<attribute id="ReadinessFlags" type="uint32" value="8" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741859" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 				
 				<!-- Redoran -->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2" />
+					<attribute id="Icon" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2-_(Icon_Elf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="10a61df2-f4b9-4baf-9519-6dbb9514fee6" />
+					<attribute id="Name" type="LSString" value="Elves_Male_Drow_Seldarine_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2da6911b-69b1-47a6-bcfd-4af3bddbc734" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfMale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="57e99f32-126e-eff7-5dcc-1d40b551dcca" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a" />
+					<attribute id="Icon" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a-_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d336c77b-8446-4896-8086-14968c9ee65f" />
+					<attribute id="Name" type="LSString" value="Elves_Female_Drow_Seldarine_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f68b2f2b-4118-4c16-bcd3-118f4ee2d043" />
+					<attribute id="ReadinessFlags" type="uint32" value="8" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741858" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="572af713-af5a-6cc2-c322-d012dc7ee6ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 				
 				<!-- Telvanni -->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2" />
+					<attribute id="Icon" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2-_(Icon_Elf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="435f7591-f2ea-4810-8689-9b78f57cd472" />
+					<attribute id="Name" type="LSString" value="Elves_Male_Drow_Seldarine_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2da6911b-69b1-47a6-bcfd-4af3bddbc734" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfMale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="57e99f32-126e-eff7-5dcc-1d40b551dcca" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a" />
+					<attribute id="Icon" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a-_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="461a950d-7907-4426-ac2c-63e4088fa267" />
+					<attribute id="Name" type="LSString" value="Elves_Female_Drow_Seldarine_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f68b2f2b-4118-4c16-bcd3-118f4ee2d043" />
+					<attribute id="ReadinessFlags" type="uint32" value="8" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741858" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="572af713-af5a-6cc2-c322-d012dc7ee6ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 				
 				<!-- Indoril -->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2" />
+					<attribute id="Icon" type="FixedString" value="0f54ca06-abfa-2b82-5982-58edae2f68e2-_(Icon_Elf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="98bb0cb8-bed8-4bef-8389-dc75f04e0e54" />
+					<attribute id="Name" type="LSString" value="Elves_Male_Drow_Seldarine_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2da6911b-69b1-47a6-bcfd-4af3bddbc734" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfMale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="57e99f32-126e-eff7-5dcc-1d40b551dcca" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a" />
+					<attribute id="Icon" type="FixedString" value="27b58c9a-5efa-e736-d81e-98d124a6bb8a-_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="befa2300-d303-4aa4-ba9a-2b90b0b95b1a" />
+					<attribute id="Name" type="LSString" value="Elves_Female_Drow_Seldarine_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f68b2f2b-4118-4c16-bcd3-118f4ee2d043" />
+					<attribute id="ReadinessFlags" type="uint32" value="8" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741858" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="572af713-af5a-6cc2-c322-d012dc7ee6ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 				
 				<!-- Dres -->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0" />
+					<attribute id="Icon" type="FixedString" value="f2f3f92a-d471-bee8-064e-0614e238b0d0-_(Icon_Elf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6cd74bfb-e332-4e4d-b6db-cb7607626c2b" />
+					<attribute id="Name" type="LSString" value="Elves_Male_Drow_Lolth_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23b9c247-f9b9-4f7a-b97d-eefc4c3de672" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfMale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdc2e22ebg3fe1g4985g8f88gec55fc3aaad5" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="187188d8-929a-d800-d5c3-33453a8cc25a-_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5033b6aa-7dcc-4434-9383-a098d59cb076" />
+					<attribute id="Name" type="LSString" value="Elves_Female_Drow_Lolth_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="eda0ef2a-a1c5-455e-8805-e1f95c56113d" />
+					<attribute id="ReadinessFlags" type="uint32" value="8" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741859" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-64ae-849646d883eb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 				
 				<!-- Orsimer -->
 			</children>

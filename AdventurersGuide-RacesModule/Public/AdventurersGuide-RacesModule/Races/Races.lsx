@@ -4613,7 +4613,7 @@
 				<!-- Dunmer -->
                 <node id="Race">
                     <attribute id="Description" type="FixedString" value="Dunmer, or Dark Elves, inhabit the Eastern Province of Morrowind."/>
-                    <attribute id="DisplayName" type="FixedString" value="BaseDunmer"/>
+                    <attribute id="DisplayName" type="FixedString" value="Dunmer"/>
                     <attribute id="Name" type="FixedString" value="Dunmer"/>
                     <attribute id="ParentGuid" type="guid" value="edb883f3-7796-4788-b24f-fe3a6a86b1c1"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="8dfdb77c-5abf-4477-a708-f741e9677301"/>
