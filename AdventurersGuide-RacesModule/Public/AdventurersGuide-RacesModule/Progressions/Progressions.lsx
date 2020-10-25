@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+				<!-- Cyrodiilic Progressions -->
+				<node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Human"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="39668970-4021-4113-a6d8-72ea8b55d09d"/>
+                    <attribute id="UUID" type="guid" value="346871de-be49-41c4-8450-d85d666cfdee"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="DisplayName" type="FixedString" value="Star of the West"/>
+                    <attribute id="Description" type="FixedString" value="Colovians have a bonus to Constitution, proficiency in Light Armor and Martial Weapons, and access to the Star of the West ability."/>
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,1);Ability(Constitution,1);Proficiency(LightArmor);Proficiency(MartialWeapons)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Colovian"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(cd8e4fb3-3929-42e4-ae68-d0de0e9526cb,,,AGTT_Progression_StarOfTheWest,AlwaysPrepared,UntilRest)"/>
+                    <attribute id="TableUUID" type="guid" value="af10483e-e385-4e08-8ac8-c183b6a13eb4"/>
+                    <attribute id="UUID" type="guid" value="17a7ecec-8d95-4e24-bc95-e9253d126a92"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="DisplayName" type="FixedString" value="Voice of the Emperor"/>
+                    <attribute id="Description" type="FixedString" value="The Nibenese have a bonus to Charisma, an proficiency in Performance and Persuasion."/>
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,2);ProficiencyBonus(Skill,Performance);ProficiencyBonus(Skill,Persuasion);"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Nibenese"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="aae784b7-03cf-432b-a916-296a67bb7532"/>
+                    <attribute id="UUID" type="guid" value="97244ddc-a158-405d-96e1-a22d0ec8543c"/>
+                </node>
+				
+				<!-- Breton Progressions -->
+                <node id="Progression">
+                    <attribute id="DisplayName" type="FixedString" value="Arcane Connection"/>
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,1);Ability(Intelligence,1)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Breton"/>
+                    <attribute id="PassivesAdded" type="LSString" value="AGTT_DragonSkin"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(abfb25ac-cf16-42bb-8a9c-49cf167c7523,1,0,AGTT_Progression_ArcaneConnection,Intelligence)"/>
+                    <attribute id="TableUUID" type="guid" value="322dfbbb-b37e-47cf-96e1-64cf9287452c"/>
+                    <attribute id="UUID" type="guid" value="4d5fb255-1a17-4b02-b376-9f0eb06706c8"/>
+                </node>
+				
+				<!-- Nord Progressions -->
+                <node id="Progression">
+                    <attribute id="DisplayName" type="FixedString" value="Northern Hide"/>
+                    <attribute id="Description" type="FixedString" value="Hailing from the northern tundras of Skyrim, Nords resist the cold, and have +2 bonus to Constitution. Their fierceness in battle shows itself by way of their Battlecries."/>
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Constitution,2)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Nord"/>
+                    <attribute id="PassivesAdded" type="LSString" value="AGTT_NorthernHide"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(a05a6e4e-4d80-4173-9440-00ebad47f052,1,0,AGTT_Progression_Battlecry,Strength)"/>
+                    <attribute id="TableUUID" type="guid" value="47256a77-c595-4559-865a-81fa97e8c43e"/>
+                    <attribute id="UUID" type="guid" value="5aa5e1cc-d1b7-4a62-b4fd-c048faaca766"/>
+                </node>
+				
+				<!-- Redguard Progressions -->
+                <node id="Progression">
+                    <attribute id="DisplayName" type="FixedString" value="Adrenaline Rush"/>
+                    <attribute id="Description" type="FixedString" value="The Reguard have a bonus to Strength and Dexterity, proficiency in Scimitars and Longswords, resistance to poison, and access to the Adrenaline Rush ability."/>
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Strength,1),Ability(Dexterity,1);Proficiency(Longsword);Proficiency(Scimitars)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Redguard"/>
+                    <attribute id="PassivesAdded" type="LSString" value="AGTT_RedguardImmunity"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(52d05e1e-3457-43d6-8f47-81f2e7cddb03,,,AGTT_Progression_AdrenalineRush,AlwaysPrepared,UntilRest)"/>
+                    <attribute id="TableUUID" type="guid" value="e4ef5b65-3a15-415d-adb4-00c7366c9d89"/>
+                    <attribute id="UUID" type="guid" value="b0bb2e7f-c7fe-4cac-89a6-8bb5351230b7"/>
+                </node>
+				
+				<!-- Altmer Progressions -->
+                <node id="Progression">
+                    <attribute id="DisplayName" type="FixedString" value="Highborne"/>
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Intelligence,2);ActionResource(Movement,9,0);Resistance(Poison,Immune)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Altmer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="AGTT_Highborne"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(2c463e5d-9d43-493c-a3f9-c610676f42ce,1,0,AGTT_Altmer_Cantrip,Intelligence,AlwaysPrepared);SelectSpells(e20568fd-97f7-4729-956f-79dffd2564b4,3,0,AGTT_Altmer_Spells,Intelligence,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="UUID" type="guid" value="5ec70564-e26c-41d8-b8e2-2c601538c77e"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

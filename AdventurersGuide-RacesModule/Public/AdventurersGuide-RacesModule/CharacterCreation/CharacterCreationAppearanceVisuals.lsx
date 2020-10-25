@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="CharacterCreationAppearanceVisuals">
+        <node id="root">
+            <children>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_0_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="1ff83aa5-dbd0-48bb-908e-e5df6edf3553"/>
+                    <attribute id="VisualResource" type="guid" value="dde369c9-2163-4860-8ec3-4672ef89ee0c"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_1_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="ccd30dee-e7cd-4616-aa3e-4020f2276353"/>
+                    <attribute id="VisualResource" type="guid" value="604dc30e-76ed-4f7d-9777-6c72a814d7c4"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_221_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="4226a6bc-e740-4cd1-903a-3f15dbd49799"/>
+                    <attribute id="VisualResource" type="guid" value="5bd07e0f-bfac-568b-840c-9c5a50146648"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_2_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="ff677cd6-fd7c-4651-b284-484d8faa57ca"/>
+                    <attribute id="VisualResource" type="guid" value="6a7665fb-8ba2-fc2f-788c-5170c15e6028"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_201_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="ff677cd6-fd7c-4651-b284-484d8faa57ca"/>
+                    <attribute id="VisualResource" type="guid" value="e967b276-e17f-861f-c47f-77a9d70cd1c6"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_202_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="29164012-e1f1-4ecd-bf70-1d126bf77092"/>
+                    <attribute id="VisualResource" type="guid" value="88e9cfba-1d15-fb26-c0e0-df24a99b8e75"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_309_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="ab93a3d0-2502-4e3f-a7a3-5f9fcf2e2844"/>
+                    <attribute id="VisualResource" type="guid" value="b0d44c19-2da7-3ce1-ed94-85717a8f25d3"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_310_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="00784567-031d-4221-8ad2-c51e653ea485"/>
+                    <attribute id="VisualResource" type="guid" value="79cedf8e-af18-2d4a-b5cd-35eb99d3f060"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_121_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="3256e8ba-834c-4e64-8430-65bf83e70170"/>
+                    <attribute id="VisualResource" type="guid" value="8d5e8ccd-201c-e94c-4406-cd5992636a34"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_152_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="da55d550-38ce-4e30-94ad-e0443f04004a"/>
+                    <attribute id="VisualResource" type="guid" value="c46b329d-ee10-d7cd-df00-487f63c65580"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_6_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="7bcfea0a-0d84-473e-a087-afd329a736a2"/>
+                    <attribute id="VisualResource" type="guid" value="3b97a2ca-2ca4-eda2-8106-834eb4315516"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_122_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="3a16666f-f12a-4774-948b-07b2f2d6e618"/>
+                    <attribute id="VisualResource" type="guid" value="ee34cb02-745c-7b13-fee3-630668dd204f"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_311_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="307bd352-d721-49fb-9745-e2ab79403268"/>
+                    <attribute id="VisualResource" type="guid" value="9c569bf8-687f-9f34-6ea3-b46c36979a8e"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_7_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="3248eb39-d93b-44ae-a1a5-317a5fda14cb"/>
+                    <attribute id="VisualResource" type="guid" value="d5383734-6326-3458-19cb-1ec1255bf825"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_9_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="2536941f-f4c8-46bc-aea4-e8bda05baf91"/>
+                    <attribute id="VisualResource" type="guid" value="91420d6d-b224-7932-d56e-57f0d1cbf086"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_150_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="7e3f00d8-7e77-42f1-bd4e-648e99689e6d"/>
+                    <attribute id="VisualResource" type="guid" value="b2b4088a-3e30-34cc-cb0f-c12f1a67a458"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_312_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="de0d9b2d-c6d1-4715-be13-165feb8ea80d"/>
+                    <attribute id="VisualResource" type="guid" value="c6f36232-ebca-d36c-ae0b-ba75bec41495"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_149_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="c5460674-e7e6-461c-8472-b32d0c85685b"/>
+                    <attribute id="VisualResource" type="guid" value="828a6de9-1290-957e-7280-7c4ff9fccf6a"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_153_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="d3546602-d5dc-4968-bc8b-3e4429fa35d0"/>
+                    <attribute id="VisualResource" type="guid" value="5ace74e7-9f31-edc2-e2e2-0d0ad3bf8447"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_8_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="6116ac92-d608-49b6-9d19-c19a8b55885c"/>
+                    <attribute id="VisualResource" type="guid" value="5dd1dc06-0fd7-3378-ce95-40857ec30f67"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_266_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="e23b0489-7225-45dc-9bf1-7032978c8833"/>
+                    <attribute id="VisualResource" type="guid" value="a7d19abc-8d44-f856-9162-cd3c61c666b6"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_119_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="b4e62f0e-8588-416e-bb03-12b1f431547f"/>
+                    <attribute id="VisualResource" type="guid" value="5fa29037-bc49-c70c-08bb-9deef8c89a72"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_151_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="facc7056-8eea-4db1-b6c5-2e4928dffdfa"/>
+                    <attribute id="VisualResource" type="guid" value="f8bc8715-bccc-eccd-552a-724a31c0cfe8"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_154_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="3703f681-ceaa-4c9d-a619-f18dd6e7f254"/>
+                    <attribute id="VisualResource" type="guid" value="46bcb4d5-496a-1c98-f1cf-4bb40fc27f85"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_120_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="7bacc52b-f919-425d-8c07-b7cb81856fb5"/>
+                    <attribute id="VisualResource" type="guid" value="212a89a9-d758-83ad-f8c0-800559cb932b"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_313_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="e9e04b30-f4fa-4de3-968c-5005f92f55a2"/>
+                    <attribute id="VisualResource" type="guid" value="737b5f8c-ee4e-4963-f989-8d905befc752"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_123_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="6da185c4-e058-4a74-a8a3-e9ad3dab50f1"/>
+                    <attribute id="VisualResource" type="guid" value="873d3bb9-a40b-bcf7-2c06-13ef0b3d1877"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_10_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="570cf1eb-be2c-4677-b086-6ff71ee7bff3"/>
+                    <attribute id="VisualResource" type="guid" value="946537fa-74a7-fc6c-3950-9a405c29e25d"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_155_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="281a50db-60cb-4f2e-af47-acd1a9ae568a"/>
+                    <attribute id="VisualResource" type="guid" value="31d31ca7-133c-a345-e6cf-91bb87365a82"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_314_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="c0ddf0b4-b12d-4fe4-b591-471fde9ff4ca"/>
+                    <attribute id="VisualResource" type="guid" value="ab361a3f-fed1-6424-ae56-bb72ea4c43ee"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_11_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="21ea0754-fddd-4c16-b005-e40f1b0b467d"/>
+                    <attribute id="VisualResource" type="guid" value="1d166652-5b06-de26-d1e4-27ddde2acb69"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_140_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="61897b5a-be85-4df4-bb60-27e0fe294b08"/>
+                    <attribute id="VisualResource" type="guid" value="6542bcfb-f616-db48-8b36-0acae82c4489"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_315_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="e2904de2-97db-4ed5-aa8a-4eb6fa99bab0"/>
+                    <attribute id="VisualResource" type="guid" value="af0e63c0-0733-3e02-8390-e441aeb4e9e4"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_12_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="6f254ccf-0294-49a9-be20-64318f19cab2"/>
+                    <attribute id="VisualResource" type="guid" value="c595def0-3357-54c4-b7ac-43d905160f82"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_317_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="0163e1f7-9a66-4ddb-b81e-a26be4e5a1df"/>
+                    <attribute id="VisualResource" type="guid" value="00fac3c5-a9c1-5c57-4e78-a927249d7881"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_316_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="e4516487-9c93-4e78-b0a6-7aa5162731a9"/>
+                    <attribute id="VisualResource" type="guid" value="755c2878-1726-a038-1e9f-0fad13704211"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_318_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="d999aea1-295c-45e7-8e6d-c787a88bd84b"/>
+                    <attribute id="VisualResource" type="guid" value="f588edd4-cff0-c116-9e4f-ea1822517736"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_319_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="4d21cbbd-8b60-4e56-99be-b1e1a0c51127"/>
+                    <attribute id="VisualResource" type="guid" value="00904451-c736-66a6-e1f1-d092782828cb"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_320_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="3c101705-21c7-4640-bdbd-d36089cd8f46"/>
+                    <attribute id="VisualResource" type="guid" value="e5bea391-c315-a35c-3ca7-f0db33f1daa5"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_518_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="31cfb908-6b6c-4291-a17e-16a387ac0783"/>
+                    <attribute id="VisualResource" type="guid" value="3492595f-9e1c-0047-8b0e-cba7761c338c"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_519_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="849fc520-6909-464f-95c1-ddb966cb5a88"/>
+                    <attribute id="VisualResource" type="guid" value="d1c761db-d29d-0118-72b2-3cc0cd98771a"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_16_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="bda415b5-5fe2-422d-abc3-997cdce28c63"/>
+                    <attribute id="VisualResource" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_92_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="14fe3d12-4023-43ad-9e38-9a82d86845d5"/>
+                    <attribute id="VisualResource" type="guid" value="00f7561b-b7cb-60d5-c3ea-d20378dc8b77"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_93_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="625cbcd2-6804-4bc1-8492-daa6e1f6ea60"/>
+                    <attribute id="VisualResource" type="guid" value="74d5042c-cc61-2e07-5969-fd305b0b8368"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_4_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="af22ebdc-3bc1-43f6-8600-3d5600d9b7b3"/>
+                    <attribute id="VisualResource" type="guid" value="675271af-039a-38fa-eee2-1f406c94bfa0"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_5_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="78f7ce97-866d-4623-9229-b5027a04ca1d"/>
+                    <attribute id="VisualResource" type="guid" value="a0c3b9d8-77cc-5ab9-2440-8cd10dd6a2d5"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_94_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="1d004ac7-7dcb-45cc-b973-5152ccc93a84"/>
+                    <attribute id="VisualResource" type="guid" value="0430a573-683b-f1f0-3c02-1255d7cd1299"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_91_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="f64f6b14-32a8-4936-8370-bb02fef7cdcf"/>
+                    <attribute id="VisualResource" type="guid" value="07c0fdab-284b-006f-92de-17105b36fb3e"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_106_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="c6ec1ada-8759-409c-abdd-593fba819977"/>
+                    <attribute id="VisualResource" type="guid" value="f55fdc9f-e741-582a-31f8-7bf80770ef36"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_3_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="cea0adad-9dbe-4d38-91d0-c9a5fd91cf2f"/>
+                    <attribute id="VisualResource" type="guid" value="7ea29de6-16aa-ef85-9902-68e5c1e57db7"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_98_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="21e0d5fb-383e-4b19-a43c-02ea259ac0be"/>
+                    <attribute id="VisualResource" type="guid" value="6117b154-4027-7521-a9b5-3f49ffec9dcb"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_157_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="ccafc365-aa06-4233-aafa-9adf6e3fca1b"/>
+                    <attribute id="VisualResource" type="guid" value="b8137fea-8b84-f62a-723e-e0fd168e9fba"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_99_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="2b2e7398-78c3-46fc-bd78-c3d653d13cab"/>
+                    <attribute id="VisualResource" type="guid" value="e8315c58-02b5-519c-2d75-0871a4d7aaed"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_156_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="9d29c532-e5e1-47fe-bb2a-9df386f49785"/>
+                    <attribute id="VisualResource" type="guid" value="735d7395-0a12-b09b-5613-c17d147d28a2"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_100_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="8fbb0b06-f85d-4f7b-800c-cbaa0e4d9151"/>
+                    <attribute id="VisualResource" type="guid" value="ec3c932b-1b76-c274-678b-983911121a0b"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_101_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="27b4615d-8ae5-4930-9a83-9adc0977db63"/>
+                    <attribute id="VisualResource" type="guid" value="ff4f0919-efbc-b558-bb85-d1982f7e2e6b"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_102_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="1c5a75dd-eb0c-41e4-8377-0e20af8f9713"/>
+                    <attribute id="VisualResource" type="guid" value="659f975c-62db-020a-d7ff-d53314d96749"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_270_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="e902384f-3784-4f02-9a55-08bd88c40937"/>
+                    <attribute id="VisualResource" type="guid" value="3da4ce51-b929-396a-2b59-98dae157027e"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_103_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="d3b2df52-ff74-49eb-9603-80e954789ad0"/>
+                    <attribute id="VisualResource" type="guid" value="15b30d97-fc6c-707f-6575-56f6ade497c7"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_96_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="c6394b57-699f-4915-ab9c-d3082172dd63"/>
+                    <attribute id="VisualResource" type="guid" value="af730f55-52af-6966-5fad-f06407afad1c"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_104_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="2ac1b4c6-f896-4ef3-a32c-d7ff4169384e"/>
+                    <attribute id="VisualResource" type="guid" value="76c7186a-6f8d-dc7f-75a6-5ff1a6ae2593"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_97_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="47d0613c-518c-4287-9794-ff8839f4399c"/>
+                    <attribute id="VisualResource" type="guid" value="e51e8d41-6b1d-436f-b1d4-6f9af8381cb9"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_105_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="61d9fa42-2c9b-45a5-9395-790383fb792e"/>
+                    <attribute id="VisualResource" type="guid" value="8d310032-c247-e287-ea40-937e747068fe"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_264_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="38cd15af-95b9-4a18-ba59-90b72dd25613"/>
+                    <attribute id="VisualResource" type="guid" value="00226986-6265-a1b9-436c-28fad5ec18fb"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_107_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="241ac099-c4ec-42a3-a7b1-ef4c738d7fb5"/>
+                    <attribute id="VisualResource" type="guid" value="68f747ff-c7ad-0171-a7e3-986e781d9c2c"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_108_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="92c7f666-32cb-42dd-abd8-03c7ee672636"/>
+                    <attribute id="VisualResource" type="guid" value="7b2225a0-6984-658b-dc17-bf5929176968"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_109_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="ca5746e2-36e6-487f-962e-9c3202f18ba1"/>
+                    <attribute id="VisualResource" type="guid" value="1f3d2e96-4868-bc9e-cd28-2989fdb49921"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_265_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="89903ff5-6de1-4d67-a797-d88923ed93d7"/>
+                    <attribute id="VisualResource" type="guid" value="4458a189-20b6-6060-af5f-3474999474de"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_263_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="51e3bede-c09d-49ef-b3bb-064468c05430"/>
+                    <attribute id="VisualResource" type="guid" value="caf1ae3c-6526-8b22-8a48-89d323a0121c"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_110_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="9ed13e11-8f56-4033-8ff3-f5ed091d2e82"/>
+                    <attribute id="VisualResource" type="guid" value="52ca2ae8-ea80-2f2d-c848-00ee84ba68de"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_271_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="6ad76b2b-2cf0-4cdf-83e5-478095610bc4"/>
+                    <attribute id="VisualResource" type="guid" value="a209303d-78d5-b375-c25c-3294cc9a59d4"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_321_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="cc8bb75b-fdea-49c3-b5be-c9aef65aec80"/>
+                    <attribute id="VisualResource" type="guid" value="a726b1bd-f83a-133d-df26-acf6b5450f27"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_322_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="4b48aba3-2c9b-4038-a924-9980f2654860"/>
+                    <attribute id="VisualResource" type="guid" value="6d1c8311-8d82-f33f-2049-9bf361ee6fbc"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_257_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="aff49cd3-029b-48e4-a450-2802f9f05ba3"/>
+                    <attribute id="VisualResource" type="guid" value="4aa8cb04-fd2e-f4cf-1360-58788d52df14"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_610_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="6667627d-508f-4a7d-b0e3-b4f0b0525082"/>
+                    <attribute id="VisualResource" type="guid" value="6ba667c1-dad3-2e58-cbdd-5a71638d9c79"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="CharacterCreationAppearanceVisuals_New_Stat_55_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+                    <attribute id="UUID" type="guid" value="000d20d0-2b1b-4793-96b8-778cee92df3e"/>
+                    <attribute id="VisualResource" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

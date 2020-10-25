@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+			<!-- Base Racial Progess -->
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Human"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Human"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="346871de-be49-41c4-8450-d85d666cfdee/>
+                    <attribute id="ProgressionTableId" type="guid" value="39668970-4021-4113-a6d8-72ea8b55d09d"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Human"/>
+                    <attribute id="UUID" type="guid" value="099ee344-7c88-447e-95b3-e41349035e50"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Cyrodiil"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Cyrodiil"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="78f6bddf-d385-4a45-831e-558a052fa96a"/>
+                    <attribute id="ProgressionTableId" type="guid" value="2589e45d-a551-476b-916d-c81fc3dfe50f"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Cyrodiil"/>
+                    <attribute id="UUID" type="guid" value="a95802f6-c98e-4aa1-bef7-ec2d9879cbfe"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Colovian"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Colovian"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="f8158236-e7f9-42ee-b73e-135c3ca4d7ec"/>
+                    <attribute id="ProgressionTableId" type="guid" value="af10483e-e385-4e08-8ac8-c183b6a13eb4"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Colovian"/>
+                    <attribute id="UUID" type="guid" value="315ffed5-b2d5-4b04-b16b-b3dc5f410999"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Nibenese"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Nibenese"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="97244ddc-a158-405d-96e1-a22d0ec8543c"/>
+                    <attribute id="ProgressionTableId" type="guid" value="aae784b7-03cf-432b-a916-296a67bb7532"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Nibenese"/>
+                    <attribute id="UUID" type="guid" value="0c8ad648-7857-4f5d-a543-9ae7359ca20c"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Breton"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Breton"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="4d5fb255-1a17-4b02-b376-9f0eb06706c8"/>
+                    <attribute id="ProgressionTableId" type="guid" value="322dfbbb-b37e-47cf-96e1-64cf9287452c"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Breton"/>
+                    <attribute id="UUID" type="guid" value="53b08f27-363d-479c-b98d-368cc245b123"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Nord"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Nord"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="5aa5e1cc-d1b7-4a62-b4fd-c048faaca766"/>
+                    <attribute id="ProgressionTableId" type="guid" value="47256a77-c595-4559-865a-81fa97e8c43e"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Nord"/>
+                    <attribute id="UUID" type="guid" value="e566dff5-0e54-4c47-b1d7-87f804a40cfa"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Redguard"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Redguard"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="b0bb2e7f-c7fe-4cac-89a6-8bb5351230b7"/>
+                    <attribute id="ProgressionTableId" type="guid" value="e4ef5b65-3a15-415d-adb4-00c7366c9d89"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Redguard"/>
+                    <attribute id="UUID" type="guid" value="e011d1cc-5efc-4d82-b885-c2ddd6df7420"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Altmer"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Altmer"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="5ec70564-e26c-41d8-b8e2-2c601538c77e"/>
+                    <attribute id="ProgressionTableId" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Altmer"/>
+                    <attribute id="UUID" type="guid" value="4b594c8b-194d-4044-b66b-c3f198c17d07"/>
+                </node>
+
+				<!-- Special Racial Progress Descriptions -->
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Colovian_FeatA"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Colovian_FeatA"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="af10483e-e385-4e08-8ac8-c183b6a13eb4"/>
+                    <attribute id="SelectorId" type="FixedString" value="AGTT_Progression_StarOfTheWest"/>
+                    <attribute id="Type" type="FixedString" value="Colovian"/>
+                    <attribute id="UUID" type="guid" value="71f565c1-d983-4991-9ebc-a9ed05bb5e99"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Breton_FeatA"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Breton_FeatA"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="322dfbbb-b37e-47cf-96e1-64cf9287452c"/>
+                    <attribute id="SelectorId" type="FixedString" value="AGTT_Progression_ArcaneConnection"/>
+                    <attribute id="Type" type="FixedString" value="Breton"/>
+                    <attribute id="UUID" type="guid" value="50fa3eb3-eff0-4957-83a1-f7517f7faf4a"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Breton_FeatB"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Breton_FeatB"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="AGTT_DragonSkin"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="322dfbbb-b37e-47cf-96e1-64cf9287452c"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Breton"/>
+                    <attribute id="UUID" type="guid" value="d26fa363-0f2a-4de1-ac45-0ee89f02427b"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Nord_FeatA"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Nord_FeatA"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="47256a77-c595-4559-865a-81fa97e8c43e"/>
+                    <attribute id="SelectorId" type="FixedString" value="AGTT_Progression_Battlecry"/>
+                    <attribute id="Type" type="FixedString" value="Nord"/>
+                    <attribute id="UUID" type="guid" value="c965426f-7be7-45c4-b7e9-9e84dff3a3fa"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Nord_FeatB Hide"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Nord_FeatB"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="AGTT_NorthernHide"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="47256a77-c595-4559-865a-81fa97e8c43e"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Nord"/>
+                    <attribute id="UUID" type="guid" value="4e689edd-6eb5-4f8e-9370-831ff27d288f"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Redguard_FeatA"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Redguard_FeatB"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="e4ef5b65-3a15-415d-adb4-00c7366c9d89"/>
+                    <attribute id="SelectorId" type="FixedString" value="AGTT_Progression_AdrenalineRush"/>
+                    <attribute id="Type" type="FixedString" value="Redguard"/>
+                    <attribute id="UUID" type="guid" value="c5420cf5-7a11-415d-8d1a-d70ab13d4dff"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Redguard_FeatB"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Redguard_FeatB"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="AGTT_RedguardImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="e4ef5b65-3a15-415d-adb4-00c7366c9d89"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Redguard"/>
+                    <attribute id="UUID" type="guid" value="700f0f01-f44e-484b-a985-ade057f1ce73"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Altmer_FeatA"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Altmer_FeatA"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="AGTT_Highborne"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="SelectorId" type="FixedString" value="AGTT_Altmer_Cantrip;AGTT_Altmer_Spells"/>
+                    <attribute id="Type" type="FixedString" value="Altmer"/>
+                    <attribute id="UUID" type="guid" value="aca06843-0093-407b-987f-72d785a1444f"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
