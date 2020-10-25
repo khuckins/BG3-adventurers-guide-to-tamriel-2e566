@@ -7,7 +7,7 @@
 				<!-- Cyrodiilic Progressions -->
 				<node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,1);ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Human"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -21,7 +21,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Star of the West"/>
                     <attribute id="Description" type="FixedString" value="Colovians have a bonus to Constitution, proficiency in Light Armor and Martial Weapons, and access to the Star of the West ability."/>
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,1);Ability(Constitution,1);Proficiency(LightArmor);Proficiency(MartialWeapons)"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Constitution,1);Proficiency(LightArmor);Proficiency(MartialWeapons)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Colovian"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -35,7 +35,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Voice of the Emperor"/>
                     <attribute id="Description" type="FixedString" value="The Nibenese have a bonus to Charisma, an proficiency in Performance and Persuasion."/>
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,2);ProficiencyBonus(Skill,Performance);ProficiencyBonus(Skill,Persuasion);"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,1);ProficiencyBonus(Skill,Performance);ProficiencyBonus(Skill,Persuasion);"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Nibenese"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -50,7 +50,7 @@
                 <node id="Progression">
                     <attribute id="DisplayName" type="FixedString" value="Arcane Connection"/>
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,1);Ability(Intelligence,1)"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Charisma,1);Ability(Intelligence,1);ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Breton"/>
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_DragonSkin"/>
@@ -66,7 +66,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Northern Hide"/>
                     <attribute id="Description" type="FixedString" value="Hailing from the northern tundras of Skyrim, Nords resist the cold, and have +2 bonus to Constitution. Their fierceness in battle shows itself by way of their Battlecries."/>
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Ability(Constitution,2)"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Constitution,2);ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Nord"/>
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_NorthernHide"/>
@@ -82,7 +82,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Adrenaline Rush"/>
                     <attribute id="Description" type="FixedString" value="The Reguard have a bonus to Strength and Dexterity, proficiency in Scimitars and Longswords, resistance to poison, and access to the Adrenaline Rush ability."/>
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Ability(Strength,1),Ability(Dexterity,1);Proficiency(Longswords);Proficiency(Scimitars);Resistance(Poison, Resistant)"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Strength,1),Ability(Dexterity,1);Proficiency(Longswords);Proficiency(Scimitars);ActionResource(Movement,10.5,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Redguard"/>
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_RedguardImmunity"/>

@@ -10,7 +10,7 @@
                     <attribute id="CloseUpB" type="LSString" value="HUM_F_Camera_Closeup_B"/>
                     <attribute id="Gender" type="uint8" value="1"/>
                     <attribute id="Overview" type="LSString" value="HUM_F_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RaceUUID" type="guid" value="496e35b8-b165-4ec7-b7d9-fe4c036d149a"/>
 					<attribute id="SubRaceUUID" type="guid" value="bea8d95e-49d1-4593-8579-5436c7ff4d9b"/>
                     <attribute id="RootTemplate" type="guid" value="c8b6fccd-7b72-4db9-8376-6414f024886d"/>
                     <attribute id="UUID" type="guid" value="f7dd8d37-69ad-49dd-b338-3961790139c9"/>
@@ -20,7 +20,7 @@
                     <attribute id="CloseUpB" type="LSString" value="HUM_M_Camera_Closeup_B"/>
                     <attribute id="Gender" type="uint8" value="0"/>
                     <attribute id="Overview" type="LSString" value="HUM_M_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RaceUUID" type="guid" value="496e35b8-b165-4ec7-b7d9-fe4c036d149a"/>
 					<attribute id="SubRaceUUID" type="guid" value="bea8d95e-49d1-4593-8579-5436c7ff4d9b"/>
                     <attribute id="RootTemplate" type="guid" value="4d29fc8f-739a-4f92-8e7d-31e14e87835e"/>
                     <attribute id="UUID" type="guid" value="838a3f16-e372-47a6-bed1-4b46c8bd841c"/>
@@ -31,7 +31,7 @@
                     <attribute id="CloseUpB" type="LSString" value="HUM_F_Camera_Closeup_B"/>
                     <attribute id="Gender" type="uint8" value="1"/>
                     <attribute id="Overview" type="LSString" value="HUM_F_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RaceUUID" type="guid" value="496e35b8-b165-4ec7-b7d9-fe4c036d149a"/>
 					<attribute id="SubRaceUUID" type="guid" value="54dfe2da-cb6b-4c4b-9d9a-29f0c38453e4"/>
                     <attribute id="RootTemplate" type="guid" value="5eb024e9-d24f-4ae9-aea8-71629069d053"/>
                     <attribute id="UUID" type="guid" value="24486b6e-27cb-499b-bbad-134ff8cd3742"/>
@@ -41,7 +41,7 @@
                     <attribute id="CloseUpB" type="LSString" value="HUM_M_Camera_Closeup_B"/>
                     <attribute id="Gender" type="uint8" value="0"/>
                     <attribute id="Overview" type="LSString" value="HUM_M_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
+                    <attribute id="RaceUUID" type="guid" value="496e35b8-b165-4ec7-b7d9-fe4c036d149a"/>
 					<attribute id="SubRaceUUID" type="guid" value="54dfe2da-cb6b-4c4b-9d9a-29f0c38453e4"/>
                     <attribute id="RootTemplate" type="guid" value="354e4668-398e-4f74-8862-aab7eb825d02"/>
                     <attribute id="UUID" type="guid" value="5c1acf02-d869-41b4-a0ab-1f14881caa1a"/>
@@ -53,8 +53,8 @@
                     <attribute id="CloseUpB" type="LSString" value="HUM_F_Camera_Closeup_B"/>
                     <attribute id="Gender" type="uint8" value="1"/>
                     <attribute id="Overview" type="LSString" value="HUM_F_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
-                    <attribute id="SubRaceUUID" type="guid" value="a16fb8ae-cd50-4217-97b8-c7de1239d5bc"/>
+                    <attribute id="RaceUUID" type="guid" value="a16fb8ae-cd50-4217-97b8-c7de1239d5bc"/>
+                    <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="RootTemplate" type="guid" value="74f04d20-a14e-4c71-821e-be990aa48753"/>
                     <attribute id="UUID" type="guid" value="36d7307b-b724-47ea-954a-d5bc62f4432e"/>
                 </node>
@@ -63,8 +63,8 @@
                     <attribute id="CloseUpB" type="LSString" value="HUM_M_Camera_Closeup_B"/>
                     <attribute id="Gender" type="uint8" value="0"/>
                     <attribute id="Overview" type="LSString" value="HUM_M_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
-                    <attribute id="SubRaceUUID" type="guid" value="a16fb8ae-cd50-4217-97b8-c7de1239d5bc"/>
+                    <attribute id="RaceUUID" type="guid" value="a16fb8ae-cd50-4217-97b8-c7de1239d5bc"/>
+                    <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="RootTemplate" type="guid" value="d621854a-dd16-49d2-9d24-3eb038f1b2c4"/>
                     <attribute id="UUID" type="guid" value="0d6ffbed-0ede-4ce3-82c1-1719d2b8d4d6"/>
                 </node>
@@ -75,8 +75,8 @@
                     <attribute id="CloseUpB" type="LSString" value="HUM_F_Camera_Closeup_B"/>
                     <attribute id="Gender" type="uint8" value="1"/>
                     <attribute id="Overview" type="LSString" value="HUM_F_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
-                    <attribute id="SubRaceUUID" type="guid" value="7e1d6ea9-ffc8-4c89-a07b-56537355fe9d"/>
+                    <attribute id="RaceUUID" type="guid" value="7e1d6ea9-ffc8-4c89-a07b-56537355fe9d"/>
+                    <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="RootTemplate" type="guid" value="0f57d36b-05d6-4adc-bc45-2a1f0bf3dfca"/>
                     <attribute id="UUID" type="guid" value="f03adb04-4879-4c5d-9ab5-f8b729f99354"/>
                 </node>
@@ -85,8 +85,8 @@
                     <attribute id="CloseUpB" type="LSString" value="HUM_M_Camera_Closeup_B"/>
                     <attribute id="Gender" type="uint8" value="0"/>
                     <attribute id="Overview" type="LSString" value="HUM_M_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
-                    <attribute id="SubRaceUUID" type="guid" value="7e1d6ea9-ffc8-4c89-a07b-56537355fe9d"/>
+                    <attribute id="RaceUUID" type="guid" value="7e1d6ea9-ffc8-4c89-a07b-56537355fe9d"/>
+                    <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="RootTemplate" type="guid" value="64a8d33a-6ce5-4ad9-80e6-5659a347c8f2"/>
                     <attribute id="UUID" type="guid" value="7ef5f9d7-cd74-40bb-b37a-63e48d9bbaf5"/>
                 </node>
@@ -97,8 +97,8 @@
                     <attribute id="CloseUpB" type="LSString" value="HUM_F_Camera_Closeup_B"/>
                     <attribute id="Gender" type="uint8" value="1"/>
                     <attribute id="Overview" type="LSString" value="HUM_F_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
-                    <attribute id="SubRaceUUID" type="guid" value="cfaea962-54b7-4166-b0a8-23d10a99fa5f"/>
+                    <attribute id="RaceUUID" type="guid" value="cfaea962-54b7-4166-b0a8-23d10a99fa5f"/>
+                    <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="RootTemplate" type="guid" value="bd935a93-2b42-456d-a170-b9d0bd541d61"/>
                     <attribute id="UUID" type="guid" value="631d3a92-bc05-48d3-b0ff-d06ee085d62d"/>
                 </node>
@@ -107,8 +107,8 @@
                     <attribute id="CloseUpB" type="LSString" value="HUM_M_Camera_Closeup_B"/>
                     <attribute id="Gender" type="uint8" value="0"/>
                     <attribute id="Overview" type="LSString" value="HUM_M_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
-                    <attribute id="SubRaceUUID" type="guid" value="cfaea962-54b7-4166-b0a8-23d10a99fa5f"/>
+                    <attribute id="RaceUUID" type="guid" value="cfaea962-54b7-4166-b0a8-23d10a99fa5f"/>
+                    <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="RootTemplate" type="guid" value="57db97fa-ca72-43fc-abad-9227f02a926f"/>
                     <attribute id="UUID" type="guid" value="820e419d-2e4d-4179-ad73-c249d0053554"/>
                 </node>
