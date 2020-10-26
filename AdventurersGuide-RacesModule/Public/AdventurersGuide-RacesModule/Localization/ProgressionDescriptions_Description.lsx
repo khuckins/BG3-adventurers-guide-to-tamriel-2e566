@@ -7,135 +7,224 @@
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Human" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Humans have a base Movement Speed of 9m." version="3" />
+					<attribute id="Content" type="FixedString" value="Humans have a base Movement Speed of 9m." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Cyrodiil" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Cyrodiils have +1 to Charisma, in addition to their subrace bonuses." version="3" />
+					<attribute id="Content" type="FixedString" value="Cyrodiils have +1 to Charisma, in addition to their subrace bonuses." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Colovian" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Colovians have a +1 to Constitution, and proficiency in Light Armor and Martial Weapons." version="3" />
+					<attribute id="Content" type="FixedString" value="Colovians have a +1 to Constitution, and proficiency in Light Armor and Martial Weapons." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Nibenese" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="The Nibenese have +1 to Charisma, and are proficient in Performance and Persuasion." version="3" />
+					<attribute id="Content" type="FixedString" value="The Nibenese have +1 to Charisma, and are proficient in Performance and Persuasion." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Breton" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Bretons have +1 to Intelligence and Charisma." version="3" />
+					<attribute id="Content" type="FixedString" value="Bretons have +1 to Intelligence and Charisma." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Nord" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Nords have +2 to Constitution." version="3" />
+					<attribute id="Content" type="FixedString" value="Nords have +2 to Constitution." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Redguard" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Redguard have +1 to Strength and +1 to Dexterity, as well as proficiency in Longswords and Scimitars." version="3" />
+					<attribute id="Content" type="FixedString" value="Redguard have +1 to Strength and +1 to Dexterity, as well as proficiency in Longswords and Scimitars." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Altmer" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Altmer have +2 to Intelligence." version="3" />
+					<attribute id="Content" type="FixedString" value="Altmer have +2 to Intelligence." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Bosmer" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Bosmer have +2 to Dexterity." version="3" />
+					<attribute id="Content" type="FixedString" value="Bosmer have +2 to Dexterity." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
-				
-				<!-- Special Racial Progressions -->
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Dunmer" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Dunmer have +1 to Wisdom, in addition to bonuses from their chosen house." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Dunmer_Unaffiliated" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Dunmer unaffiliated with a Great House have +1 to Wisdom." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Dunmer_Hlaalu" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Members of House Hlaalu have +1 to Charisma, and proficiency in Persuasion." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Dunmer_Redoran" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Members of House Redoran have +1 to Strength, and proficiency in Martial Weapons." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Dunmer_Telvanni" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Members of House Telvanni have +1 to Intelligence." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Dunmer_Indoril" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Members of House Indoril have +1 to Wisdom." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Dunmer_Dres" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Members of House Dres have +1 to Constitution, and proficiency in Animal Handling." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Orsimer" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Orsimer are still considered by many to be Goblin-ken, though acceptance is slowly growing." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Orsimer_Iron" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Iron Orsimer have +2 to Strength, and proficiency in Survival." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Orsimer_Wood" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Wood Orsimer have +2 to Dexterity, and proficiency in Nature." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Colovian_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Colovians are hardy folk, and when focused, can get up from blows that would leave most out cold." version="3" />
+					<attribute id="Content" type="FixedString" value="Colovians are hardy folk, and when focused, can get up from blows that would leave most out cold." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Breton_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Bretons have a strong connection to Magicka, alowing them to select a cantrip from the Wizard spell list." version="3" />
+					<attribute id="Content" type="FixedString" value="Bretons have a strong connection to Magicka, alowing them to select a cantrip from the Wizard spell list." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Breton_FeatB" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Bretons have a strong connection to Magicka, giving them advantage whenever they make a saving throw against Magical attacks." version="3" />
+					<attribute id="Content" type="FixedString" value="Bretons have a strong connection to Magicka, giving them advantage whenever they make a saving throw against Magical attacks." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Nord_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Nords can perform a Battlecry, stunning enemies who are unprepared." version="3" />
+					<attribute id="Content" type="FixedString" value="Nords can perform a Battlecry, stunning enemies who are unprepared." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Nord_FeatB" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Hailing from the northern tundras of Skyrim, Nords resist the cold." version="3" />
+					<attribute id="Content" type="FixedString" value="Hailing from the northern tundras of Skyrim, Nords resist the cold." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Redguard_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Redguards can pump themselves up for battle to increase their speed and health." version="3" />
+					<attribute id="Content" type="FixedString" value="Redguards can pump themselves up for battle to increase their speed and health." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Redguard_FeatB" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Owing to traditional practices, Redguard have an innate resistance to most Poisons." version="3" />
+					<attribute id="Content" type="FixedString" value="Owing to traditional practices, Redguard have an innate resistance to most Poisons." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Altmer_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Altmer have Poison and Disease immunity, but have disadvantage on saving throws against magic." version="3" />
+					<attribute id="Content" type="FixedString" value="Altmer have Poison and Disease immunity, but have disadvantage on saving throws against magic." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Bosmer_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Once per Long Rest, Bosmer are able to transform into a Boar." version="3" />
+					<attribute id="Content" type="FixedString" value="Once per Long Rest, Bosmer are able to transform into a Boar." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Bosmer_FeatB" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Bosmer are able to speak with animals." version="3" />
+					<attribute id="Content" type="FixedString" value="Bosmer are able to speak with animals." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Dunmer_FeatA" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Once per Long Rest, Dunmer may call upon their ancestors to guide them in battle, adding 3 to their AC." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Dunmer_FeatB" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Dunmer have innate resistance to Fire." />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Orsimer_FeatA" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="FixedString" value="Once per Long Rest, Orsimer may fly into a Berserker Rage, giving them additional HP and advantage on melee attacks, but lowering their AC and rendering them unable to cast spells." />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>

@@ -122,6 +122,136 @@
                     <attribute id="Type" type="FixedString" value="Bosmer"/>
                     <attribute id="UUID" type="guid" value="a4c1afe8-96db-48a0-9b63-48bdd4d66f07"/>
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Dunmer"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Dunmer"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="0f9d4f27-7538-4690-82f9-41cff9672355"/>
+                    <attribute id="ProgressionTableId" type="guid" value="8dfdb77c-5abf-4477-a708-f741e9677301"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Dunmer"/>
+                    <attribute id="UUID" type="guid" value="bca16d6e-40b0-4159-8ea8-31135bb5e483"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Dunmer_Unaffiliated"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Dunmer_Unaffiliated"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="3edd63b7-4a70-4abb-87aa-995fbe85cdda"/>
+                    <attribute id="ProgressionTableId" type="guid" value="cee411d2-082d-47f2-ba20-4347764e57ea"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Dunmer"/>
+                    <attribute id="UUID" type="guid" value="d28cbf89-3a8c-4110-9afc-b8d631d227cc"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Dunmer_Hlaalu"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Dunmer_Hlaalu"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="0466283e-8d04-4823-8d0e-c264034c922f"/>
+                    <attribute id="ProgressionTableId" type="guid" value="e557e49a-15d6-4ad7-b521-4bded39c97c6"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Dunmer"/>
+                    <attribute id="UUID" type="guid" value="37d238d5-0be4-4805-afc8-865b4b0b4ae5"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Dunmer_Redoran"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Dunmer_Redoran"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="80f5e560-ad79-4165-9aab-0c8b0c3b4082"/>
+                    <attribute id="ProgressionTableId" type="guid" value="bb63f695-44d9-4f10-b0f0-ca221e099ffe"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Dunmer"/>
+                    <attribute id="UUID" type="guid" value="d1509480-9f53-47f3-997a-5fceeca1e1dd"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Dunmer_Telvanni"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Dunmer_Telvanni"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="df7dbd47-f79e-4d8a-9ac4-d4a4e41ced82"/>
+                    <attribute id="ProgressionTableId" type="guid" value="f9351f2c-dc19-49a6-9bd6-242a85f0ca2d"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Dunmer"/>
+                    <attribute id="UUID" type="guid" value="9f9a698f-ee9a-4192-b75e-bc4f2a01efa2"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Dunmer_Indoril"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Dunmer_Indoril"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="25a713e0-4d5b-477e-aa56-56900f7976f9"/>
+                    <attribute id="ProgressionTableId" type="guid" value="9d2720b5-8899-402e-9297-15b74f759461"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Dunmer"/>
+                    <attribute id="UUID" type="guid" value="80b0d4b3-85fb-4030-b679-70b84721eba0"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Dunmer_Dres"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Dunmer_Dres"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="ac2d7f7f-120c-4cb9-9f04-ff16c4aec266"/>
+                    <attribute id="ProgressionTableId" type="guid" value="ef15408f-08d3-4b1a-8ae3-2ec7ae28ada3"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Dunmer"/>
+                    <attribute id="UUID" type="guid" value="3a19687e-6ac7-4b46-b41b-43aa2b2adccd"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Orsimer"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Orsimer"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="1cb54ee3-21e0-483d-af57-ae89a7addc1c"/>
+                    <attribute id="ProgressionTableId" type="guid" value="86041cdd-2d60-4c22-87c4-ab8e88bef027"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Orsimer"/>
+                    <attribute id="UUID" type="guid" value="09e81044-a25c-417b-8d19-8dfccf020788"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Orsimer_Iron"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Orsimer_Iron"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="2ea45a26-1355-4651-acff-80291d90fa1e"/>
+                    <attribute id="ProgressionTableId" type="guid" value="feafabc0-8cc2-415a-ba10-0c21ddaac2cc"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Orsimer"/>
+                    <attribute id="UUID" type="guid" value="a770369e-e3e3-4414-9f02-a9273da2f900"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Orsimer_Wood"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Orsimer_Wood"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="e9f1e041-5bf0-45b8-9244-2edfe50307fb"/>
+                    <attribute id="ProgressionTableId" type="guid" value="f7629248-b39e-4acf-9771-ff4add8c59a5"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Orsimer"/>
+                    <attribute id="UUID" type="guid" value="570991a2-bb38-4439-93fe-c2b5aebc9007"/>
+                </node>
 
 				<!-- Special Racial Progress Descriptions -->
                 <node id="ProgressionDescription">
@@ -253,6 +383,71 @@
                     <attribute id="SelectorId" type="FixedString" value=""/>
                     <attribute id="Type" type="FixedString" value="Bosmer"/>
                     <attribute id="UUID" type="guid" value="914cb4d3-1c5d-4d04-9d18-c48674641a1c"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Dunmer_FeatA"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Dunmer_FeatA"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="cee411d2-082d-47f2-ba20-4347764e57ea"/>
+                    <attribute id="SelectorId" type="FixedString" value="AGTT_Dunmer_Protection"/>
+                    <attribute id="Type" type="FixedString" value="Dunmer"/>
+                    <attribute id="UUID" type="guid" value="df9940bf-62ba-4c1e-b8d1-814bf6755ed3"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Dunmer_FeatB"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Dunmer_FeatB"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="AGTT_ASHBORN"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="8dfdb77c-5abf-4477-a708-f741e9677301"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Dunmer"/>
+                    <attribute id="UUID" type="guid" value="97559444-6a88-4235-ab87-178128c42be0"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Dunmer_FeatC"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Dunmer_FeatC"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="f9351f2c-dc19-49a6-9bd6-242a85f0ca2d"/>
+                    <attribute id="SelectorId" type="FixedString" value="AGTT_TelvanniCantrip"/>
+                    <attribute id="Type" type="FixedString" value="Dunmer"/>
+                    <attribute id="UUID" type="guid" value="d82c9062-21c0-49d7-a318-fc7e34792233"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Dunmer_FeatD"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Dunmer_FeatD"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="9d2720b5-8899-402e-9297-15b74f759461"/>
+                    <attribute id="SelectorId" type="FixedString" value="AGTT_IndorilCantrip"/>
+                    <attribute id="Type" type="FixedString" value="Dunmer"/>
+                    <attribute id="UUID" type="guid" value="d068d10b-86bb-4b04-994d-4830d7363cef"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_Prog_Orsimer_FeatA"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Orsimer_FeatA"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="86041cdd-2d60-4c22-87c4-ab8e88bef027"/>
+                    <attribute id="SelectorId" type="FixedString" value="AGTT_OrsimerFeat"/>
+                    <attribute id="Type" type="FixedString" value="Orsimer"/>
+                    <attribute id="UUID" type="guid" value="8cdc9287-f266-44d6-9bec-affd7c9e09c5"/>
                 </node>
             </children>
         </node>
