@@ -29,7 +29,7 @@ data "DisplayName" "Fleabite"
 data "Description" "A creature that you can see, within 10ft, takes 1 Piercing damage."
 data "MemoryCost" "1"
 
-new entry "AGTT_Target_Chill_Cantrip"
+new entry "AGTT_Target_Chill"
 type "SpellData"
 data "SpellType" "Target"
 data "Level" "0"
@@ -69,7 +69,7 @@ data "MemoryCost" "1"
 // Torpor
 // Wound
 
-new entry AGTT_"Target_Frostbite"
+new entry "AGTT_Target_Frostbite"
 type "SpellData"
 data "SpellType" "Target"
 data "Level" "1"
