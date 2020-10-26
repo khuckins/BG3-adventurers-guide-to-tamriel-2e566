@@ -1,4 +1,4 @@
-# Adventurer's Guide to Tamriel (2E566)
+# Adventurer's Guide to Tamriel (2E566) 0.3.0
 
 ## Background
 Three years ago, I started creating a setting sourcebook of ~210 pages for d&d 5th edition, set 
@@ -12,113 +12,8 @@ is updated and eventually released. This module includes the Human Elven races: 
 (Imperials), Breton, Nord, Redguard, Altmer, Bosmer, Dunmer, and Orsimer, including some
 subraces.
 
-## Race/Subrace Traits
-
-#### Cyrodiil
-##### Colovian
-- Light Armor Proficiency
-- Martial Weapon Proficiency
-- Charisma +1
-- Constitution +1
-- Action: Star of the West
-  - When you are reduced to 0HP, but not killed outright. you instead drop to 1HP
-  - Bonus Action
-  - Once per Long Rest
-
-##### Nibenese
-- Performance Proficiency
-- Persuasion Proficiency
-- Charisma +2
-
-#### Breton
-- 1 Cantrip from the Wizard Spell List (to cbe updated once the Spells Module is complete)
-- Charisma +1
-- Intelligence +1
-- Passive: Dragon Skin (Still not sure if this one works)
-  - You have advantage on saving throws against Magic
-
-#### Nord
-- Constitution +2
-- Passive: Northern Hide
-  - Cold Resistance
-- Action: Battlecry
-  - All enemies within 9m(30ft) that can hear you must succeed on a Wisdom saving throw against
-your Strength score, or become Stunned for two turns, ending at the start of their second
-turn
-  - Action
-
-#### Redguard
-- Scimitar Proficiency
-- Strength +1
-- Dexterity +1
-- Passive: Strong Immune System
-  - Poison Resistance
-- Action: Adrenaline Rush
-  - You pump yourself up for combat, gaining a number of temporary hit points equal to your
-level + your Constitution modifier, and gaining an additional 3m(10 ft) of movement speed
-for 3 turns.
-  - Action
-  
-#### Altmer
-- Intelligence +2
-- Passive: Highborne
-  - Disadvantage against Magical attacks (May or may not work)
-  - Immunity to Poison
-- One cantrip from the Wizard spells list (To be updated upon completing the Spells Module)
-- Three level 1 spells from the Wizard spells list (To be updated upon completing the Spells Module)
-
-#### Bosmer
-- Dexterity +2
-- Shortbow Proficiency
-- Longbow Proficiency
-- Beast Tongue Passive
-  - Speak to animals without casting a spell! (Untested)
-- Action: Natural Shapeshifter
-  - Transform into a Boar for 5 turns, once per long rest (Status will say you are transformed until you rest. It is lying)
-
-#### Dunmer
-- Wisdom +1
-- Ashborn Passive
-  - Resistance to Fire
-##### Dunmer
-- Dexterity +1
-- Bonus Action: Ancestral Protection
-  - Once per long rest, add +3 to your AC for 1 turn
-
-##### Hlaalu
-- Charisma +1
-Persuasion Proficiency
-
-##### Redoran
-- Strength +1
-- Martial Weapon Proficiency
-
-##### Telvanni
-- Intelligence +1
-- One cantrip from the Wizard spells list (To be updated upon completing the Spells Module)
-
-##### Indoril
-- Wisdom +1
-- One cantrip, chosen between Light, Dancing Lights, Spare the Dying, Mending, and Shillelagh (To be updated upon completing the Spells Module)
-
-##### Dres
-- Constitution +1
-- Animal Handling Proficiency
-
-#### Orsimer
-- Action: Berserker Rage
-  - 5 turns
-  - Gain temporary HP equal to Constitution Modifier + Level
-  - Gain advantage on all melee attacks
-  - Lose 3AC
-  - Unable to cast spells
-##### Iron Orsimer
-- Strength +2
-- Survival Proficiency
-
-##### Wood Orsimer
-- Dexterity +2
-- Nature Proficiency
+## Racial Traits/Features
+These can be found in the Wiki, under the [Races](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Races) page.
 
 ## Known Issues
 - Nord Northern Hide has no Progression Description
