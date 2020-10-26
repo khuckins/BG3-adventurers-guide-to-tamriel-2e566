@@ -1,6 +1,0 @@
-new entry "AGTT_STATUS_LESSER_WARD"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "Lesser Ward"
-data "Description" "You are resistant to Bluedgeoning damage."
-data "Boosts" "Resistance(Bludgeoning, Resistant)"
