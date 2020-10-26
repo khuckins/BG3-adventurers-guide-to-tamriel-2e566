@@ -1,0 +1,29 @@
+// Cantrips
+// -----------------
+// Clairvoyance
+// Detect Magic
+// Detect Poison and Disease
+// Mental Interference
+// Project Object
+// Psychic Howl
+// Spectral Shield
+
+
+
+
+// 1st Level Spells
+// -----------------
+// Appraising Touch
+// Brand
+// Command
+// Create Air
+// Detect Life
+// Dispel
+// Identify
+// Mage Armor
+// Nightshield
+// Pester
+// Prophesized Strike
+// See Hidden Doors
+// Smoke Ladder
+// Wieldskill

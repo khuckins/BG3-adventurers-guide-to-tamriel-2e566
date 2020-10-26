@@ -1,0 +1,31 @@
+// Cantrips
+// -----------------
+// Dancing Lights
+// Earwig
+// Friends
+// Magelight
+// Minor Disguise
+// Minor Illusion
+// Pestidigitation
+// Psychic Shock
+// Silent Portal
+// Thaumaturgy
+
+
+
+
+// 1st Level Spells
+// -----------------
+// Blur
+// Calming Touch
+// Chameleon
+// Color Spray
+// Dead End
+// Disguise Self
+// Eye-Maze
+// Faerie Fire
+// Insatiable Hunger and Thirst
+// Misdirected Mark
+// Muffle
+// Sheogorath's Cackle
+// Voices
