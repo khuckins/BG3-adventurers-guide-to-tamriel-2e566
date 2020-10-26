@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Projectile_FireBolt;Target_Fleabite;Target_Chill_Cantrip"/>
+                    <attribute id="UUID" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt;Target_Torpor;Target_Frostbite;Zone_Sparks;Target_Pinprick"/>
+                    <attribute id="UUID" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
+                </node>
+			</children>
+        </node>
+    </region>
+</save>

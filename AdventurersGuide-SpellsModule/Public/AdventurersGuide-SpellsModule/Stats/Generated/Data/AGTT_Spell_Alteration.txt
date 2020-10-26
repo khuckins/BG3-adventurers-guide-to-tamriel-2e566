@@ -1,0 +1,31 @@
+// Cantrips
+// -----------------
+// Alter Flames
+// Buoyancy
+// Candlelight
+// Chop (Ritual)
+// Copy Text
+// Fortify
+// Mending
+// Beast Finder
+// Vero's Knock
+
+
+
+// 1st Level Spells
+// -----------------
+// Alarm (Ritual)
+// Barrier (Ritual)
+// Burdening Touch
+// Dictate
+// Doorjam
+// Feather
+// Gust Form
+// Leaf
+// Magesoap
+// Oakflesh
+// Piercing Strike
+// Sanction
+// Shieldbearer
+// Stonefist
+// Take Initiative

@@ -1,0 +1,23 @@
+// Cantrips
+// -----------------
+// Azura's Rain
+// Conjure Wisp
+// Create Item
+// Create or Destroy Water
+// Bind Familiar
+// Mehrune's Smoke
+// Meridia's Grasp
+
+
+
+// 1st Level Spells
+// -----------------
+// Analyze Portal
+// Bound Weapon
+// Clannfear's Nose
+// Coldharbor's Rain
+// Conjure Horse
+// Conjure Lesser Daedra
+// Empathy
+// Ensnaring Strike
+// Watcher
