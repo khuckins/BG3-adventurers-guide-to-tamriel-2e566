@@ -97,7 +97,7 @@
                 <node id="Progression">
                     <attribute id="DisplayName" type="FixedString" value="Highborne"/>
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Ability(Intelligence,2);ActionResource(Movement,9,0);Resistance(Poison, Immune);ActionResource(Movement,9,0)"/>
+                    <attribute id="Boosts" type="LSString" value="Ability(Intelligence,2);Resistance(Poison, Immune);ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Altmer"/>
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_Highborne"/>
