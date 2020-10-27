@@ -1,10 +1,10 @@
 // Cantrips
 // -----------------
-// Fleabite
+// Fleabite				AGTT_Target_Fleabite
 // Frostwind Blade
 // Ignite
 // Melt
-// Chill
+// Chill				AGTT_Target_Chill
 // Grease
 // Gust 
 
@@ -56,18 +56,18 @@ data "MemoryCost" "1"
 // 1st Level Spells
 // -----------------
 // Burning Hands
-// Frostbite
-// Pinprick
+// Frostbite			AGTT_Target_Frostbite
+// Pinprick				AGTT_Target_Pinprick
 // Flash
 // Guiding Bolt
 // Hex
 // Kill Switch
 // Magic Missile
 // Piercing Smite
-// Sparks
+// Sparks				AGTT_Zone_Sparks
 // Thundering Armor
-// Torpor
-// Wound
+// Torpor				AGTT_Target_Torpor
+// Wound				AGTT_Target_Wound
 
 new entry "AGTT_Target_Frostbite"
 type "SpellData"
