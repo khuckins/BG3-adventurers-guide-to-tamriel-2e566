@@ -23,7 +23,6 @@ These can be found in the Wiki, under the [Races](https://github.com/khuckins/BG
 - Bosmer Natural Shapeshifter claims to last until a long rest, but correctly ends after 5 turns
 - Dunmer Ashborn has no Progression Description
 - Orsimer Berserker Rage has no icon
-- A lot of "Not Found" on the Character Creation Menu
 
 ## Installation
 I recommend using Candor mod manager to install, as the process is highly simplified.
@@ -57,7 +56,7 @@ using as well.
 
 ## Other Links
 - [GMBinder link](https://www.gmbinder.com/share/-L3u-2oe4GFo8GtXlRHC) to Adventurer's Guide to Tamriel
-- [BetterUI](https://github.com/Purlana/BetterUI) makes this mod less of a strain on the Character Creation UI
+- [BetterUI](https://github.com/Purlana/BetterUI) makes this mod less of a strain on the Character Creation UI (Note, at the moment this causes a lot of "Not Found" to display on the Character Creation Menu)
 - [Candor Mod Manager](https://www.nexusmods.com/baldursgate3/mods/22) eases the process of installing mods
 
 ## Acknowledgements
