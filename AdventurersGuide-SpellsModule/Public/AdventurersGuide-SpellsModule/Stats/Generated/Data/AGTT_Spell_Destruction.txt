@@ -1,18 +1,18 @@
 // Hack - Destruction uses Intelligence as its Spell Modifier
 new entry "AGTT_Destruction_Attack"
 type "SpellData"
-data "SpellRoll" "IF(Level < 5): Attack(1d20+2+IntelligenceModifier);
-				  IF(Level > 4 and Level < 9): Attack(1d20+3+IntelligenceModifier);
-				  IF(Level > 8 and Level < 13): Attack(1d20+4+IntelligenceModifier);
-				  IF(Level > 12 and Level < 16): Attack(1d20+5+IntelligenceModifier);
-				  IF(Level > 15): Attack(1d20+6+IntelligenceModifier);"
+data "SpellRoll" "IF(Level < 5): Attack(2+IntelligenceModifier);
+				  IF(Level > 4 and Level < 9): Attack(3+IntelligenceModifier);
+				  IF(Level > 8 and Level < 13): Attack(4+IntelligenceModifier);
+				  IF(Level > 12 and Level < 16): Attack(5+IntelligenceModifier);
+				  IF(Level > 15): Attack(6+IntelligenceModifier);"
 
 new entry "AGTT_Destruction_DC_vs_CON"
 type "SpellData"
-data "SpellRoll" "IF(Level < 5): not SavingThrow(Ability.Constitution, 1d20+2+IntelligenceModifier+8);
-				  IF(Level > 4 and Level < 9): not SavingThrow(Ability.Constitution, 1d20+3+IntelligenceModifier+8);
-				  IF(Level > 8 and Level < 13): not SavingThrow(Ability.Constitution, 1d20+4+IntelligenceModifier+8);
-				  IF(Level > 12 and Level < 16): not SavingThrow(Ability.Constitution, 1d20+5+IntelligenceModifier+8);
+data "SpellRoll" "IF(Level < 5): not SavingThrow(Ability.Constitution, 1d20+10+IntelligenceModifier);
+				  IF(Level > 4 and Level < 9): not SavingThrow(Ability.Constitution, 1d20+11+IntelligenceModifier+8);
+				  IF(Level > 8 and Level < 13): not SavingThrow(Ability.Constitution, 1d20+12+IntelligenceModifier+8);
+				  IF(Level > 12 and Level < 16): not SavingThrow(Ability.Constitution, 1d20+1+IntelligenceModifier+8);
 				  IF(Level > 15): not SavingThrow(Ability.Constitution, 1d20+6+IntelligenceModifier+8);"
 
 new entry "AGTT_Destruction_DC_vs_DEX"
@@ -23,6 +23,39 @@ data "SpellRoll" "IF(Level < 5): not SavingThrow(Ability.Dexterity, 1d20+2+Intel
 				  IF(Level > 12 and Level < 16): not SavingThrow(Ability.Dexterity, 1d20+5+IntelligenceModifier+8);
 				  IF(Level > 15): not SavingThrow(Ability.Dexterity, 1d20+6+IntelligenceModifier+8);"
 
+// Overwriting Default FireBolt to test the above...
+new entry "Projectile_FireBolt"
+type "SpellData"
+data "SpellType" "Projectile"
+data "Level" "0"
+data "SpellSchool" "Evocation"
+data "SpellProperties" "GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Vaporize);GROUND:CreateSurface(1,0,Fire)"
+data "TargetRadius" "18"
+data "SpellRoll" "Attack(1d20+2+math.max(GetModifier(context.Source.Strength)))"
+data "SpellSuccess" "DealDamage(1d6,Fire)"
+data "TargetConditions" "not Self() and not Dead()"
+data "ProjectileCount" "1"
+data "Template" "792ba497-a6ea-46bc-81cb-deb78e4dd9d3"
+data "Icon" "Spell_Evocation_FireBolt"
+data "DisplayName" "Projectile_FireBolt_DisplayName"
+data "Description" "Projectile_FireBolt_Description"
+data "DescriptionParams" "DealDamage(1d6,Fire)"
+data "TooltipDamageList" "DealDamage(1d6,Fire)"
+data "TooltipAttackSave" "RangedSpellAttack"
+data "PrepareEffect" "VFX_Spells_Prepare_Arcane_Damage_Fire_R_HandFX_01:Dummy_R_HandFX::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Damage_Fire_R_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Prepare_01:0:None::None::0:0::::"
+data "CastEffect" "VFX_Spells_Cast_Damage_Fire_ProjectileSingle_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Somatic_01:0:None::None::0:0::::;VFX_Spells_Cast_Damage_Fire_ProjectileSingle_HandFX_Textkey_02:Dummy_R_HandFX:VFX_Somatic_02:0:None::None::0:0::::;VFX_Spells_Cast_Damage_Fire_ProjectileSingle_CastFX_Textkey_01:Dummy_CastFX:VFX_Somatic_02:0:None::None::0:0::::"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "CastSound" "Spell_Cast_Damage_Fire_FireBolt_L1to3"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimationArcaneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "SpellAnimationDivineMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
+data "RechargeValues" "4-6"
+
 // Cantrips
 // -----------------
 // Fleabite				AGTT_Target_Fleabite
@@ -31,18 +64,19 @@ data "SpellRoll" "IF(Level < 5): not SavingThrow(Ability.Dexterity, 1d20+2+Intel
 // Melt
 // Chill				AGTT_Target_Chill
 // Grease
-// Gust 
+// Gust
 
 new entry "AGTT_Target_Fleabite"
 type "SpellData"
-using "AGTT_Destruction_Attack"
 data "SpellType" "Target"
 data "Level" "0"
 data "Spellschool" "Evocation"
 data "TargetRadius" "3"
+data "SpellRoll" "Attack(AttackType.RangedSpellAttack)"
 data "SpellProperties" "DealDamage(1,Piercing)"
 data "DescriptionParams" "DealDamage(1,Piercing)"
 data "TooltipDamageList" "DealDamage(1,Piercing))"
+data "TooltipAttackSave" "RangedSpellAttack"
 data "TargetConditions" "not Self() and not Dead()"
 data "SpellFlags" "HasSomaticComponent;IsSpell;CannotTargetItems;CannotTargetTerrain;Stealth;IsAttack"
 data "UseCosts" "ActionPoint:1"
@@ -59,12 +93,12 @@ data "MemoryCost" "1"
 
 new entry "AGTT_Target_Chill"
 type "SpellData"
-using "AGTT_Destruction_Attack"
 data "SpellType" "Target"
 data "Level" "0"
 data "Spellschool" "Evocation"
 data "TargetRadius" "9"
-data "SpellSuccess" "ApplyStatus(CHILLED, 100, 5);IF(not Resistance(Cold, Resistant)):ApplyStatus(NR_CHILL, 100, 5)"
+data "SpellRoll" "not SavingThrow(Ability.Constitution, SourceSpellDC())"
+data "SpellSuccess" "ApplyStatus(CHILLED, 100, 5);IF(not Resistance(Cold, Resistant)):ApplyStatus(AGTT_CHILLED, 100, 5)"
 data "SpellFlags" "HasSomaticComponent;IsSpell;CannotTargetItems;CannotTargetTerrain;Stealth;"
 data "TargetConditions" "Character() and not Ally()"
 data "UseCosts" "ActionPoint:1"
@@ -74,7 +108,7 @@ data "Description" "The Target begins to feel unnaturally cold. Unless they are 
 data "SpellAnimationArcaneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90(SPL_Somatic_Beam_Combat_01_Cast);141f48d9-9615-496a-8737-9240f0dba60d(SPL_Somatic_Beam_Combat_01_Recover);;"
 data "SpellAnimationDivineMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90(SPL_Somatic_Beam_Combat_01_Cast);141f48d9-9615-496a-8737-9240f0dba60d(SPL_Somatic_Beam_Combat_01_Recover);;"
 data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90(SPL_Somatic_Beam_Combat_01_Cast);141f48d9-9615-496a-8737-9240f0dba60d(SPL_Somatic_Beam_Combat_01_Recover);;"
-data "TooltipAttackSave" "MeleeSpellAttack"
+data "TooltipAttackSave" "Constitution"
 data "PrepareEffect" "VFX_Spells_Prepare_Arcane_Damage_Cold_R_HandFX_01:Dummy_R_HandFX::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Damage_Cold_R_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Prepare_01:0:None::None::0:0::::"
 data "CastEffect" "VFX_Spells_Cast_Damage_Cold_ProjectileBeam_CastFX_Textkey_01,Detach:Dummy_CastFX:VFX_Somatic_01:0:None::None::0:0::::;VFX_Spells_Cast_Damage_Cold_ProjectileBeam_CastFX_Textkey_02:Dummy_R_HandFX:VFX_Somatic_02:0:None::None::0:0::::;VFX_Spells_Cast_Damage_Cold_ProjectileBeam_Root_Textkey_01,Detach:Dummy_Root:VFX_Somatic_02:0:None::None::0:0::::"
 data "PreviewCursor" "Cast"
@@ -100,7 +134,6 @@ data "MemoryCost" "1"
 
 new entry "AGTT_Target_Frostbite"
 type "SpellData"
-using "AGTT_Destruction_DC_vs_CON"
 data "SpellType" "Target"
 data "Level" "1"
 data "SpellSchool" "Evocation"
@@ -129,15 +162,16 @@ data "MemoryCost" "1"
 
 new entry "AGTT_Target_Pinprick"
 type "SpellData"
-using "AGTT_Destruction_Attack"
 data "SpellType" "Target"
 data "Level" "1"
 data "SpellSchool" "Evocation"
 data "TargetRadius" "3"
+data "SpellRoll" "Attack(AttackType.RangedSpellAttack)"
 data "SpellSuccess" "DealDamage(3,Piercing); ApplyStatus(AGTT_PRICKED, 100, 1)"
 data "TargetConditions" "not Self() and not Dead()"
 data "DescriptionParams" "DealDamage(3,Piercing)"
 data "TooltipDamageList" "DealDamage(3,Piercing)"
+data "TooltipAttackSave" "RangedSpellAttack"
 data "CycleConditions" "Enemy() and not Dead()"
 data "UseCosts" "ActionPoint:1;SpellSlot:1:1:1"
 data "Icon" "Action_Slash"
@@ -157,10 +191,10 @@ data "MemoryCost" "1"
 
 new entry "AGTT_Zone_Sparks"
 type "SpellData"
-using "AGTT_Destruction_DC_vs_DEX"
 data "SpellType" "Zone"
 data "Level" "1"
 data "SpellSchool" "Evocation"
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
 data "SpellProperties" "GROUND:SurfaceChange(Electrify);TARGET:IF(Item()):ApplyStatus(SHOCKED,100,2);"
 data "SurfaceType" "Sentinel"
 data "SurfaceLifetime" "1"
@@ -195,7 +229,6 @@ data "PowerLevel" "1"
 
 new entry "AGTT_Target_Torpor"
 type "SpellData"
-using "AGTT_Destruction_DC_vs_DEX"
 data "SpellType" "Target"
 data "Level" "1"
 data "TargetRadius" "1.5"
@@ -207,6 +240,7 @@ data "TargetConditions" "Character() and not Ally()"
 data "CastTextEvent" "Cast"
 data "UseCosts" "ActionPoint:1;SpellSlot:1:1:1"
 data "Icon" "unknown"
+data "TooltipAttackSave" "Dexterity"
 data "CycleConditions" "Enemy() and not Dead()"
 data "DisplayName" "Torpor"
 data "Description" "Raw Magicka drips from your hands, slowing down the target, and reducing their AC by 2."
@@ -226,17 +260,18 @@ data "MemoryCost" "1"
 
 new entry "AGTT_Target_Wound"
 type "SpellData"
-using "AGTT_Destruction_Attack"
 data "SpellType" "Target"
 data "Level" "1"
 data "TargetRadius" "9"
 data "SpellSchool" "Evocation"
+data "SpellRoll" "Attack(AttackType.RangedSpellAttack)"
 data "SpellSuccess" "ApplyStatus(AGTT_WOUND, 100, 5);DealDamage(WisdomModifier,Necrotic);"
 data "TargetConditions" "not Self() and not Dead()"
 data "CycleConditions" "Enemy() and not Dead()"
 data "CastTextEvent" "Cast"
 data "Icon" "Action_Quasit_Claws"
 data "DisplayName" "Wound"
+data "TooltipAttackSave" "RangedSpellAttack"
 data "Description" "Deep Gashes appear on the target, reducing its maximum hit points and dealing damage equal to your Wisdom Modifier."
 data "DescriptionParams" "DealDamage(WisdomModifier,Necrotic)"
 data "TooltipDamageList" "DealDamage(WisdomModifier,Necrotic)"
