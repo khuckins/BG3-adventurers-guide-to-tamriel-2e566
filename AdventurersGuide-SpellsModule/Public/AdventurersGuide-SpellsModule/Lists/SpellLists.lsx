@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="AGTT_Target_MentalInterference_Psychic;AGTT_Target_MentalInterference_Force;AGTT_Shout_PsychicHowl;AGTT_Teleportation_ProjectObject;AGTT_Shout_SpectralShield"/>
+                    <attribute id="Spells" type="LSString" value="AGTT_Target_MentalInterference_Psychic;AGTT_Target_MentalInterference_Force;AGTT_Target_PsychicHowl;AGTT_Teleportation_ProjectObject;AGTT_Shout_SpectralShield"/>
                     <attribute id="UUID" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa"/>
                 </node>
                 <node id="SpellList">
