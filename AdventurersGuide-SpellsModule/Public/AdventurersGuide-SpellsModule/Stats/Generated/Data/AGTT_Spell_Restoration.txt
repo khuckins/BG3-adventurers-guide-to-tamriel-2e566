@@ -1,8 +1,8 @@
 // Cantrips
 // -----------------
-// Lesser Ward
-// Purify Food and Drink (Ritual)
-// Sacred Flame
+// Lesser Ward						AGTT_Target_LesserWard
+// Purify Food and Drink (Ritual)	AGTT_Shout_PurifyFood (Unimplemented)
+// Sacred Flame						AGTT_Target_SacredFlame
 
 new entry "AGTT_Target_LesserWard"
 type "SpellData"
@@ -38,13 +38,6 @@ data "StackID" "AGTT_STATUS_LESSER_WARD"
 data "Description" "You are resistant to Bludgeoning damage."
 data "Boosts" "Resistance(Bludgeoning, Resistant)"
 
-new entry "AGTT_Target_SacredFlame"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_SacredFlame"
-data "SpellSchool" "Restoration"
-data "SpellFlags" "IgnoreVisionBlock;HasSomaticComponent;IsSpell;CannotTargetTerrain;IsHarmful"
-
 // TODO: Determine how to implement this
 new entry "AGTT_Shout_PurifyFood"
 type "SpellData"
@@ -54,13 +47,20 @@ data "SpellSchool" "Restoration"
 data "UseCosts" "ActionPoint:1"
 data "SpellFlags" "HasSomaticComponent"
 
+new entry "AGTT_Target_SacredFlame"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SacredFlame"
+data "SpellSchool" "Restoration"
+data "SpellFlags" "IgnoreVisionBlock;HasSomaticComponent;IsSpell;CannotTargetTerrain;IsHarmful"
+
 // 1st Level Spells
 // -----------------
-// Bless
-// Hearth Heal
-// Healing Hands
-// Resist Common Disease
-// Resist Poison
+// Bless						AGTT_Target_Bless
+// Hearth Heal					AGTT_Shout_HearthHeal
+// Healing Hands				AGTT_Target_HealingHands
+// Resist Common Disease		AGTT_Shout_ResistDisease (Partially Implemented)
+// Resist Poison				AGTT_Shout_ResistPoison
 
 new entry "AGTT_Target_Bless"
 type "SpellData"
@@ -188,24 +188,6 @@ data "SpellAnimationNoneMagic" "414bbf02-2918-4f01-83fb-1ddc7a588d88(SPL_Arcane_
 data "SpellFlags" "IsSpell;HasSomaticComponent;CannotTargetItems;CannotTargetTerrain"
 data "MemoryCost" "1"
 
-// TODO: Currently no "Disease" to be resistant to
-new entry "AGTT_Shout_ResistDisease"
-type "SpellData"
-data "SpellType" "Shout"
-data "SpellSchool" "Restoration"
-data "SpellProperties" "RemoveStatus(SG_Disease);" // No way to become resistant to Disease yet, so this just cures for now
-data "TargetConditions" "Self()"
-data "DisplayName" "Resist Disease"
-data "Description" "For the duration of the spell, you are resistant to Disease."
-data "Icon" "Spell_Abjuration_LesserRestoration"
-data "CastTextEvent" "Cast"
-data "UseCosts" "ActionPoint:1;SpellSlot:1:1:1"
-data "SpellAnimationArcaneMagic" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5(SPL_Arcane_Buff_Combat_01_Prepare);;a4da186a-0872-461e-ae5e-93d5b32b9bef(SPL_Somatic_Circle_1HandCW_Combat_01_Cast);e8a5c57f-855b-4227-acaa-11e8ce8d7d64(CMBT_Melee_RHand_Combat_01_Recover);;"
-data "SpellAnimationDivineMagic" "f0e00e36-4d0d-4037-830c-fe09383c0d43(SPL_Divine_Buff_Combat_01_Prepare);;a4da186a-0872-461e-ae5e-93d5b32b9bef(SPL_Somatic_Circle_1HandCW_Combat_01_Cast);e8a5c57f-855b-4227-acaa-11e8ce8d7d64(CMBT_Melee_RHand_Combat_01_Recover);;"
-data "SpellAnimationNoneMagic" "414bbf02-2918-4f01-83fb-1ddc7a588d88(SPL_Arcane_Healing_Combat_01_Prepare);;a4da186a-0872-461e-ae5e-93d5b32b9bef(SPL_Somatic_Circle_1HandCW_Combat_01_Cast);e8a5c57f-855b-4227-acaa-11e8ce8d7d64(CMBT_Melee_RHand_Combat_01_Recover);;"
-data "SpellFlags" "IsSpell;HasSomaticComponent;CannotTargetItems;CannotTargetTerrain"
-data "MemoryCost" "1"
-
 new entry "AGTT_STATUS_RESISTPOISON"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -217,13 +199,29 @@ data "StackId" "AGTT_STATUS_RESISTPOISON"
 data "Boosts" "Resistance(Poison, Resistant)"
 
 // TODO: Currently no "Disease" to be resistant to
-new entry "AGTT_STATUS_RESISTDISEASE"
+new entry "AGTT_Shout_ResistDisease"
+type "SpellData"
+data "SpellType" "Shout"
+data "SpellSchool" "Restoration"
+data "SpellProperties" "RemoveStatus(SG_Disease);" // No way to become resistant to Disease yet, so this just cures for now
+data "TargetConditions" "Self()"
+data "DisplayName" "Resist Common Disease"
+data "Description" "For the duration of the spell, you are resistant to Disease."
+data "Icon" "Spell_Abjuration_LesserRestoration"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;SpellSlot:1:1:1"
+data "SpellAnimationArcaneMagic" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5(SPL_Arcane_Buff_Combat_01_Prepare);;a4da186a-0872-461e-ae5e-93d5b32b9bef(SPL_Somatic_Circle_1HandCW_Combat_01_Cast);e8a5c57f-855b-4227-acaa-11e8ce8d7d64(CMBT_Melee_RHand_Combat_01_Recover);;"
+data "SpellAnimationDivineMagic" "f0e00e36-4d0d-4037-830c-fe09383c0d43(SPL_Divine_Buff_Combat_01_Prepare);;a4da186a-0872-461e-ae5e-93d5b32b9bef(SPL_Somatic_Circle_1HandCW_Combat_01_Cast);e8a5c57f-855b-4227-acaa-11e8ce8d7d64(CMBT_Melee_RHand_Combat_01_Recover);;"
+data "SpellAnimationNoneMagic" "414bbf02-2918-4f01-83fb-1ddc7a588d88(SPL_Arcane_Healing_Combat_01_Prepare);;a4da186a-0872-461e-ae5e-93d5b32b9bef(SPL_Somatic_Circle_1HandCW_Combat_01_Cast);e8a5c57f-855b-4227-acaa-11e8ce8d7d64(CMBT_Melee_RHand_Combat_01_Recover);;"
+data "SpellFlags" "IsSpell;HasSomaticComponent;CannotTargetItems;CannotTargetTerrain"
+data "MemoryCost" "1"
+
+// TODO: Currently no "Disease" to be resistant to
+new entry "AGTT_STATUS_RESISTMINORDISEASE"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "Resist Disease"
-data "Description" "You are resistant to Disease"
+data "DisplayName" "Resist Common Disease"
+data "Description" "You are resistant to Common Diseases"
 data "Icon" "Item_CONS_Potion_Poison_Resistance"
 data "ApplyEffect" "VFX_Status_Potion_Buff_BodyFX_01:Dummy_BodyFX:;VFX_Status_Potion_Buff_Root_01:Dummy_Root"
-data "StackId" "AGTT_STATUS_RESISTDISEASE"
-
-
+data "StackId" "AGTT_STATUS_RESISTMINORDISEASE"

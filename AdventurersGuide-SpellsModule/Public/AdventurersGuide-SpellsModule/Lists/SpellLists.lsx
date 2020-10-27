@@ -13,8 +13,38 @@
                     <attribute id="UUID" type="guid" value="2f43a103-5bf1-4534-b14f-663decc0c525"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;AGTT_Target_Bless;AGTT_Shout_HearthHeal;AGTT_Target_HealingHands;AGTT_Target_Torpor;AGTT_Target_Frostbite;AGTT_Zone_Sparks;AGTT_Target_Pinprick;AGTT_Target_Wound;Target_Grease;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;AGTT_Target_Bless;AGTT_Shout_HearthHeal;AGTT_Target_HealingHands;AGTT_Target_Torpor;AGTT_Target_Frostbite;AGTT_Zone_Sparks;AGTT_Target_Pinprick;AGTT_Target_Wound;Target_Grease;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt;AGTT_Shout_ResistPoison;AGTT_Shout_ResistDisease"/>
                     <attribute id="UUID" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="AGTT_Target_Fleabite;
+						AGTT_Target_Chill;" />
+                    <attribute id="UUID" type="guid" value="887d72b7-2b4c-41b1-b819-95055786fce7"/>
+					<attribute id="Name" type="LSString" value="Destruction Cantrips"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="AGTT_Target_Frostbite;
+						AGTT_Target_Pinprick;
+						AGTT_Zone_Sparks;
+						AGTT_Target_Torpor;
+						AGTT_Target_Wound" />
+                    <attribute id="UUID" type="guid" value="84f542f5-64ad-4777-aa35-ce070f830a2b"/>
+					<attribute id="Name" type="LSString" value="Destruction Spells (1st Level)"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="AGTT_Target_SacredFlame;
+						AGTT_Target_LesserWard;" />
+                    <attribute id="UUID" type="guid" value="5b76c53d-3ee5-44ea-9139-f24174b5eba4"/>
+					<attribute id="Name" type="LSString" value="Restoration Cantrips"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="AGTT_Target_Bless;
+						AGTT_Shout_HearthHeal;
+						AGTT_Target_HealingHands;
+						AGTT_Shout_ResistPoison;
+						AGTT_Shout_ResistDisease" />
+                    <attribute id="UUID" type="guid" value="a58aa5e1-89c6-461d-8f45-c5fc10f023bc"/>
+					<attribute id="Name" type="LSString" value="Restoration Spells (1st Level)"/>
                 </node>
 			</children>
         </node>
