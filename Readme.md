@@ -53,3 +53,15 @@ using as well.
               <attribute id="Version" type="int32" value="1"/>
             </node>
 ```
+
+## Other Links
+- [GMBinder link](https://www.gmbinder.com/share/-L3u-2oe4GFo8GtXlRHC) to Adventurer's Guide to Tamriel
+- [BetterUI](https://github.com/Purlana/BetterUI) makes this mod less of a strain on the Character Creation UI
+- [Candor Mod Manager](https://www.nexusmods.com/baldursgate3/mods/22) eases the process of installing mods
+
+## Acknowledgements
+- Larion Software, for working on Baldur's Gate 3 and bringing 5th Edition to PC
+- Bethesda Softworks, for creating a Sci-fi/Fantasy universe that has eaten over a decade of my life
+- The Baldur's Gate 3 Modding Community
+- [https://github.com/ShinyHobo](ShinyHobo) for their work easing the process of creating .pak files
+- 
