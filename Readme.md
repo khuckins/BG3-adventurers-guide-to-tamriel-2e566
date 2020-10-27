@@ -64,4 +64,3 @@ using as well.
 - Bethesda Softworks, for creating a Sci-fi/Fantasy universe that has eaten over a decade of my life
 - The Baldur's Gate 3 Modding Community
 - [https://github.com/ShinyHobo](ShinyHobo) for their work easing the process of creating .pak files
-- 
