@@ -1,0 +1,8 @@
+valuelist "SpellSchool"
+value "None"
+value "Alteration"
+value "Conjuration"
+value "Destruction"
+value "Illusion"
+value "Mysticism"
+value "Restoration"
