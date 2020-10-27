@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;AGTT_Target_LesserWard;AGTT_Target_Fleabite;AGTT_Target_Chill;Projectile_FireBolt;Target_Guidance;Target_Light;Target_MageHand;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Target_TrueStrike"/>
+                    <attribute id="Spells" type="LSString" value="AGTT_Target_MentalInterference_Psychic;AGTT_Target_MentalInterference_Force;AGTT_Shout_PsychicHowl;AGTT_Teleportation_ProjectObject;AGTT_Shout_SpectralShield;Target_Guidance;Target_Light;Target_MageHand;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Target_TrueStrike"/>
                     <attribute id="UUID" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa"/>
                 </node>
                 <node id="SpellList">
@@ -13,7 +13,7 @@
                     <attribute id="UUID" type="guid" value="2f43a103-5bf1-4534-b14f-663decc0c525"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;AGTT_Target_Bless;AGTT_Shout_HearthHeal;AGTT_Target_HealingHands;AGTT_Target_Torpor;AGTT_Target_Frostbite;AGTT_Zone_Sparks;AGTT_Target_Pinprick;AGTT_Target_Wound;Target_Grease;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt;AGTT_Shout_ResistPoison;AGTT_Shout_ResistDisease"/>
+                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;AGTT_Shout_ResistPoison;AGTT_Shout_HearthHeal;AGTT_Target_HealingHands;AGTT_Shout_ResistDisease;AGTT_Target_Frostbite;AGTT_Zone_Sparks;AGTT_Target_Pinprick;AGTT_Target_Wound;Target_Grease;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt;AGTT_Shout_ResistPoison;AGTT_Shout_ResistDisease"/>
                     <attribute id="UUID" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
                 </node>
                 <node id="SpellList">
@@ -32,8 +32,21 @@
 					<attribute id="Name" type="LSString" value="Destruction Spells (1st Level)"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="AGTT_Shout_Clairvoyance_GM;
+						AGTT_Shout_DetectMagic_GM;
+						AGTT_Shout_DetectPoison_GM;
+						AGTT_Target_MentalInterference_Psychic;
+						AGTT_Target_MentalInterference_Force;
+						AGTT_Teleportation_ProjectObject;
+						AGTT_Shout_PsychicHowl;
+						AGTT_Shout_SpectralShield" />
+                    <attribute id="UUID" type="guid" value="bb89ad5b-6850-42b3-8d53-b92851be3330"/>
+					<attribute id="Name" type="LSString" value="Mysticism Cantrips"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Target_SacredFlame;
-						AGTT_Target_LesserWard;" />
+						AGTT_Target_LesserWard;
+						AGTT_Shout_PurifyFood" />
                     <attribute id="UUID" type="guid" value="5b76c53d-3ee5-44ea-9139-f24174b5eba4"/>
 					<attribute id="Name" type="LSString" value="Restoration Cantrips"/>
                 </node>
