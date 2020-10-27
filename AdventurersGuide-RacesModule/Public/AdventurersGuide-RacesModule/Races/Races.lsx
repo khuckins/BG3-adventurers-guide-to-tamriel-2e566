@@ -511,7 +511,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Cyrodiil"/>
                     <attribute id="Name" type="FixedString" value="Cyrodiil"/>
                     <attribute id="ParentGuid" type="guid" value="29b9410a-cb4f-4071-931e-880437da709c"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="2589e45d-a551-476b-916d-c81fc3dfe50f"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="39668970-4021-4113-a6d8-72ea8b55d09d"/>
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Human"/>
                     <attribute id="UUID" type="guid" value="496e35b8-b165-4ec7-b7d9-fe4c036d149a"/>
                     <children>
