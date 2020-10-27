@@ -23,6 +23,7 @@ These can be found in the Wiki, under the [Races](https://github.com/khuckins/BG
 - Bosmer Natural Shapeshifter claims to last until a long rest, but correctly ends after 5 turns
 - Dunmer Ashborn has no Progression Description
 - Orsimer Berserker Rage has no icon
+- A lot of "Not Found" on the Character Creation Menu
 
 ## Installation
 I recommend using Candor mod manager to install, as the process is highly simplified.
