@@ -1,3 +1,28 @@
+// Hack - Destruction uses Intelligence as its Spell Modifier
+new entry "AGTT_Destruction_Attack"
+type "SpellData"
+data "SpellRoll" "IF(Level < 5): Attack(1d20+2+IntelligenceModifier);
+				  IF(Level > 4 and Level < 9): Attack(1d20+3+IntelligenceModifier);
+				  IF(Level > 8 and Level < 13): Attack(1d20+4+IntelligenceModifier);
+				  IF(Level > 12 and Level < 16): Attack(1d20+5+IntelligenceModifier);
+				  IF(Level > 15): Attack(1d20+6+IntelligenceModifier);"
+
+new entry "AGTT_Destruction_DC_vs_CON"
+type "SpellData"
+data "SpellRoll" "IF(Level < 5): not SavingThrow(Ability.Constitution, 1d20+2+IntelligenceModifier+8);
+				  IF(Level > 4 and Level < 9): not SavingThrow(Ability.Constitution, 1d20+3+IntelligenceModifier+8);
+				  IF(Level > 8 and Level < 13): not SavingThrow(Ability.Constitution, 1d20+4+IntelligenceModifier+8);
+				  IF(Level > 12 and Level < 16): not SavingThrow(Ability.Constitution, 1d20+5+IntelligenceModifier+8);
+				  IF(Level > 15): not SavingThrow(Ability.Constitution, 1d20+6+IntelligenceModifier+8);"
+
+new entry "AGTT_Destruction_DC_vs_DEX"
+type "SpellData"
+data "SpellRoll" "IF(Level < 5): not SavingThrow(Ability.Dexterity, 1d20+2+IntelligenceModifier+8);
+				  IF(Level > 4 and Level < 9): not SavingThrow(Ability.Dexterity, 1d20+3+IntelligenceModifier+8);
+				  IF(Level > 8 and Level < 13): not SavingThrow(Ability.Dexterity, 1d20+4+IntelligenceModifier+8);
+				  IF(Level > 12 and Level < 16): not SavingThrow(Ability.Dexterity, 1d20+5+IntelligenceModifier+8);
+				  IF(Level > 15): not SavingThrow(Ability.Dexterity, 1d20+6+IntelligenceModifier+8);"
+
 // Cantrips
 // -----------------
 // Fleabite				AGTT_Target_Fleabite
@@ -10,11 +35,14 @@
 
 new entry "AGTT_Target_Fleabite"
 type "SpellData"
+using "AGTT_Destruction_Attack"
 data "SpellType" "Target"
 data "Level" "0"
 data "Spellschool" "Evocation"
 data "TargetRadius" "3"
 data "SpellProperties" "DealDamage(1,Piercing)"
+data "DescriptionParams" "DealDamage(1,Piercing)"
+data "TooltipDamageList" "DealDamage(1,Piercing))"
 data "TargetConditions" "not Self() and not Dead()"
 data "SpellFlags" "HasSomaticComponent;IsSpell;CannotTargetItems;CannotTargetTerrain;Stealth;IsAttack"
 data "UseCosts" "ActionPoint:1"
@@ -26,11 +54,12 @@ data "SpellAnimationArcaneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcan
 data "SpellAnimationDivineMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;e37d18b8-0de7-4bbc-a644-31ec2a91e548(SPL_Somatic_Touch_Combat_01_Cast);acfe8d41-20c1-4fe8-b158-f4b2be86e080(SPL_Somatic_Touch_Combat_01_Recover);;"
 data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;e37d18b8-0de7-4bbc-a644-31ec2a91e548(SPL_Somatic_Touch_Combat_01_Cast);acfe8d41-20c1-4fe8-b158-f4b2be86e080(SPL_Somatic_Touch_Combat_01_Recover);;"
 data "DisplayName" "Fleabite"
-data "Description" "A creature that you can see, within 10ft, takes 1 Piercing damage."
+data "Description" "A creature that you can see, within 10ft, takes [1]."
 data "MemoryCost" "1"
 
 new entry "AGTT_Target_Chill"
 type "SpellData"
+using "AGTT_Destruction_Attack"
 data "SpellType" "Target"
 data "Level" "0"
 data "Spellschool" "Evocation"
@@ -71,6 +100,7 @@ data "MemoryCost" "1"
 
 new entry "AGTT_Target_Frostbite"
 type "SpellData"
+using "AGTT_Destruction_DC_vs_CON"
 data "SpellType" "Target"
 data "Level" "1"
 data "SpellSchool" "Evocation"
@@ -99,13 +129,15 @@ data "MemoryCost" "1"
 
 new entry "AGTT_Target_Pinprick"
 type "SpellData"
+using "AGTT_Destruction_Attack"
 data "SpellType" "Target"
 data "Level" "1"
 data "SpellSchool" "Evocation"
 data "TargetRadius" "3"
-data "SpellRoll" "Attack(8+IntelligenceModifier)"
 data "SpellSuccess" "DealDamage(3,Piercing); ApplyStatus(AGTT_PRICKED, 100, 1)"
 data "TargetConditions" "not Self() and not Dead()"
+data "DescriptionParams" "DealDamage(3,Piercing)"
+data "TooltipDamageList" "DealDamage(3,Piercing)"
 data "CycleConditions" "Enemy() and not Dead()"
 data "UseCosts" "ActionPoint:1;SpellSlot:1:1:1"
 data "Icon" "Action_Slash"
@@ -118,13 +150,14 @@ data "SpellAnimationArcaneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcan
 data "SpellAnimationDivineMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;e37d18b8-0de7-4bbc-a644-31ec2a91e548(SPL_Somatic_Touch_Combat_01_Cast);acfe8d41-20c1-4fe8-b158-f4b2be86e080(SPL_Somatic_Touch_Combat_01_Recover);;"
 data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;e37d18b8-0de7-4bbc-a644-31ec2a91e548(SPL_Somatic_Touch_Combat_01_Cast);acfe8d41-20c1-4fe8-b158-f4b2be86e080(SPL_Somatic_Touch_Combat_01_Recover);;"
 data "DisplayName" "Pinprick"
-data "Description" "You reach your hands out at a creature you can see within range. A sharp pain strikes their body, dealing 3 Piercing damage. An affected creature takes an additional 3 piercing damage at the start of its next turn."
+data "Description" "You reach your hands out at a creature you can see within range. A sharp pain strikes their body, dealing [1]. An affected creature takes an additional 3 piercing damage at the start of its next turn."
 data "CastTextEvent" "Cast"
 data "SpellFlags" "HasSomaticComponent;IsSpell;CannotTargetItems;CannotTargetTerrain;IsHarmful"
 data "MemoryCost" "1"
 
 new entry "AGTT_Zone_Sparks"
 type "SpellData"
+using "AGTT_Destruction_DC_vs_DEX"
 data "SpellType" "Zone"
 data "Level" "1"
 data "SpellSchool" "Evocation"
@@ -133,14 +166,14 @@ data "SurfaceType" "Sentinel"
 data "SurfaceLifetime" "1"
 data "SurfaceGrowStep" "5"
 data "SurfaceGrowInterval" "10"
-data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
 data "SpellSuccess" "DealDamage(2d6+WisdomModifier, Lightning); ApplyStatus(SHOCKED,100,2);"
 data "SpellFail" "DealDamage(2d6+WisdomModifier/2, Lightning)"
 data "TargetConditions" "HasPassive('SculptSpells', context.Source) and (not Ally() or Item()) or (not HasPassive('SculptSpells', context.Source) and (Character() or Item()))"
 data "Icon" "Spell_Evocation_BurningHands"
 data "DisplayName" "Sparks"
-data "Description" "Sparks of electricity shoot from your fingertips in a 15-foot cone. Each creature within the cone must take a Dexterity saving throw. A creature that makes a failed throw will take lightning damage equal to 2d6 + your Wisdom modifier, or half has much on a succesful throw."
-data "DescriptionParams" "DealDamage(2d6,Lightning)"
+data "Description" "Sparks of electricity shoot from your fingertips in a 15-foot cone. Each creature within the cone must take a Dexterity saving throw. A creature that makes a failed throw will take [1], or half has much on a succesful throw."
+data "DescriptionParams" "DealDamage(2d6,Lightning+WisdomModifier)"
+data "TooltipDamageList" "DealDamage(2d6,Lightning+WisdomModifier)"
 data "TooltipAttackSave" "Dexterity"
 data "PrepareEffect" "VFX_Spells_Prepare_Arcane_Damage_Lightning_R_HandFX_01:Dummy_R_HandFX::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Damage_Lightning_R_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Prepare_01:0:None::None::0:0::::"
 data "CastEffect" "VFX_Spells_Cast_Damage_Lightning_ZoneCone_CastFX_Textkey_01:Dummy_R_HandFX:VFX_Somatic_01:0:None::None::0:0::::;VFX_Spells_Cast_Damage_Lightning_ZoneCone_CastFX_Textkey_02:Dummy_CastFX:Cast:0:None::None::0:0::::;VFX_Spells_Cast_Damage_Lightning_ZoneCone_PostProcess_Textkey_01:Dummy_CastFX:Cast:0:None::None::0:0::::"
@@ -162,6 +195,7 @@ data "PowerLevel" "1"
 
 new entry "AGTT_Target_Torpor"
 type "SpellData"
+using "AGTT_Destruction_DC_vs_DEX"
 data "SpellType" "Target"
 data "Level" "1"
 data "TargetRadius" "1.5"
@@ -192,11 +226,11 @@ data "MemoryCost" "1"
 
 new entry "AGTT_Target_Wound"
 type "SpellData"
+using "AGTT_Destruction_Attack"
 data "SpellType" "Target"
 data "Level" "1"
 data "TargetRadius" "9"
 data "SpellSchool" "Evocation"
-data "SpellRoll" "Attack(8+IntelligenceModifier)"
 data "SpellSuccess" "ApplyStatus(AGTT_WOUND, 100, 5);DealDamage(WisdomModifier,Necrotic);"
 data "TargetConditions" "not Self() and not Dead()"
 data "CycleConditions" "Enemy() and not Dead()"
