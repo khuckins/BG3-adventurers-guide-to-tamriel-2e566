@@ -35,7 +35,7 @@
 					<attribute id="AGTT_Source" type="FixedString" value="High Elf"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="AGTT_Bosmer_Shape_Boar;"/>
+                    <attribute id="Spells" type="LSString" value="AGTT_Bosmer_Shape_Boar;AGTT_Bosmer_Shape_Bear;AGTT_Bosmer_Shape_Rat;AGTT_Bosmer_Shape_Giant_Spider;AGTT_Bosmer_Shape_Wolf;AGTT_Bosmer_Shape_Badger;AGTT_Bosmer_Shape_Raven;AGTT_Bosmer_Shape_Cat;AGTT_Bosmer_Shape_Crab"/>
                     <attribute id="UUID" type="guid" value="00ab586f-de33-4915-b3ad-dc18ecbed38a"/>
 					<attribute id="AGTT_Source" type="FixedString" value="Bosmer"/>
                 </node>

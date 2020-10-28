@@ -117,7 +117,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_BEASTTONGUE"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(00ab586f-de33-4915-b3ad-dc18ecbed38a,1,0,AGTT_Bosmer_Transformation,Intelligence,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(00ab586f-de33-4915-b3ad-dc18ecbed38a,1,0,AGTT_Bosmer_Transformation,Intelligence,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="16a27721-2176-4172-9507-c71fccb0961b"/>
                     <attribute id="UUID" type="guid" value="25fbb11f-99b9-4a63-aeb2-603c399f4928"/>
                 </node>
