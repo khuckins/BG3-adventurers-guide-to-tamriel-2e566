@@ -3,7 +3,7 @@
 // Clairvoyance						AGTT_Shout_Clairvoyance_GM
 // Detect Magic (Ritual)			AGTT_Shout_DetectMagic_GM
 // Detect Poison and Disease		AGTT_Shout_DetectPoison_GM
-// Mental Interference				AGTT_Target_MentalInterference_Psychic	AGTT_Target_MentalInterference_Force
+// Mental Interference				AGTT_Target_MentalInterference
 // Project Object					AGTT_Teleportation_ProjectObject
 // Psychic Howl						AGTT_Target_PsychicHowl
 // Spectral Shield					AGTT_Shout_SpectralShield
@@ -65,9 +65,11 @@ data "SpellType" "Target"
 using "AGTT_Target_MentalInterference_Psychic"
 data "ContainerSpells" "AGTT_Target_MentalInterference_Force;AGTT_Target_MentalInterference_Psychic"
 data "SpellFlags" "HasSomaticComponent;IsSpell;IsHarmful;IsLinkedSpellContainer"
+data "TooltipDamageList" "DealDamage(1d8,Psychic)"
+data "TooltipAttackSave" "RangedSpellAttack"
 data "Icon" "Spell_Divination_DetectThoughts"
 data "DisplayName" "Mental Interference"
-data "Description" "Pointing a finger at hte targer, you worm into the target's mind from afar. On hit, you may deal either 1d8 Psychic damage or 1d8 Force damage."
+data "Description" "Pointing a finger at the targer, you worm into the target's mind from afar. On hit, you may deal either 1d8 Psychic damage or 1d8 Force damage."
 
 new entry "AGTT_Target_MentalInterference_Psychic"
 type "SpellData"
@@ -117,7 +119,7 @@ type "SpellData"
 data "SpellType" "Teleportation"
 data "Level" "0"
 data "SpellSchool" "Mysticism"
-data "Icon" "Skill_Air_Teleportation"
+data "Icon" "Spell_Conjuration_MageHand"
 data "DisplayName" "Project Object"
 data "Description" "Your force of will moves any nearby object a short distance away."
 data "TeleportSelf" "No"
@@ -170,10 +172,11 @@ type "SpellData"
 data "SpellType" "Shout"
 data "Level" "0"
 data "SpellSchool" "Mysticism"
-data "Icon" unknown"
+data "Icon" "Spell_Abjuration_ShieldOfFaith"
 data "DisplayName" "Spectral Shield"
 data "Description" "You increase your AC by +1 until the beginning of your next turn. In addition, if you are the target of Magic Missiles, the attack automatically misses."
 data "SpellProperties" "ApplyStatus(AGTT_STATUS_SPECTRALSHIELD,100,1)"
+data "TooltipStatusApply" "ApplyStatus(AGTT_STATUS_SPECTRALSHIELD,100,1)"
 data "TargetConditions" "Self()"
 data "PrepareEffect" "VFX_Spells_Prepare_Arcane_Intent_Buff_Root_01,KeepRot:Dummy_Root::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Intent_Buff_HandFX_01:Dummy_L_HandFX,Dummy_R_HandFX::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Intent_Buff_BodyFX_Textkey_01:Dummy_BodyFX:VFX_Prepare_01:0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Intent_Buff_Root_Textkey_01,KeepRot:Dummy_Root:VFX_Prepare_01:0:None::None::0:0::::;VFX_Sound_Spell_Prepare_Intent_Buff_01:Dummy_Root::0:None::None::0:0::::"
 data "CastEffect" "VFX_Spells_Cast_Intent_Buff_TargetSingle_R_HandFX_01:Dummy_R_HandFX::0:None::None::0:0::::;VFX_Spells_Cast_Intent_Buff_TargetSingle_R_HandFX_Textkey_01,Detach:Dummy_R_HandFX:Cast:0:None::None::0:0::::"
@@ -229,6 +232,7 @@ type "SpellData"
 data "SpellType" "Target"
 data "Level" "1"
 data "SpellSchool" "Mysticism"
+data "Icon" "Spell_Divination_HuntersMark"
 data "DisplayName" "Brand"
 data "Description" "You point at a creature within 30 feet. For the duration of the spell, the creature must succeed a Wisdom saving throw, or you will know exactly where the creature is, even if they become hidden or turn invisible."
 data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
@@ -300,7 +304,6 @@ new entry "AGTT_Target_Dispel"
 type "SpellData"
 using "Target_DispelMagic"
 data "SpellSchool" "Mysticism"
-
 data "SpellFlags" "IsSpell;HasSomaticComponent"
 
 // Game Master mode only, probably
@@ -338,6 +341,7 @@ new entry "AGTT_Shout_Nightshield"
 type "SpellData"
 data "SpellType" "Shout"
 data "Level" "1"
+data "Icon" "Spell_Abjuration_MageArmor"
 data "SpellSchool" "Mysticism"
 data "DisplayName" "Nightshield"
 data "Description" "A protective field of shadowy energy cloaks your body, protecting you from Force damage and Magic Missile, while also granting a bonus to all saving throws. The spell ends if you are exposed to direct sunlight."
