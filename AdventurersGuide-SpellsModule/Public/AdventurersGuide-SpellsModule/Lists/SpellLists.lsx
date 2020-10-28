@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="AGTT_Target_MentalInterference_Psychic;AGTT_Target_MentalInterference_Force;AGTT_Target_PsychicHowl;AGTT_Teleportation_ProjectObject;AGTT_Shout_SpectralShield"/>
+                    <attribute id="Spells" type="LSString" value="AGTT_Target_FrostwindBlade;AGTT_Target_MentalInterference_Force;AGTT_Target_Ignite;AGTT_Target_Melt;AGTT_Target_Grease;AGTT_Target_Gust"/>
                     <attribute id="UUID" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa"/>
                 </node>
                 <node id="SpellList">
@@ -13,18 +13,39 @@
                     <attribute id="UUID" type="guid" value="2f43a103-5bf1-4534-b14f-663decc0c525"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="AGTT_Target_Brand;AGTT_Target_Command_Halt;AGTT_Target_Dispel;AGTT_Target_Identify;AGTT_Mage_Armor;AGTT_Shout_Nightshield;AGTT_Target_Pester;AGTT_Target_Prophesized_Strike;AGTT_Target_Wound;Target_Grease;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt;AGTT_Shout_ResistPoison;AGTT_Shout_ResistDisease"/>
+                    <attribute id="Spells" type="LSString" value="AGTT_Target_Frostbite;
+						AGTT_Target_Pinprick;
+						AGTT_Zone_BurningHands;
+						AGTT_Zone_Flash;
+						AGTT_Projectile_GuidingBolt;
+						AGTT_Target_Hex;
+						AGTT_MagicMissile;
+						AGTT_Target_ThunderingArmor;
+						AGTT_Zone_Sparks;
+						AGTT_Target_Torpor;
+						AGTT_Target_Wound"/>
                     <attribute id="UUID" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Target_Fleabite;
-						AGTT_Target_Chill;" />
+						AGTT_Target_Chill;
+						AGTT_Target_FrostwindBlade;
+						AGTT_Target_Ignite;
+						AGTT_Target_Melt;
+						AGTT_Target_Grease;
+						AGTT_Target_Gust" />
                     <attribute id="UUID" type="guid" value="887d72b7-2b4c-41b1-b819-95055786fce7"/>
 					<attribute id="Name" type="LSString" value="Destruction Cantrips"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Target_Frostbite;
 						AGTT_Target_Pinprick;
+						AGTT_Zone_BurningHands;
+						AGTT_Zone_Flash;
+						AGTT_Projectile_GuidingBolt;
+						AGTT_Target_Hex;
+						AGTT_MagicMissile;
+						AGTT_Target_ThunderingArmor;
 						AGTT_Zone_Sparks;
 						AGTT_Target_Torpor;
 						AGTT_Target_Wound" />
@@ -44,7 +65,7 @@
 					<attribute id="Name" type="LSString" value="Mysticism Cantrips"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="AGTT_Shout_Clairvoyance_GM;
+                    <attribute id="Spells" type="LSString" value="
 						AGTT_AppraisingTouch_GM;
 						AGTT_Target_Brand;
 						AGTT_Target_Command_Halt;
