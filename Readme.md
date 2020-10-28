@@ -1,4 +1,4 @@
-# Adventurer's Guide to Tamriel (2E566) 0.3.0
+# Adventurer's Guide to Tamriel (2E566) 0.3.0.2
 
 ## Background
 Three years ago, I started creating a setting sourcebook of ~210 pages for d&d 5th edition, set 
