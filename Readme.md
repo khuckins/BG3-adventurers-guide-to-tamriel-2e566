@@ -56,7 +56,7 @@ using as well.
 
 ## Other Links
 - [GMBinder link](https://www.gmbinder.com/share/-L3u-2oe4GFo8GtXlRHC) to Adventurer's Guide to Tamriel
-- [BetterUI](https://github.com/Purlana/BetterUI) makes this mod less of a strain on the Character Creation UI (Note, at the moment this causes a lot of "Not Found" to display on the Character Creation Menu)
+- [BetterUI](https://github.com/Purlana/BetterUI) makes this mod less of a strain on the Character Creation UI
 - [Candor Mod Manager](https://www.nexusmods.com/baldursgate3/mods/22) eases the process of installing mods
 
 ## Acknowledgements
