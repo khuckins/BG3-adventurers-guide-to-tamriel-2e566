@@ -13,7 +13,7 @@
                     <attribute id="UUID" type="guid" value="2f43a103-5bf1-4534-b14f-663decc0c525"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;AGTT_Shout_ResistPoison;AGTT_Shout_HearthHeal;AGTT_Target_HealingHands;AGTT_Shout_ResistDisease;AGTT_Target_Frostbite;AGTT_Zone_Sparks;AGTT_Target_Pinprick;AGTT_Target_Wound;Target_Grease;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt;AGTT_Shout_ResistPoison;AGTT_Shout_ResistDisease"/>
+                    <attribute id="Spells" type="LSString" value="AGTT_Target_Brand;AGTT_Target_Command_Halt;AGTT_Target_Dispel;AGTT_Target_Identify;AGTT_Mage_Armor;AGTT_Shout_Nightshield;AGTT_Target_Pester;AGTT_Target_Prophesized_Strike;AGTT_Target_Wound;Target_Grease;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt;AGTT_Shout_ResistPoison;AGTT_Shout_ResistDisease"/>
                     <attribute id="UUID" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
                 </node>
                 <node id="SpellList">
@@ -42,6 +42,21 @@
 						AGTT_Shout_SpectralShield" />
                     <attribute id="UUID" type="guid" value="bb89ad5b-6850-42b3-8d53-b92851be3330"/>
 					<attribute id="Name" type="LSString" value="Mysticism Cantrips"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="AGTT_Shout_Clairvoyance_GM;
+						AGTT_AppraisingTouch_GM;
+						AGTT_Target_Brand;
+						AGTT_Target_Command_Halt;
+						AGTT_Shout_DetectLife_GM;
+						AGTT_Target_Dispel;
+						AGTT_Target_Identify;
+						AGTT_Mage_Armor;
+						AGTT_Shout_Nightshield;
+						AGTT_Target_Pester;
+						AGTT_Target_Prophesized_Strike" />
+                    <attribute id="UUID" type="guid" value="061eb588-cd57-4de7-9404-740d61b0bcb6"/>
+					<attribute id="Name" type="LSString" value="Mysticism Spells (1st Level)"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Target_SacredFlame;
