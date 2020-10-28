@@ -98,7 +98,7 @@ data "Level" "0"
 using "Target_MainHandAttack"
 data "SpellSchool" "Destruction"
 data "DisplayName" "Frostwind Blade"
-data "Description" "Magical ice encrusts your weapon, causing its attack to deal Cold damage.
+data "Description" "Magical ice encrusts your weapon, causing its attack to deal Cold damage."
 data "SpellRoll" "Attack(AttackType.MeleeSpellAttack)"
 data "TooltipAttackSave" "MeleeSpellAttack"
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, Cold)"
@@ -220,7 +220,7 @@ data "CastSound" "Spell_Cast_Utility_MinorIllusion_L1to3"
 data "TargetSound" "Spell_Impact_Utility_MinorIllusion_L1to3"
 data "UseCosts" "ActionPoint:1"
 data "SpellFlags" "HasSomaticComponent;IsSpell;HasHighGroundRangeExtension"
-data 
+
 // 1st Level Spells
 // -----------------
 // Burning Hands		AGTT_Zone_BurningHands
@@ -237,7 +237,7 @@ data
 // Torpor				AGTT_Target_Torpor
 // Wound				AGTT_Target_Wound
 
-new entry "AGTT_Zone_BurningHands
+new entry "AGTT_Zone_BurningHands"
 type "SpellData"
 data "SpellType" "Zone"
 using "Zone_BurningHands"
@@ -375,7 +375,7 @@ new entry "AGTT_Target_Hex"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_Hex"
-data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell;CannotTargetTerrain;IsLinkedSpellContainer"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell;CannotTargetTerrain;"
 
 new entry "AGTT_Projectile_MagicMissile"
 type "SpellData"
