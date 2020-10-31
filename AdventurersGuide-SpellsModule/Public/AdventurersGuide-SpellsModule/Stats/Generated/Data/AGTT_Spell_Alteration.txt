@@ -139,12 +139,12 @@ data "SpellFlags" "HasSomaticComponent;IsSpell;CannotTargetCharacter;CannotTarge
 // Barrier (Ritual)				AGTT_Target_Barrier
 // Burdening Touch				AGTT_Target_BurdeningTouch
 // Dictate
-// Doorjam						AGTT_Target_Doorjam
+// Doorjam						AGTT_Target_Doorjam - Not yet working
 // Feather						AGTT_Shout_Feather
 // Gust Form					AGTT_Target_GustForm
 // Leaf
 // Magesoap						AGTT_Target_Magesoap
-// Oakflesh						AGTT_Target_Oakflesh
+// Oakflesh						AGTT_Target_Oakflesh - Not yet working
 // Piercing Strike
 // Sanction						AGTT_Target_Sanction
 // Shieldbearer
