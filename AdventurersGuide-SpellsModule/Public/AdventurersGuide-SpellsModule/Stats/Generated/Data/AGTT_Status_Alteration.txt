@@ -3,7 +3,6 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "Buoyancy"
 data "Description" "Your swimming speed is increased, and you may walk on shallow running water as if you were walking on ground."
-data "Boost" ""
 
 new entry "AGTT_STATUS_CANDLELIGHT"
 type "StatusData"
@@ -11,7 +10,7 @@ data "StatusType" "BOOST"
 data "DisplayName" "Candlelight"
 data "Icon" "Spell_Evocation_Light"
 data "Description" "A magical light follows your every move."
-data "StatusEffect" "VFX_Status_FaerieFire_HeadFX_01:Dummy_OverheadFX:;VFX_Status_FaerieFire_Dummy_Root_01" //Dummy_OverheadFX:;VFX_Static_DancingLight_01"
+data "StatusEffect" "VFX_Status_FaerieFire_HeadFX_01:Dummy_OverheadFX:;VFX_Status_FaerieFire_Dummy_Root_01"
 data "Boosts" "UnlockSpell(AGTT_Shout_Candlelight_Dismiss);GameplayLight(12,false,0.1)"
 data "StatusGroups" "SG_Light"
 
@@ -76,10 +75,8 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "Icon" "Action_RegainHP"
 data "DisplayName" "Oakflesh"
-data "Description" "This creature's skin is covered in bark, increasing their AC by 2"
-data "Boost" "IF(context.Source.Armor = 14):AC(1);IF(context.Source.Armor = 13):AC(2);IF(context.Source.Armor = 12):AC(3);IF(context.Source.Armor = 11):AC(4);IF(context.Source.Armor = 10):AC(5);IF(context.Source.Armor = 9):AC(6);IF(context.Source.Armor = 8):AC(7);IF(context.Source.Armor = 7):AC(8);IF(context.Source.Armor = 6):AC(9);IF(context.Source.Armor = 5):AC(10);IF(context.Source.Armor = 4):AC(11);IF(context.Source.Armor = 3):AC(12);IF(context.Source.Armor = 2):AC(13);IF(context.Source.Armor = 1):AC(15);"
-// MaterialApplyBody - Could utilize these two to make the character look bark'd up
-// MaterialApplyArmor
+data "Description" "This creature's skin is covered in bark, adding +2 to their AC, but rendering them vulnerable to fire." ...keeping their AC at a minimum of 15. - For now we'll just add +2AC
+data "Boost" "AC(2);Resistance(Fire, Vulnerable)"
 
 new entry "AGTT_STATUS_SANCTION"
 type "StatusData"
@@ -91,13 +88,6 @@ data "DescriptionParams" "DealDamage(2d6, Radiant)"
 data "StatsFunctorContext" "OnAttack"
 data "StatsFunctorContext" "StatsFunctors(1d6, Radiant)"
 
-// TODO: Revisit when I have more know-how. The above should also trigger an opportunity attack from the caster 
-// to Sanctioned target only whenever it attacks someone besides the caster
-//new entry "AGTT_STATUS_SANCTION_OWNER"
-//type "StatusData"
-//data "StatusType" "BOOST"
-//data "Boost" "UnlockSpell(AGTT_Target_Sanction_Reaction)"
-
 new entry "AGTT_STATUS_STONEFIST"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -105,3 +95,11 @@ data "Icon" "Action_Bash"
 data "DisplayName" "Stonefist"
 data "Description" "This creature's main hand has become stone"
 data "Boosts" "UnlockSpell(AGTT_Target_StonefistStrike)"
+
+new entry "AGTT_STATUS_DOORJAM"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "unknown"
+data "DisplayName" "Doorjam"
+data "Description" "This item has been magically locked"
+data "Boosts" ""
