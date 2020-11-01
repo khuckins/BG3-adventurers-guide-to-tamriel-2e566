@@ -1,0 +1,8 @@
+new entry "AGTT_Passive_MeridiasGrasp"
+type "PassiveData"
+data "DisplayName" "Meridia's Grasp"
+data "Description" "This creature is in Caught in Meridia's light. The next character to attack it will recieve [1]."
+data "DescriptionParams" "TemporaryHP(1d6/2)"
+data "Conditions" "IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
+data "StatsFunctors" TemporaryHP(1d6/2)"
+data "StatsFunctorContext" "OnAttacked"

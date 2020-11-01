@@ -1,12 +1,106 @@
 // Cantrips
 // -----------------
-// Azura's Rain
+// Azura's Rain					AGTT_Projectile_AzurasRain
 // Conjure Wisp
 // Create Item
-// Create or Destroy Water
+// Create or Destroy Water		AGTT_Target_CreateWater
 // Bind Familiar
-// Mehrune's Smoke
-// Meridia's Grasp
+// Mehrune's Smoke				AGTT_Target_MehrunesSmoke
+// Meridia's Grasp				AGTT_Target_MeridiasGrasp
+
+new entry "AGTT_Projectile_AzurasRain"
+type "SpellData"
+data "SpellType" "Projectile"
+data "Level" "0"
+data "SpellSchool" "Conjuration"
+data "Icon" "Spell_Evocation_GuidingBolt"
+data "DisplayName" "Azura's Rain"
+data "Description" "A minor portal to Moonshadow appears above the target location, showering radiant twilight. Any enemy who fails a Dexterity saving throw struck directly takes [2], or if caught in the radius take [1]."
+data "TargetRadius" "18"
+data "AreaRadius" "3"
+data "ExplodeRadius" "3"
+data "ProjectileCount" "1"
+data "Template" "c63c4527-1bdf-4635-ad59-7d7e2f666fa3"
+data "Shape" "cube"
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
+data "SpellSuccess" "TARGET:AOE:DealDamage(1d4, Radiant);TARGET:DealDamage(1d4, Fire)"
+data "TooltipDamageList" "DealDamage(1d4, Radiant), DealDamage(1d4, Fire)"
+data "DescriptionParams" "DealDamage(1d4, Radiant), DealDamage(1d4, Fire)"
+data "PrepareEffect" "VFX_Spells_Prepare_Arcane_Damage_Radiant_R_HandFX_01:Dummy_R_HandFX::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Damage_Radiant_R_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Prepare_01:0:None::None::0:0::::"
+data "CastEffect" "VFX_Spells_Cast_Damage_Radiant_ProjectileSingle_R_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Somatic_01:0:None::None::0:0::::;VFX_Spells_Cast_Damage_Radiant_ProjectileSingle_R_HandFX_Textkey_02:Dummy_R_HandFX:VFX_Somatic_02:0:None::None::0:0::::"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "CastSound" "Spell_Cast_Damage_Radiant_GuidingBolt_L1to3"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimationArcaneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "SpellAnimationDivineMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
+data "MemoryCost" "1"
+
+new entry "AGTT_Target_CreateWater"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CreateWater"
+data "UseCosts" "ActionPoint:1"
+data "RootSpellID" "Target_CreateWater"
+
+new entry "AGTT_Target_MehrunesSmoke"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "0"
+data "SpellSchool" "Conjuration"
+data "Icon" "Spell_Evocation_Darkness"
+data "DisplayName" "Mehrune's Smoke"
+data "Description" "Smoke emanates from a minor portal to the Deadlands, creating a mystical darkness in a [1] area."
+data "SpellProperties" "GROUND:CreateSurface(5,0,DarknessCloud)"
+data "DescriptionParams" "Distance(5)"
+data "TargetRadius" "9"
+data "AreaRadius" "5"
+data "PrepareEffect" "VFX_Spells_Prepare_Arcane_Intent_Utility_Root_01:Dummy_Root::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Intent_Utility_Dummy_EyeFX_01:Dummy_EyeFX_01,Dummy_EyeFX_02::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Intent_Utility_CastFX_01:Dummy_CastFX::0:None::None::0:0::::"
+data "CastEffect" "VFX_Spells_Cast_Intent_Utility_TargetAoe_Rise_CastFX_01,Detach:Dummy_CastFX::0:None::None::0:0::::;VFX_Spells_Cast_Intent_Utility_TargetAoe_Rise_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Somatic_01:0:None::None::0:0::::"
+data "PositionEffect" "VFX_Spells_Cast_Intent_Utility_TargetAoE_Impact_Root_01::Cast:0:None::None::0:0::::"
+data "CastTextEvent" "Cast"
+data "CastSound" "Spell_Cast_Utility_Darkness_L1to3"
+data "VocalComponentSound" "Vocal_Component_Dark"
+data "TargetSound" "Spell_Impact_Utility_Darkness_L1to3"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1
+data "SpellAnimationArcaneMagic" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197(SPL_Arcane_Utility_Combat_01_Prepare);;7abe77ed-9c77-4eac-872c-5b8caed070b6(SPL_Somatic_Aoe_Rise_Combat_01_Cast);cb171bda-f065-4520-b470-e447f678ba1f(SPL_Somatic_Aoe_Rise_Combat_01_Recover);;"
+data "SpellAnimationDivineMagic" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197(SPL_Arcane_Utility_Combat_01_Prepare);;7abe77ed-9c77-4eac-872c-5b8caed070b6(SPL_Somatic_Aoe_Rise_Combat_01_Cast);cb171bda-f065-4520-b470-e447f678ba1f(SPL_Somatic_Aoe_Rise_Combat_01_Recover);;"
+data "SpellAnimationNoneMagic" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197(SPL_Arcane_Utility_Combat_01_Prepare);;7abe77ed-9c77-4eac-872c-5b8caed070b6(SPL_Somatic_Aoe_Rise_Combat_01_Cast);cb171bda-f065-4520-b470-e447f678ba1f(SPL_Somatic_Aoe_Rise_Combat_01_Recover);;"
+data "VerbalIntent" "Utility"
+data "SpellFlags" "HasVerbalComponent;IsSpell;IsConcentration;Stealth"
+data "MemoryCost" "1"
+
+new entry "AGTT_Target_MeridiasGrasp"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "0"
+data "SpellSchool" "Conjuraiton"
+data "Icon" "Spell_Abjuration_Aid"
+data "DisplayName" "Meridia's Grasp"
+data "Description" "A flash of silver light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target suffers [1], and you outline your enemy wwith the silver glow of the astral plane, exuding an energizing light that may aid an ally. The next time an ally hits the target with an attack roll before the end of your next turn, that ally gains temporary hit points equal to [2].
+data "DescriptionParams" "DealDamage(1d6,Radiant);TemporaryHP(1d6/2)"
+data "SpellRoll" "Attack(RangedSpellAttack)"
+data "SpellConditions" "DealDamage(1d6, Radiant);ApplyStatus(AGTT_STATUS_MERIDIASGRASP, 100, 11"
+data "PrepareEffect" "VFX_Spells_Prepare_Arcane_Damage_Radiant_R_HandFX_01:Dummy_R_HandFX::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Damage_Radiant_R_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Prepare_01:0:None::None::0:0::::"
+data "CastEffect" "VFX_Spells_Cast_Damage_Radiant_ProjectileSingle_R_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Somatic_01:0:None::None::0:0::::;VFX_Spells_Cast_Damage_Radiant_ProjectileSingle_R_HandFX_Textkey_02:Dummy_R_HandFX:VFX_Somatic_02:0:None::None::0:0::::"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "CastSound" "Spell_Cast_Damage_Radiant_GuidingBolt_L1to3"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimationArcaneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "SpellAnimationDivineMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
+data "MemoryCost" "1"
+
+
 
 
 
