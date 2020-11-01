@@ -63,10 +63,18 @@ data "ExtraDescription" "The Lord's Season is First Seed, and he oversees all of
 
 new entry "AGTT_Elfborn"
 type "PassiveData"
-data "Boosts" ""
+data "DisplayName" "The Apprentice: Elfborn"
+data "Description" "You are vulnerable to Magical attacks."
+data "Boosts" "Resistant(Slashing, VulnerableToMagical);Resistant(Piercing, VulnerableToMagical);Resistant(Bludgeoning, VulnerableToMagical);Resistant(Acid, VulnerableToMagical);Resistant(Thunder, VulnerableToMagical);Resistant(Necrotic, VulnerableToMagical);Resistant(Fire, VulnerableToMagical);Resistant(Lightning, VulnerableToMagical);Resistant(Cold, VulnerableToMagical);Resistant(Psychic, VulnerableToMagical);Resistant(Poison, VulnerableToMagical);Resistant(Radiant, VulnerableToMagical);Resistant(Force, VulnerableToMagical);"
+data "Passives" "AGTT_MagicalTalent"
+data "ExtraDescription" "The Apprentice's Season is Sun's Height. Those born under the sign of the Apprentice have a special affinity for magic of all kinds, but are equally as vulnerable to it."
 
 new entry "AGTT_MagicalTalent"
 type "PassiveData"
+data "Boosts" "ActionResource(SpellSlot,1,1);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1)"
+data "DisplayName" "The Apprentice: Magical Talent"
+data "Description" "Those born under the sign of the Apprentice have an additional 1st level Spell Slot, and may record a single spell from the Wizard spell list." // TODO: Change this to Alteration, Destruction, or Illusion
+data "ExtraDescription" "The Apprentice's Season is Sun's Height. Those born under the sign of the Apprentice have a special affinity for magic of all kinds, but are equally as vulnerable to it."
 
 new entry "AGTT_StuntedMagicka"
 type "PassiveData"
