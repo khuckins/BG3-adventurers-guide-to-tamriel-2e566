@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="Feats">
+        <node id="root">
+            <children>
+                <!-- The Warrior -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Warwyrd"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(ab2accb0-b523-4391-82ea-248594e9570f,1,1,FeatASI)"/>
+                    <attribute id="UUID" type="guid" value="fbadd4eb-b56b-4401-9cdd-e2cfed473849"/>
+                </node>
+                <!-- The Mage -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Fay"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(245844bb-fd26-43c1-99fe-72fc8d0b4791,1,1,FeatASI)"/>
+                    <attribute id="UUID" type="guid" value="4394e3d7-bad0-4c23-b7aa-6243c0d0e0c3"/>
+                </node>
+                <!-- The Thief -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Hara"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(71338a10-f00a-4dc2-adb0-07d5370b2dbb,1,1,FeatASI)"/>
+                    <attribute id="UUID" type="guid" value="bc504b6f-6167-46b6-8ab2-0f1a79973bc6"/>
+                </node>
+                <!-- The Lady -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="LadysFavor"/>
+                    <attribute id="PassivesAdded" type="LSString" value="AGTT_LadysFavor"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="eaf8e842-cd01-49f1-ad48-6bb483c4056e"/>
+                </node>
+                <!-- The Steed -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Charioteer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="AGTT_Charioteer"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="8928f199-83e7-450b-8902-7ede6c240087"/>
+                </node>
+                <!-- The Lord -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="AGTT_Trollkin"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6df5313e-180d-4853-af90-31bfbe280eb9)"/>
+                    <attribute id="UUID" type="guid" value="5ac5c565-e589-474c-91c3-d4a1189416c7"/>
+                </node>
+                <!-- The Apprentice -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="AbilityScoreIncrease"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(71338a10-f00a-4dc2-adb0-07d5370b2dbb,1,1,FeatASI)"/>
+                    <attribute id="UUID" type="guid" value="6fd214e6-0e8f-4215-ab6c-e2ebc865e5eb"/>
+                </node>
+                <!-- The Atronach -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="AbilityScoreIncrease"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6df5313e-180d-4853-af90-31bfbe280eb9)"/>
+                    <attribute id="UUID" type="guid" value="92a837ac-f184-4a40-af08-ccb0f0fd325a"/>
+                </node>
+                <!-- The Ritual -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="AbilityScoreIncrease"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6df5313e-180d-4853-af90-31bfbe280eb9)"/>
+                    <attribute id="UUID" type="guid" value="5b467e02-b894-48ee-84be-58c90aaad413"/>
+                </node>
+                <!-- The Lover -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="AbilityScoreIncrease"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6df5313e-180d-4853-af90-31bfbe280eb9)"/>
+                    <attribute id="UUID" type="guid" value="edeb4ba8-3129-4708-a67f-8fadc600a0c5"/>
+                </node>
+                <!-- The Shadow -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="AbilityScoreIncrease"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6df5313e-180d-4853-af90-31bfbe280eb9)"/>
+                    <attribute id="UUID" type="guid" value="213e35c4-0d88-43b5-abf3-4c3b34b10ff3"/>
+                </node>
+                <!-- The Tower -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="AbilityScoreIncrease"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6df5313e-180d-4853-af90-31bfbe280eb9)"/>
+                    <attribute id="UUID" type="guid" value="79a20e78-d523-4309-abe3-720d823cde23"/>
+                </node>
+                <!-- The Serpent -->
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="AbilityScoreIncrease"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="Requirements" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6df5313e-180d-4853-af90-31bfbe280eb9)"/>
+                    <attribute id="UUID" type="guid" value="652d04f8-f0ff-4dd0-b705-3d4f3c0a87a5"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

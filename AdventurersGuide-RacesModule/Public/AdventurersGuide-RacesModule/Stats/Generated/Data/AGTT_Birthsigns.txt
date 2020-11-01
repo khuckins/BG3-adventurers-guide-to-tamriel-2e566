@@ -1,0 +1,99 @@
+new entry "AGTT_Warwyrd_STR"
+type "PassiveData"
+data "Boosts" "Ability(Strength, 1)"
+data "DisplayName" "The Warrior: Warwyrd (Strength)"
+data "Description" "Those born under the sign of the Warrior may add +1 to their Constitution or to their Strength Ability Scores."
+data "ExtraDescription" "The Warrior is the first Guardian Constellation and he protects his charges during their Seasons. The Warrior's own season is Last Seed, when his Strength is needed for the harvest. His charges are the Lady, the Steed, and the Lord. Those born under the sign of the Warrior are skilled with weapons of all kinds, but prone to short tempers."
+
+new entry "AGTT_Warwyrd_CON"
+type "PassiveData"
+data "Boosts" "Ability(Constitution, 1)"
+data "DisplayName" "The Warrior: Warwyrd (Constitution)"
+data "Description" "Those born under the sign of the Warrior may add +1 to their Constitution or to their Strength Ability Scores."
+data "ExtraDescription" "The Warrior is the first Guardian Constellation and he protects his charges during their Seasons. The Warrior's own season is Last Seed, when his Strength is needed for the harvest. His charges are the Lady, the Steed, and the Lord. Those born under the sign of the Warrior are skilled with weapons of all kinds, but prone to short tempers."
+
+new entry "AGTT_Fay_INT"
+type "PassiveData"
+data "Boosts" "Ability(Intelligence, 1)"
+data "DisplayName" "The Mage: Fay (Intelligence)"
+data "Description" "Those born under the sign of the Mage may add +1 to their Intelligence or to their Wisdom Ability Scores."
+data "ExtraDescription" "The Mage is a Guardian Constellation who's Season is Rain's Hand, when Magicka was first used by mankind. His charges are the Apprentice, the Atronach, and the Ritual. Those born under the Mage have more Magicka and talent for all kinds of spellcasting, but are often arrogant and absent-minded."
+
+new entry "AGTT_Fay_WIS"
+type "PassiveData"
+data "Boosts" "Ability(Wisdom, 1)"
+data "DisplayName" "The Mage: Fay (Wisdom)"
+data "Description" "Those born under the sign of the Mage may add +1 to their Intelligence or to their Wisdom Ability Scores."
+data "ExtraDescription" "The Mage is a Guardian Constellation who's Season is Rain's Hand, when Magicka was first used by mankind. His charges are the Apprentice, the Atronach, and the Ritual. Those born under the Mage have more Magicka and talent for all kinds of spellcasting, but are often arrogant and absent-minded."
+
+new entry "AGTT_Hara_DEX"
+type "PassiveData"
+data "Boosts" "Ability(Dexterity, 1)"
+data "DisplayName" "The Thief: Hara (Dexterity)"
+data "Description" Those born under the sign of the Thief may add +1 to their Dexterity or to their Charisma Ability Scores."
+data "ExtraDescription" "The Thief is the last Guardian Constellation, and her Season is the darkest month of Evening Star. Her charges are the Lover, the Shadow, and the Tower. Those born under the sign of the Thief are not typically thieves, though they take risks more often and only rarely come to harm. They will run out of luck eventually, however, and rarely live as long as those born under other signs."
+
+new entry "AGTT_Hara_CHA"
+type "PassiveData"
+data "Boosts" "Ability(Charisma, 1)"
+data "DisplayName" "The Thief: Hara (Charisma)"
+data "Description" Those born under the sign of the Thief may add +1 to their Dexterity or to their Charisma Ability Scores."
+data "ExtraDescription" "The Thief is the last Guardian Constellation, and her Season is the darkest month of Evening Star. Her charges are the Lover, the Shadow, and the Tower. Those born under the sign of the Thief are not typically thieves, though they take risks more often and only rarely come to harm. They will run out of luck eventually, however, and rarely live as long as those born under other signs."
+
+new entry "AGTT_LadysFavor"
+type "PassiveData"
+data "Boosts" "IncreaseMaxHP(ConstitutionModifier+Level)"
+data "DisplayName" "The Lady: Lady's Favor"
+data "Description" "Those born under the sign of the Lady may add their Constitution Modifier and their Level to their hit points when levelling up."
+data "ExtraDescription" "The Lady is one of the Warrior's charges, and her Season is Hearthfire. Those born under the sign of the Lady are kind and tolerant."
+
+new entry "AGTT_Charioteer"
+type "PassiveData"
+data "Boosts" "ActionResource(Movement, 1.5, 0)"
+data "DisplayName" "The Steed: Charioteer"
+data "Description" "Those born under the sign of the Speed gain an additional 1.5m of movement."
+data "ExtraDescription" "The Steed is one of the Warrior's charges, and her Season is Mid Year. Those born under the sign of the Steed are impatient, and always hurrying from one place to another."
+
+new entry "AGTT_Trollkin"
+type "PassiveData"
+data "Boosts" "Resistance(Fire, Vulnerable);UnlockSpell(AGTT_BS_BloodOfTheNorth)"
+data "DisplayName" "The Lord: Trollkin"
+data "Description" "Those born under the sign of the Lord are vulnerable to Fire. They also gain the ability Blood of the North, which allows them to regenerate health."
+data "ExtraDescription" "The Lord's Season is First Seed, and he oversees all of Tamriel during the planting. Those born under the sign of the Lord are stronger and healthier than those born under other signs."
+
+new entry "AGTT_Elfborn"
+type "PassiveData"
+data "Boosts" ""
+
+new entry "AGTT_MagicalTalent"
+type "PassiveData"
+
+new entry "AGTT_StuntedMagicka"
+type "PassiveData"
+
+new entry "AGTT_Wombburn"
+type "PassiveData"
+
+new entry "AGTT_Mooncalf"
+type "PassiveData"
+
+new entry "AGTT_BloodOfTheNorth"
+type "SpellData"
+
+new entry "AGTT_MarasGift"
+type "SpellData"
+
+new entry "AGTT_BlessedWord"
+type "SpellData"
+
+new entry "AGTT_LoversEmbrace"
+type "SpellData"
+
+new entry "AGTT_Moonshadow"
+type "SpellData"
+
+new entry "AGTT_TowerKey"
+type "SpellData"
+
+new entry "AGTT_StarCurst"
+type "SpellData"
