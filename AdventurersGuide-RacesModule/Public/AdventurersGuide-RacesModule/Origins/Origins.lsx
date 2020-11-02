@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="Origins">
+        <node id="root">
+            <children>
+                <node id="Origin">
+                    <attribute id="AppearanceLocked" type="bool" value="false"/>
+                    <attribute id="AvailableInCharacterCreation" type="bool" value="true"/>
+                    <attribute id="BackgroundUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BirthsignUUID" type="guid" value="f0e7f27b-7d25-4bfc-9682-adb18c669d64"/>
+                    <attribute id="ClassEquipmentOverride" type="FixedString" value=""/>
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="CloseUpA" type="LSString" value=""/>
+                    <attribute id="CloseUpB" type="LSString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Origins_New_Stat_0_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Origins_New_Stat_0_DisplayName"/>
+                    <attribute id="Gender" type="uint8" value="2"/>
+                    <attribute id="GlobalTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="GodUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="LockClass" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Generic"/>
+                    <attribute id="Overview" type="LSString" value=""/>
+                    <attribute id="Passives" type="LSString" value="DeathSavingThrows"/>
+                    <attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SubClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="UUID" type="guid" value="a4b56492-d5ac-4a84-8e45-5437cd9da7f3"/>
+                    <attribute id="Unique" type="bool" value="false"/>
+                    <attribute id="VoiceTableUUID" type="guid" value="5ee56242-d07c-482e-9260-24529d1473a3"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="264a6880-9a51-429c-a9fc-97f8952baf90"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="730e82f3-c067-44a4-985b-0dfe079d4fea"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

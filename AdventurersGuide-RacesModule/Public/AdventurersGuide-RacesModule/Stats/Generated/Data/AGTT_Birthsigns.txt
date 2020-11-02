@@ -30,14 +30,14 @@ new entry "AGTT_Hara_DEX"
 type "PassiveData"
 data "Boosts" "Ability(Dexterity, 1)"
 data "DisplayName" "The Thief: Hara (Dexterity)"
-data "Description" Those born under the sign of the Thief may add +1 to their Dexterity or to their Charisma Ability Scores."
+data "Description" "Those born under the sign of the Thief may add +1 to their Dexterity or to their Charisma Ability Scores."
 data "ExtraDescription" "The Thief is the last Guardian Constellation, and her Season is the darkest month of Evening Star. Her charges are the Lover, the Shadow, and the Tower. Those born under the sign of the Thief are not typically thieves, though they take risks more often and only rarely come to harm. They will run out of luck eventually, however, and rarely live as long as those born under other signs."
 
 new entry "AGTT_Hara_CHA"
 type "PassiveData"
 data "Boosts" "Ability(Charisma, 1)"
 data "DisplayName" "The Thief: Hara (Charisma)"
-data "Description" Those born under the sign of the Thief may add +1 to their Dexterity or to their Charisma Ability Scores."
+data "Description" "Those born under the sign of the Thief may add +1 to their Dexterity or to their Charisma Ability Scores."
 data "ExtraDescription" "The Thief is the last Guardian Constellation, and her Season is the darkest month of Evening Star. Her charges are the Lover, the Shadow, and the Tower. Those born under the sign of the Thief are not typically thieves, though they take risks more often and only rarely come to harm. They will run out of luck eventually, however, and rarely live as long as those born under other signs."
 
 new entry "AGTT_LadysFavor"
@@ -61,12 +61,13 @@ data "DisplayName" "The Lord: Trollkin"
 data "Description" "Those born under the sign of the Lord are vulnerable to Fire. They also gain the ability Blood of the North, which allows them to regenerate health."
 data "ExtraDescription" "The Lord's Season is First Seed, and he oversees all of Tamriel during the planting. Those born under the sign of the Lord are stronger and healthier than those born under other signs."
 
+// TODO: Change this to Alteration, Destruction, or Illusion
 new entry "AGTT_Elfborn"
 type "PassiveData"
 data "DisplayName" "The Apprentice: Elfborn"
-data "Description" "You are vulnerable to Magical attacks. You also gain an additional 1st Level Spell Slot, and may record a single spell from the Wizard spell list." // TODO: Change this to Alteration, Destruction, or Illusion
+data "Description" "You are vulnerable to Magical attacks. You also gain an additional 1st Level Spell Slot, and may record a single spell from the Wizard spell list."
 data "Boosts" "Resistant(Slashing, VulnerableToMagical);Resistant(Piercing, VulnerableToMagical);Resistant(Bludgeoning, VulnerableToMagical);Resistant(Acid, VulnerableToMagical);Resistant(Thunder, VulnerableToMagical);Resistant(Necrotic, VulnerableToMagical);Resistant(Fire, VulnerableToMagical);Resistant(Lightning, VulnerableToMagical);Resistant(Cold, VulnerableToMagical);Resistant(Psychic, VulnerableToMagical);Resistant(Poison, VulnerableToMagical);Resistant(Radiant, VulnerableToMagical);Resistant(Force, VulnerableToMagical);ActionResource(SpellSlot,1,1);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1)"
-data "ExtraDescription" "The Apprentice's Season is Sun's Height. Those born under the sign of the Apprentice have a special affinity for magic of all kinds, but are equally as vulnerable to it."
+data "ExtraDescriptionRef" "The Apprentice's Season is Sun's Height. Those born under the sign of the Apprentice have a special affinity for magic of all kinds, but are equally as vulnerable to it."
 
 new entry "AGTT_StuntedMagicka"
 type "PassiveData"

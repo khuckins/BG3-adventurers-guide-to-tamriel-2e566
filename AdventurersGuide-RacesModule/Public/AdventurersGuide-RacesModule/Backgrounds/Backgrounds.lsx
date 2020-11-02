@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="48"/>
+    <region id="Backgrounds">
+        <node id="root">
+            <children>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_10_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_10_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_Acolyte"/>
+                    <attribute id="UUID" type="guid" value="633aa4be-365f-4358-ba56-e2b85f9a88ec"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="906d1961-e9c6-4170-b775-62797a0efe1c"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_0_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_0_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_Charlatan"/>
+                    <attribute id="UUID" type="guid" value="76925f0b-3ec8-4f42-86a9-cd4f745af2ac"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="07925e5b-af3d-4743-a565-b9fee04c24ac"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_1_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_1_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_Criminal"/>
+                    <attribute id="UUID" type="guid" value="e8c84134-5e91-4ecc-881a-efc47680129b"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="74ed9de3-fff5-419a-949b-18bd5e17944e"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_2_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_2_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_Entertainer"/>
+                    <attribute id="UUID" type="guid" value="229775c9-3044-4779-a3bb-532c39238e03"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="bd3cfefd-5fe2-47ea-bd3c-e99eaad9b714"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_3_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_3_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_FolkHero"/>
+                    <attribute id="UUID" type="guid" value="efcb0b57-5d5a-4a54-a7b3-a618829fe379"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="9c38904c-4aed-4d22-9038-fc7d103aaed5"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_11_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_11_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_GuildArtisan"/>
+                    <attribute id="UUID" type="guid" value="e9aeac40-6c4e-4d81-9a24-e9eeb6208e85"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="baf9fb0e-f535-40a0-bb78-3ec289d84e66"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_4_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_4_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_Noble"/>
+                    <attribute id="UUID" type="guid" value="7e820dee-a8fc-43b2-8661-2b404454bade"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="56825486-9cfc-4ec2-87d1-c8065c41774b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_5_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_5_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_Hermit"/>
+                    <attribute id="UUID" type="guid" value="a1dab8dc-3be9-4062-b4db-a640230bba61"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="2fa3f042-2b50-41b2-8045-39ddd4421ca9"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_6_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_6_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_Outlander"/>
+                    <attribute id="UUID" type="guid" value="5b1e726f-52bf-4e93-a798-9f93c067ee7f"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="d81df6f9-9f6e-4146-841a-9f285e6ee879"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_7_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_7_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_Sage"/>
+                    <attribute id="UUID" type="guid" value="8807a6c6-d8cf-494b-aec2-cc01d7517a56"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="dad18490-c61d-4958-805c-f017eb68f8a0"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_12_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_12_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_Sailor"/>
+                    <attribute id="UUID" type="guid" value="7a7be1dc-4bf7-49a0-bc33-31440b68c035"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_8_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_8_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_Soldier"/>
+                    <attribute id="UUID" type="guid" value="1252a86e-9baa-4ccb-b8ce-2378ae006f0b"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="d135f265-c2e1-4077-a836-b548ee871681"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_9_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_9_DisplayName"/>
+                    <attribute id="Passives" type="LSString" value="Background_Urchin"/>
+                    <attribute id="UUID" type="guid" value="ac38525a-222b-4280-9c8e-60d5533b675c"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="2faee476-d77b-42a7-a4c6-2b9ac934673c"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="Birthsigns">
+        <node id="root">
+            <children>
+                <node id="Birthsign">
+                    <attribute id="Description" type="FixedString" value="The Warrior is the first Guardian Constellation and he protects his charges during their Seasons. The Warrior's own season is Last Seed, when his Strength is needed for the harvest. His charges are the Lady, the Steed, and the Lord. Those born under the sign of the Warrior are skilled with weapons of all kinds, but prone to short tempers."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Warrior: Warwyrd (Strength)"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Warwyrd_STR"/>
+                    <attribute id="UUID" type="guid" value="f0e7f27b-7d25-4bfc-9682-adb18c669d64"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b20ec139-66a1-4946-9fc5-c5078dc80984"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Birthsign">
+                    <attribute id="Description" type="FixedString" value="The Warrior is the first Guardian Constellation and he protects his charges during their Seasons. The Warrior's own season is Last Seed, when his Strength is needed for the harvest. His charges are the Lady, the Steed, and the Lord. Those born under the sign of the Warrior are skilled with weapons of all kinds, but prone to short tempers."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Warrior: Warwyrd (Constitution)"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Warwyrd_CON"/>
+                    <attribute id="UUID" type="guid" value="46df9914-2781-4c1a-815c-0412bb3e2fd1"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b382dd55-576f-4e11-a3ed-a6263b121b23"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+</save>
