@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|The Lover is one of the Thief's charges, and her season is Sun's Dawn. Those born under the sign of the Lover are graceful and passionate.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="The Lover is one of the Thief's charges, and her season is Sun's Dawn. Those born under the sign of the Lover are graceful and passionate." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="Mooncalf" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTTBS_LOVER"/>
+            <attribute id="UUID" type="guid" value="73f27747-e21c-41e1-b6b8-510a89a03c9c"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

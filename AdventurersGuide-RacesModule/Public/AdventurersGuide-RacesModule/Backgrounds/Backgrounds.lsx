@@ -5,157 +5,10 @@
         <node id="root">
             <children>
                 <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_10_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_10_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_Acolyte"/>
-                    <attribute id="UUID" type="guid" value="633aa4be-365f-4358-ba56-e2b85f9a88ec"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="906d1961-e9c6-4170-b775-62797a0efe1c"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_0_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_0_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_Charlatan"/>
-                    <attribute id="UUID" type="guid" value="76925f0b-3ec8-4f42-86a9-cd4f745af2ac"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="07925e5b-af3d-4743-a565-b9fee04c24ac"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_1_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_1_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_Criminal"/>
-                    <attribute id="UUID" type="guid" value="e8c84134-5e91-4ecc-881a-efc47680129b"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="74ed9de3-fff5-419a-949b-18bd5e17944e"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_2_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_2_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_Entertainer"/>
-                    <attribute id="UUID" type="guid" value="229775c9-3044-4779-a3bb-532c39238e03"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="bd3cfefd-5fe2-47ea-bd3c-e99eaad9b714"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_3_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_3_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_FolkHero"/>
-                    <attribute id="UUID" type="guid" value="efcb0b57-5d5a-4a54-a7b3-a618829fe379"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="9c38904c-4aed-4d22-9038-fc7d103aaed5"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_11_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_11_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_GuildArtisan"/>
-                    <attribute id="UUID" type="guid" value="e9aeac40-6c4e-4d81-9a24-e9eeb6208e85"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="baf9fb0e-f535-40a0-bb78-3ec289d84e66"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_4_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_4_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_Noble"/>
-                    <attribute id="UUID" type="guid" value="7e820dee-a8fc-43b2-8661-2b404454bade"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="56825486-9cfc-4ec2-87d1-c8065c41774b"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_5_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_5_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_Hermit"/>
-                    <attribute id="UUID" type="guid" value="a1dab8dc-3be9-4062-b4db-a640230bba61"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="2fa3f042-2b50-41b2-8045-39ddd4421ca9"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_6_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_6_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_Outlander"/>
-                    <attribute id="UUID" type="guid" value="5b1e726f-52bf-4e93-a798-9f93c067ee7f"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="d81df6f9-9f6e-4146-841a-9f285e6ee879"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_7_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_7_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_Sage"/>
-                    <attribute id="UUID" type="guid" value="8807a6c6-d8cf-494b-aec2-cc01d7517a56"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="dad18490-c61d-4958-805c-f017eb68f8a0"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_12_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_12_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_Sailor"/>
-                    <attribute id="UUID" type="guid" value="7a7be1dc-4bf7-49a0-bc33-31440b68c035"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_8_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_8_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_Soldier"/>
-                    <attribute id="UUID" type="guid" value="1252a86e-9baa-4ccb-b8ce-2378ae006f0b"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="d135f265-c2e1-4077-a836-b548ee871681"/>
-                        </node>
-                    </children>
-                </node>
-                <node id="Background">
-                    <attribute id="Description" type="FixedString" value="Backgrounds_New_Stat_9_Description"/>
-                    <attribute id="DisplayName" type="FixedString" value="Backgrounds_New_Stat_9_DisplayName"/>
-                    <attribute id="Passives" type="LSString" value="Background_Urchin"/>
-                    <attribute id="UUID" type="guid" value="ac38525a-222b-4280-9c8e-60d5533b675c"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="2faee476-d77b-42a7-a4c6-2b9ac934673c"/>
-                        </node>
-                    </children>
-                </node>
-            </children>
-        </node>
-    </region>
-    <region id="Birthsigns">
-        <node id="root">
-            <children>
-                <node id="Birthsign">
-                    <attribute id="Description" type="FixedString" value="The Warrior is the first Guardian Constellation and he protects his charges during their Seasons. The Warrior's own season is Last Seed, when his Strength is needed for the harvest. His charges are the Lady, the Steed, and the Lord. Those born under the sign of the Warrior are skilled with weapons of all kinds, but prone to short tempers."/>
-                    <attribute id="DisplayName" type="FixedString" value="The Warrior: Warwyrd (Strength)"/>
+                    <attribute id="Description" type="FixedString" value="The Warrior is the first Guardian Constellation and he protects his charges during their Seasons. The Warrior's own season is Last Seed, when his Strength is needed for the harvest. His charges are the Lady, the Steed, and the Lord. Those born under the sign of the Warrior are skilled with weapons of all kinds, but prone to short tempers.
+
+        Those born under the sign of the Warrior may add +1 to their Constitution or to their Strength Ability Scores."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Warrior (Strength)"/>
                     <attribute id="Passives" type="LSString" value="AGTT_Warwyrd_STR"/>
                     <attribute id="UUID" type="guid" value="f0e7f27b-7d25-4bfc-9682-adb18c669d64"/>
                     <children>
@@ -164,17 +17,203 @@
                         </node>
                     </children>
                 </node>
-                <node id="Birthsign">
-                    <attribute id="Description" type="FixedString" value="The Warrior is the first Guardian Constellation and he protects his charges during their Seasons. The Warrior's own season is Last Seed, when his Strength is needed for the harvest. His charges are the Lady, the Steed, and the Lord. Those born under the sign of the Warrior are skilled with weapons of all kinds, but prone to short tempers."/>
-                    <attribute id="DisplayName" type="FixedString" value="The Warrior: Warwyrd (Constitution)"/>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Warrior is the first Guardian Constellation and he protects his charges during their Seasons. The Warrior's own season is Last Seed, when his Strength is needed for the harvest. His charges are the Lady, the Steed, and the Lord. Those born under the sign of the Warrior are skilled with weapons of all kinds, but prone to short tempers.
+
+        Those born under the sign of the Warrior may add +1 to their Constitution or to their Strength Ability Scores."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Warrior (Constitution)"/>
                     <attribute id="Passives" type="LSString" value="AGTT_Warwyrd_CON"/>
                     <attribute id="UUID" type="guid" value="46df9914-2781-4c1a-815c-0412bb3e2fd1"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b20ec139-66a1-4946-9fc5-c5078dc80984"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Mage is a Guardian Constellation who's Season is Rain's Hand, when Magicka was first used by mankind. His charges are the Apprentice, the Atronach, and the Ritual. Those born under the Mage have more Magicka and talent for all kinds of spellcasting, but are often arrogant and absent-minded.
+
+        Those born under the sign of the Mage may add +1 to their Intelligence or to their Wisdom Ability Scores."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Mage (Intelligence)"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Fay_INT"/>
+                    <attribute id="UUID" type="guid" value="6f0abb05-3977-4c86-b699-81d7f849cc84"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="b382dd55-576f-4e11-a3ed-a6263b121b23"/>
                         </node>
                     </children>
                 </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Mage is a Guardian Constellation who's Season is Rain's Hand, when Magicka was first used by mankind. His charges are the Apprentice, the Atronach, and the Ritual. Those born under the Mage have more Magicka and talent for all kinds of spellcasting, but are often arrogant and absent-minded.
+
+        Those born under the sign of the Mage may add +1 to their Intelligence or to their Wisdom Ability Scores."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Mage (Wisdom)"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Fay_WIS"/>
+                    <attribute id="UUID" type="guid" value="68649610-15a2-4c4e-994a-ba6a81b3db42"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b382dd55-576f-4e11-a3ed-a6263b121b23"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Thief is the last Guardian Constellation, and her Season is the darkest month of Evening Star. Her charges are the Lover, the Shadow, and the Tower. Those born under the sign of the Thief are not typically thieves, though they take risks more often and only rarely come to harm. They will run out of luck eventually, however, and rarely live as long as those born under other signs.
+
+        Those born under the sign of the Thief may add +1 to their Dexterity or to their Charisma Ability Scores."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Thief (Dexterity)"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Hara_DEX"/>
+                    <attribute id="UUID" type="guid" value="74de4955-5a91-485a-96e4-1cd50b43a279"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b0e14f13-dfba-49c6-9de6-f5568677e58f"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Thief is the last Guardian Constellation, and her Season is the darkest month of Evening Star. Her charges are the Lover, the Shadow, and the Tower. Those born under the sign of the Thief are not typically thieves, though they take risks more often and only rarely come to harm. They will run out of luck eventually, however, and rarely live as long as those born under other signs.
+
+        Those born under the sign of the Thief may add +1 to their Dexterity or to their Charisma Ability Scores."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Thief (Charisma)"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Hara_CHA"/>
+                    <attribute id="UUID" type="guid" value="1f0af37f-a5ad-4612-8e5b-aeb905e3b5d7"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b0e14f13-dfba-49c6-9de6-f5568677e58f"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Lady is one of the Warrior's charges, and her Season is Hearthfire. Those born under the sign of the Lady are kind and tolerant.
+
+        Those born under the sign of the Lady may add their Constitution Modifier to their hit points an extra time when levelling up."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Lady"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_LadysFavor"/>
+                    <attribute id="UUID" type="guid" value="263af18c-6d12-416a-ac2b-5f6902d38f99"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="81831854-25b8-4346-88b3-ea911d185a22"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Steed is one of the Warrior's charges, and her Season is Mid Year. Those born under the sign of the Steed are impatient, and always hurrying from one place to another.
+
+        Those born under the sign of the Speed gain an additional 1.5m of movement."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Steed"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Charioteer"/>
+                    <attribute id="UUID" type="guid" value="2684f7fc-70ec-4db1-be7f-392c6ed815ae"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c5352c47-8308-447c-ba2f-e8212f8efcc4"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Lord's Season is First Seed, and he oversees all of Tamriel during the planting. Those born under the sign of the Lord are stronger and healthier than those born under other signs.
+
+        Those born under the sign of the Lord are vulnerable to Fire. They also gain the ability Blood of the North, which allows them to regenerate health."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Lord"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Trollkin"/>
+                    <attribute id="UUID" type="guid" value="85475fdf-3661-48a6-8319-0df7ed390b5e"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b52703d1-fb2c-48a9-a4e4-297edf608727"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Apprentice's Season is Sun's Height. Those born under the sign of the Apprentice have a special affinity for magic of all kinds, but are equally as vulnerable to it.
+
+        Those born under the sign of the Apprentice are vulnerable to Magical attacks. You also gain an additional 1st Level Spell Slot, and recieve the spell Thunderwave."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Apprentice"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Elfborn"/>
+                    <attribute id="UUID" type="guid" value="35766005-b2ef-458a-983f-edc37a3c4141"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="5c40d81d-ad3c-426f-86c7-bc9640a35c9a"/>
+                        </node>
+                    </children>
+                </node>
+                <!-- Why do I do this to myself... -->
+                <!-- node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Atronach's season is Sun's Dusk. Those born under this sign are natural sorcerers with deep reserves of Magicka, but they cannot generate Magicka on their own.
+                        Those born under the sign of the Atronach cannot regain spell slots above level 3 through a rest, but instead through being targeted by a hostile spell. Cantrips require a 1st-level Spell Slot to cast. They have two additional 1st level Spell Slots, and gain twice as many Spell Slots when levelling up."/>
+
+                    <attribute id="DisplayName" type="FixedString" value="The Atronach"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Wombburn"/>
+                    <attribute id="UUID" type="guid" value="50bc6f8c-f18a-460f-ad4d-db21b7d87ab9"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value=""/>
+                        </node>
+                    </children>
+                </node -->
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Ritual is one of the Mage's charges, and its season is Morning Star. Those born under this sign have a variety of abilities depending on the aspects of the moons and the Divines.
+
+        Those born under the sign of the Ritual are blessed with the abilities Mara's Gift and Blessed Word."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Ritual"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_TheRitual"/>
+                    <attribute id="UUID" type="guid" value="61659294-e709-47ed-81e3-659978be5a2f"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="73f27747-e21c-41e1-b6b8-510a89a03c9c"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Lover is one of the Thief's charges, and her season is Sun's Dawn. Those born under the sign of the Lover are graceful and passionate.
+
+        Those born under the sign of the Lover have proficiency in Performance, Persuasion, and Athletics. You also have the ability Lover's Embrace."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Lover"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Mooncalf"/>
+                    <attribute id="UUID" type="guid" value="723d9cab-0593-4041-b866-c07f724348b2"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b44595c9-d1aa-4d81-b30f-0274296b6e9f"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Shadow's season is Second Seed. The Shadow grants those born under her sign the ability to hide in shadows. They often go unnoticed even when their presence should be obvious.
+
+        Those born under the sign of the Shadow are proficient in Stealth, have the power to become invisible at will."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Shadow"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Moonshadow"/>
+                    <attribute id="UUID" type="guid" value="e9458229-9e14-4574-a40c-219c01c5ebe4"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="fcfe6b31-9521-44d4-8d9c-c7e9641ffa91"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Tower is one of the Thief's charges, and its season is Frostfall. Those born under the sign of the Tower have a knack for finding gold and can open locks of all kinds.
+
+        Those born under the sign of the Shadow are proficient in Sleight of Hand, have the power to unlock objects."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Tower"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_Warden"/>
+                    <attribute id="UUID" type="guid" value="81b2665a-2f7c-4aef-8b17-d66dacd2ccc4"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="0a82bdda-f4e6-4d39-95b3-20a991cda3bf"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="FixedString" value="The Serpent wanders about the sky and has no season, though its motions are predictable to a defree. No characteristics are common toall who are born under the sign of the Serpent. Those born under this sign are the most blessed and the most cursed.
+
+        Those born under the sign of the Shadow have an additional Bonus Action, as well as the Star-Cursed power."/>
+                    <attribute id="DisplayName" type="FixedString" value="The Serpent"/>
+                    <attribute id="Passives" type="LSString" value="AGTT_StarCurse"/>
+                    <attribute id="UUID" type="guid" value="71931d91-9e8b-4ab2-af1d-815d263d2666"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b7fa585c-8d33-4183-869a-8b75951ede7d"/>
+                        </node>
+                    </children>
+                </node>
             </children>
         </node>
+    </region>
 </save>

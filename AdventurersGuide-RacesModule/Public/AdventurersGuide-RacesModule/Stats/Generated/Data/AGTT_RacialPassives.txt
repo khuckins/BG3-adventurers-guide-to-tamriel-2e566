@@ -27,7 +27,7 @@ new entry "AGTT_BEASTTONGUE"
 type "PassiveData"
 data "DisplayName" "Beast Tongue"
 data "Description" "AGTT_ProgDesc_Dunmer_FeatB"
-data "DescriptionParams" "You may converse with animals"
+data "Description" "You may converse with animals"
 data "Boosts" ApplyStatus(PETPAL,100,-1);
 
 new entry "AGTT_Ashborn"

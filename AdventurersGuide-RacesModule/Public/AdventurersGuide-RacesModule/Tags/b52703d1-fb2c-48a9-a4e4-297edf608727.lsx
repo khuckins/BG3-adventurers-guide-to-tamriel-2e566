@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|The Lord's Season is First Seed, and he oversees all of Tamriel during the planting. Those born under the sign of the Lord are stronger and healthier than those born under other signs.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="The Lord's Season is First Seed, and he oversees all of Tamriel during the planting. Those born under the sign of the Lord are stronger and healthier than those born under other signs." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="Trollkin" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTTBS_LORD"/>
+            <attribute id="UUID" type="guid" value="b52703d1-fb2c-48a9-a4e4-297edf608727"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|The Serpent wanders about the sky and has no season, though its motions are predictable to a defree. No characteristics are common toall who are born under the sign of the Serpent. Those born under this sign are the most blessed and the most cursed.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="The Serpent wanders about the sky and has no season, though its motions are predictable to a defree. No characteristics are common toall who are born under the sign of the Serpent. Those born under this sign are the most blessed and the most cursed." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="Star-Cursed" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTTBS_SERPENT"/>
+            <attribute id="UUID" type="guid" value="b7fa585c-8d33-4183-869a-8b75951ede7d"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

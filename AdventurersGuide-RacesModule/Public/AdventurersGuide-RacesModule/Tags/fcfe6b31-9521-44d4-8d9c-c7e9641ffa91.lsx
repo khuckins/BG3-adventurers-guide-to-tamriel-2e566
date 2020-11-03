@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|The Shadow's season is Second Seed. The Shadow grants those born under her sign the ability to hide in shadows. They often go unnoticed even when their presence should be obvious.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="The Shadow's season is Second Seed. The Shadow grants those born under her sign the ability to hide in shadows. They often go unnoticed even when their presence should be obvious." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="Moonshadow" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTTBS_SHADOW"/>
+            <attribute id="UUID" type="guid" value="fcfe6b31-9521-44d4-8d9c-c7e9641ffa91"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

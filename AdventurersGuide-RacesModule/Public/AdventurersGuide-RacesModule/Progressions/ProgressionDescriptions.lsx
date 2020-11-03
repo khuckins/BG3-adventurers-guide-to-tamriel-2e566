@@ -12,7 +12,7 @@
                     <attribute id="Hidden" type="bool" value="false"/>
                     <attribute id="ParamMatch" type="FixedString" value=""/>
                     <attribute id="PassivePrototype" type="FixedString" value=""/>
-                    <attribute id="ProgressionId" type="guid" value="346871de-be49-41c4-8450-d85d666cfdee/>
+                    <attribute id="ProgressionId" type="guid" value="346871de-be49-41c4-8450-d85d666cfdee"/>
                     <attribute id="ProgressionTableId" type="guid" value="39668970-4021-4113-a6d8-72ea8b55d09d"/>
                     <attribute id="SelectorId" type="FixedString" value=""/>
                     <attribute id="Type" type="FixedString" value="Human"/>

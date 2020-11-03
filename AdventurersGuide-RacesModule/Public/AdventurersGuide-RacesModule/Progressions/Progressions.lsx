@@ -245,18 +245,6 @@
                     <attribute id="TableUUID" type="guid" value="f7629248-b39e-4acf-9771-ff4add8c59a5"/>
                     <attribute id="UUID" type="guid" value="e9f1e041-5bf0-45b8-9244-2edfe50307fb"/>
                 </node>
-                    <node id="Progression">
-                        <attribute id="AllowImprovement" type="bool" value="false"/>
-                        <attribute id="Boosts" type="LSString" value=""/>
-                        <attribute id="Level" type="uint8" value=""/>
-                        <attribute id="Name" type="LSString" value="Cleric"/>
-                        <attribute id="PassivesAdded" type="LSString" value=""/>
-                        <attribute id="PassivesRemoved" type="LSString" value=""/>
-                        <attribute id="ProgressionType" type="uint8" value="0"/>
-                        <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1)"/>
-                        <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
-                        <attribute id="UUID" type="guid" value="ae099586-0690-4dee-bca0-00ff9f0557df"/>
-                    </node>
             </children>
         </node>
     </region>

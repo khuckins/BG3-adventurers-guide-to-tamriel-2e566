@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|The Tower is one of the Thief's charges, and its season is Frostfall. Those born under the sign of the Tower have a knack for finding gold and can open locks of all kinds.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="The Tower is one of the Thief's charges, and its season is Frostfall. Those born under the sign of the Tower have a knack for finding gold and can open locks of all kinds." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="Warden" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTTBS_TOWER"/>
+            <attribute id="UUID" type="guid" value="0a82bdda-f4e6-4d39-95b3-20a991cda3bf"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

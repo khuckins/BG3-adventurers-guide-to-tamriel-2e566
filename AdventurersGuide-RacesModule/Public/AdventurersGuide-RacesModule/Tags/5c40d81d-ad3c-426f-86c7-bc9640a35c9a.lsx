@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|The Apprentice's Season is Sun's Height. Those born under the sign of the Apprentice have a special affinity for magic of all kinds, but are equally as vulnerable to it.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="The Apprentice's Season is Sun's Height. Those born under the sign of the Apprentice have a special affinity for magic of all kinds, but are equally as vulnerable to it." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="Elfborn" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTTBS_APPRENTICE"/>
+            <attribute id="UUID" type="guid" value="5c40d81d-ad3c-426f-86c7-bc9640a35c9a"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

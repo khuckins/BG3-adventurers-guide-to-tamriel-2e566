@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|The Steed is one of the Warrior's charges, and her Season is Mid Year. Those born under the sign of the Steed are impatient, and always hurrying from one place to another.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="The Steed is one of the Warrior's charges, and her Season is Mid Year. Those born under the sign of the Steed are impatient, and always hurrying from one place to another." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="Charioteer" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTTBS_STEED"/>
+            <attribute id="UUID" type="guid" value="c5352c47-8308-447c-ba2f-e8212f8efcc4"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

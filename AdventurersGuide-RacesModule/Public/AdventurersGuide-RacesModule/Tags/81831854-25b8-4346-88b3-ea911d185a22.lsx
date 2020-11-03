@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|The Lady is one of the Warrior's charges, and her Season is Hearthfire. Those born under the sign of the Lady are kind and tolerant.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="The Lady is one of the Warrior's charges, and her Season is Hearthfire. Those born under the sign of the Lady are kind and tolerant." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="Lady's Favor" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTTBS_LADY"/>
+            <attribute id="UUID" type="guid" value="81831854-25b8-4346-88b3-ea911d185a22"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
