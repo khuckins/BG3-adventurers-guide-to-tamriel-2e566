@@ -8,7 +8,6 @@
                     <attribute id="AppearanceLocked" type="bool" value="false"/>
                     <attribute id="AvailableInCharacterCreation" type="bool" value="true"/>
                     <attribute id="BackgroundUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
-                    <attribute id="BirthsignUUID" type="guid" value="f0e7f27b-7d25-4bfc-9682-adb18c669d64"/>
                     <attribute id="ClassEquipmentOverride" type="FixedString" value=""/>
                     <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="CloseUpA" type="LSString" value=""/>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="48"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="FeatUUID" type="guid" value="e1e00386-0185-41d4-a926-38350579ce6b"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="496e35b8-b165-4ec7-b7d9-fe4c036d149a"/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="39668970-4021-4113-a6d8-72ea8b55d09d"/>
+                    <attribute id="UUID" type="guid" value="da4c9fd0-eae0-4f49-b5fd-93a06e5c5aee"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="FeatUUID" type="guid" value="e1e00386-0185-41d4-a926-38350579ce6b"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="a16fb8ae-cd50-4217-97b8-c7de1239d5bc"/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="322dfbbb-b37e-47cf-96e1-64cf9287452c"/>
+                    <attribute id="UUID" type="guid" value="a96f0c39-3eef-4057-8054-5c38cd40fbc6"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="FeatUUID" type="guid" value="e1e00386-0185-41d4-a926-38350579ce6b"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="7e1d6ea9-ffc8-4c89-a07b-56537355fe9d"/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="47256a77-c595-4559-865a-81fa97e8c43e"/>
+                    <attribute id="UUID" type="guid" value="a3187e6d-080c-42d2-811e-a32e28b91a71"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="FeatUUID" type="guid" value="e1e00386-0185-41d4-a926-38350579ce6b"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="cfaea962-54b7-4166-b0a8-23d10a99fa5f"/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="e4ef5b65-3a15-415d-adb4-00c7366c9d89"/>
+                    <attribute id="UUID" type="guid" value="86afed8d-307c-4bd5-88a9-e9f27459d4b7"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="FeatUUID" type="guid" value="e1e00386-0185-41d4-a926-38350579ce6b"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="ae8a5392-c28e-4159-83a3-f965d84c9580"/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
+                    <attribute id="UUID" type="guid" value="b4f6c3db-6355-4688-966d-317be53e6a21"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="FeatUUID" type="guid" value="e1e00386-0185-41d4-a926-38350579ce6b"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="a84ee87e-3dc2-461f-a471-b13a2e86abc0"/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="16a27721-2176-4172-9507-c71fccb0961b"/>
+                    <attribute id="UUID" type="guid" value="a3187e6d-080c-42d2-811e-a32e28b91a71"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="FeatUUID" type="guid" value="e1e00386-0185-41d4-a926-38350579ce6b"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="b981d420-e7cc-4f99-b0de-48a8e2fbc900"/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="8dfdb77c-5abf-4477-a708-f741e9677301"/>
+                    <attribute id="UUID" type="guid" value="86afed8d-307c-4bd5-88a9-e9f27459d4b7"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="FeatUUID" type="guid" value="e1e00386-0185-41d4-a926-38350579ce6b"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="bbf8bf21-de22-4b93-b25e-833737f42998"/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="86041cdd-2d60-4c22-87c4-ab8e88bef027"/>
+                    <attribute id="UUID" type="guid" value="b4f6c3db-6355-4688-966d-317be53e6a21"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

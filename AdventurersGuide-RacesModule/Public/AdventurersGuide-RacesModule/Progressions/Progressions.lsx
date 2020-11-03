@@ -4,28 +4,16 @@
     <region id="Progressions">
         <node id="root">
             <children>
-            <node id="Progression">
-                <attribute id="AllowImprovement" type="bool" value="false"/>
-                <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)"/>
-                <attribute id="Level" type="uint8" value="1"/>
-                <attribute id="Name" type="LSString" value="Ranger"/>
-                <attribute id="PassivesAdded" type="LSString" value=""/>
-                <attribute id="PassivesRemoved" type="LSString" value=""/>
-                <attribute id="ProgressionType" type="uint8" value="0"/>
-                <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1);SelectSkills(9e31661e-4c14-499d-98ca-9e00b20faf07,3);SelectPassives(d0f13dda-eb37-41f5-aea5-2683f0229e2e,1,FavoredEnemy);SelectPassives(72c63024-60af-486e-a180-c7aeee5d77c1,1,NaturalExplorer)"/>
-                <attribute id="TableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c"/>
-                <attribute id="UUID" type="guid" value="ad1084b1-b99f-6720-cfdd-cf82ad44345b"/>
-            </node>
-        				<!-- Cyrodiilic Progressions -->
-        				<node id="Progression">
+				<!-- Cyrodiilic Progressions -->
+				<node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="Ability(Charisma,1);ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="Human"/>
+                    <attribute id="Name" type="LSString" value="Cyrodiil"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1)"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="39668970-4021-4113-a6d8-72ea8b55d09d"/>
                     <attribute id="UUID" type="guid" value="346871de-be49-41c4-8450-d85d666cfdee"/>
                 </node>
@@ -68,7 +56,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_DragonSkin"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1);SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,AGTT_Progression_ArcaneConnection,Intelligence)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,AGTT_Progression_ArcaneConnection,Intelligence)"/>
                     <attribute id="TableUUID" type="guid" value="322dfbbb-b37e-47cf-96e1-64cf9287452c"/>
                     <attribute id="UUID" type="guid" value="4d5fb255-1a17-4b02-b376-9f0eb06706c8"/>
                 </node>
@@ -84,7 +72,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_NorthernHide"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1);AddSpells(a05a6e4e-4d80-4173-9440-00ebad47f052,1,0,AGTT_Progression_Battlecry,Strength)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(a05a6e4e-4d80-4173-9440-00ebad47f052,1,0,AGTT_Progression_Battlecry,Strength)"/>
                     <attribute id="TableUUID" type="guid" value="47256a77-c595-4559-865a-81fa97e8c43e"/>
                     <attribute id="UUID" type="guid" value="5aa5e1cc-d1b7-4a62-b4fd-c048faaca766"/>
                 </node>
@@ -100,7 +88,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_RedguardImmunity"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1);AddSpells(52d05e1e-3457-43d6-8f47-81f2e7cddb03,,,AGTT_Progression_AdrenalineRush,AlwaysPrepared,UntilRest)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(52d05e1e-3457-43d6-8f47-81f2e7cddb03,,,AGTT_Progression_AdrenalineRush,AlwaysPrepared,UntilRest)"/>
                     <attribute id="TableUUID" type="guid" value="e4ef5b65-3a15-415d-adb4-00c7366c9d89"/>
                     <attribute id="UUID" type="guid" value="b0bb2e7f-c7fe-4cac-89a6-8bb5351230b7"/>
                 </node>
@@ -115,7 +103,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_Highborne"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1);SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,AGTT_Altmer_Cantrip,Intelligence,AlwaysPrepared);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,3,0,AGTT_Altmer_Spells,Intelligence)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,AGTT_Altmer_Cantrip,Intelligence,AlwaysPrepared);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,3,0,AGTT_Altmer_Spells,Intelligence)"/>
                     <attribute id="TableUUID" type="guid" value="c2e01fdd-0dc8-45b4-94cf-cf127f70a63f"/>
                     <attribute id="UUID" type="guid" value="5ec70564-e26c-41d8-b8e2-2c601538c77e"/>
                 </node>
@@ -129,7 +117,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_BEASTTONGUE"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1);SelectSpells(00ab586f-de33-4915-b3ad-dc18ecbed38a,1,0,AGTT_Bosmer_Transformation,Intelligence,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(00ab586f-de33-4915-b3ad-dc18ecbed38a,1,0,AGTT_Bosmer_Transformation,Intelligence,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="16a27721-2176-4172-9507-c71fccb0961b"/>
                     <attribute id="UUID" type="guid" value="25fbb11f-99b9-4a63-aeb2-603c399f4928"/>
                 </node>
@@ -143,7 +131,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_Ashborn"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1)"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="8dfdb77c-5abf-4477-a708-f741e9677301"/>
                     <attribute id="UUID" type="guid" value="0f9d4f27-7538-4690-82f9-41cff9672355"/>
                 </node>
@@ -229,7 +217,7 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1);AddSpells(0f2df3f9-34f0-4693-a67e-8149f909a067,1,0,AGTT_OrsimerFeat,Strength,AlwaysPrepared"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(0f2df3f9-34f0-4693-a67e-8149f909a067,1,0,AGTT_OrsimerFeat,Strength,AlwaysPrepared"/>
                     <attribute id="TableUUID" type="guid" value="86041cdd-2d60-4c22-87c4-ab8e88bef027"/>
                     <attribute id="UUID" type="guid" value="1cb54ee3-21e0-483d-af57-ae89a7addc1c"/>
                 </node>
@@ -257,82 +245,18 @@
                     <attribute id="TableUUID" type="guid" value="f7629248-b39e-4acf-9771-ff4add8c59a5"/>
                     <attribute id="UUID" type="guid" value="e9f1e041-5bf0-45b8-9244-2edfe50307fb"/>
                 </node>
-
-                <!-- Birthsigns have to be applied per class in order to reap the benefits -->
-                <!-- We don't have the Class Module yet, so let's apply them to the base classes
-                     Actually no this dosn't work unless we just overwrite base class progressions entirely, not ideal...
-                <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="ClericBirthsigns"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="PassivesRemoved" type="LSString" value=""/>
-                    <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1)"/>
-                    <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
-                    <attribute id="UUID" type="guid" value="04d04fcf-c35e-4d23-8dfa-6ceac384524f"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="FighterBirthsigns"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="PassivesRemoved" type="LSString" value=""/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1)"/>
-                    <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971"/>
-                    <attribute id="UUID" type="guid" value="aa59277d-5c9a-45b8-aafe-32b317da0e25"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="RangerBirthsigns"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="PassivesRemoved" type="LSString" value=""/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1)"/>
-                    <attribute id="TableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c"/>
-                    <attribute id="UUID" type="guid" value="410707f6-7591-4748-aafe-c484013dc0e4"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="RogueBirthsigns"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="PassivesRemoved" type="LSString" value=""/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1)"/>
-                    <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
-                    <attribute id="UUID" type="guid" value="d550cfe2-2461-431b-b410-6a85c5249d0e"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="WarlockBirthsigns"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="PassivesRemoved" type="LSString" value=""/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1)"/>
-                    <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
-                    <attribute id="UUID" type="guid" value="b6547ede-9130-4d28-85be-5b5f334189fd"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="WizardBirthsigns"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="PassivesRemoved" type="LSString" value=""/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1)"/>
-                    <attribute id="TableUUID" type="guid" value="d18eda7e-4b7d-490d-9952-cd33a3c60479"/>
-                    <attribute id="UUID" type="guid" value="56cb91a1-8f10-4b10-98e8-5c2c3d4826e6"/>
-                </node-->
+                    <node id="Progression">
+                        <attribute id="AllowImprovement" type="bool" value="false"/>
+                        <attribute id="Boosts" type="LSString" value=""/>
+                        <attribute id="Level" type="uint8" value=""/>
+                        <attribute id="Name" type="LSString" value="Cleric"/>
+                        <attribute id="PassivesAdded" type="LSString" value=""/>
+                        <attribute id="PassivesRemoved" type="LSString" value=""/>
+                        <attribute id="ProgressionType" type="uint8" value="0"/>
+                        <attribute id="Selectors" type="LSString" value="SelectPassives(406c7129-19f3-48f7-b29a-a74611f07b4d,1)"/>
+                        <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
+                        <attribute id="UUID" type="guid" value="ae099586-0690-4dee-bca0-00ff9f0557df"/>
+                    </node>
             </children>
         </node>
     </region>

@@ -8,10 +8,6 @@
                     <attribute id="Passives" type="LSString" value="AGTT_Warwyrd_STR,AGTT_Warwyrd_CON,AGTT_Fay_INT,AGTT_Fay_WIS,AGTT_Hara_DEX,AGTT_Hara_CHA,AGTT_LadysFavor,AGTT_Charioteer,AGTT_Trollkin,AGTT_Elfborn"/>
                     <attribute id="UUID" type="guid" value="406c7129-19f3-48f7-b29a-a74611f07b4d"/>
                 </node>
-                <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="AGTT_Warwyrd_STR,FavoredEnemy_BountyHunter,FavoredEnemy_KeeperOfTheVeil,FavoredEnemy_MageBreaker,FavoredEnemy_RangerKnight,FavoredEnemy_SanctifiedStalker"/>
-                    <attribute id="UUID" type="guid" value="d0f13dda-eb37-41f5-aea5-2683f0229e2e"/>
-                </node>
             </children>
         </node>
     </region>

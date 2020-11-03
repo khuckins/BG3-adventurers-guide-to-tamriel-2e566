@@ -62,6 +62,7 @@ data "Description" "Those born under the sign of the Lord are vulnerable to Fire
 data "ExtraDescription" "The Lord's Season is First Seed, and he oversees all of Tamriel during the planting. Those born under the sign of the Lord are stronger and healthier than those born under other signs."
 
 // TODO: Change this to Alteration, Destruction, or Illusion
+// TODO: Figure out how to give the actual boost to the player. Maybe it'll apply on Level Up?
 new entry "AGTT_Elfborn"
 type "PassiveData"
 data "DisplayName" "The Apprentice: Elfborn"
