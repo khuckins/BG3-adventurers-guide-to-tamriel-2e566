@@ -1,8 +1,8 @@
 # Adventurer's Guide to Tamriel (2E566) 0.3.0.2
 
 ## Background
-Three years ago, I started creating a setting sourcebook of ~210 pages for d&d 5th edition, set 
-in the Elder Scrolls universe. Over the course of a year, I completed it, released it into the 
+Three years ago, I started creating a setting sourcebook of ~210 pages for d&d 5th edition, set
+in the Elder Scrolls universe. Over the course of a year, I completed it, released it into the
 world, and gained some valuable feedback. With the Early Release of Baldur's Gate 3, I've
 decided to return to this setting, and adapt it for play.
 
@@ -12,8 +12,9 @@ is updated and eventually released. This module includes the Human Elven races: 
 (Imperials), Breton, Nord, Redguard, Altmer, Bosmer, Dunmer, and Orsimer, including some
 subraces.
 
-## Racial Traits/Features
-These can be found in the Wiki, under the [Races](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Races) page.
+## Features
+- Racial traits/features can be found under the [Races](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Races) page of the Wiki.
+- Birthsign Information can be found under the [Birthsign](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Birthsigns) page of the Wiki.
 
 ## Known Issues
 - Nord Northern Hide has no Progression Description
@@ -23,11 +24,14 @@ These can be found in the Wiki, under the [Races](https://github.com/khuckins/BG
 - Bosmer Natural Shapeshifter claims to last until a long rest, but correctly ends after 5 turns
 - Dunmer Ashborn has no Progression Description
 - Orsimer Berserker Rage has no icon
+- Atronach Birthsign does not exist
+- Lady's Favor displays calculation on Background selection, is not factored into Class Panel's Max HP
+- Warrior, Mage, and Thief Birthsign Backgrounds don't display their Stat bonuses on Left Panel of Character Creator
+- Some Birthsign Powers don't have icons
+- Installation under Candor Mod Manager breaks modsettings.lsx (.pak file does not fully extract)
 
 ## Installation
-I recommend using Candor mod manager to install, as the process is highly simplified.
-However, you'll want to be sure you're using it to install any other mods you're
-using as well.
+At the moment, Candor Mod Manager doesn't play nice when installing this mod, however it is packaged for installation once a fix is released. For now, I recommend using the manual method, though I generally recommend Candor.
 
 ### Candor
 1. Select Baldur's Gate 3 in Candor Mod Manager
