@@ -15,6 +15,7 @@ subraces.
 ## Features
 - Racial traits/features can be found under the [Races](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Races) page of the Wiki.
 - Birthsign Information can be found under the [Birthsign](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Birthsigns) page of the Wiki.
+- Spell Information can be found under the [Spells](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Spells) page.
 
 ## Known Issues
 - Nord Northern Hide has no Progression Description
@@ -29,6 +30,7 @@ subraces.
 - Warrior, Mage, and Thief Birthsign Backgrounds don't display their Stat bonuses on Left Panel of Character Creator
 - Some Birthsign Powers don't have icons
 - Installation under Candor Mod Manager breaks modsettings.lsx (.pak file does not fully extract)
+- Some spells do not yet have icons
 
 ## Installation
 At the moment, Candor Mod Manager doesn't play nice when installing this mod, however it is packaged for installation once a fix is released. For now, I recommend using the manual method, though I generally recommend Candor.
@@ -50,9 +52,9 @@ At the moment, Candor Mod Manager doesn't play nice when installing this mod, ho
 4. Place this under the Mods Children Node, beneath the Gustav ModuleShortDesc block:
 ```
             <node id="ModuleShortDesc">
-              <attribute id="Folder" type="LSWString" value="AdventurersGuide-RacesModule"/>
+              <attribute id="Folder" type="LSWString" value="AdventurersGuideToTamriel"/>
               <attribute id="MD5" type="LSString" value=""/>
-              <attribute id="Name" type="FixedString" value="AdventurersGuide-RacesModule"/>
+              <attribute id="Name" type="FixedString" value="AdventurersGuideToTamriel"/>
               <attribute id="UUID" type="FixedString" value="46c59a34-b3b1-40d0-8424-6f59ded3d575"/>
               <attribute id="Version" type="int32" value="1"/>
             </node>
