@@ -14,219 +14,219 @@
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Cyrodiil" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Cyrodiil" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Cyrodiil" handle="Cyrodiil" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Colovian" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Colovian" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Colovian" handle="Colovian" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Nibenese" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Nibenese" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Nibense" handle="Nibenese" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Breton" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Breton" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Breton" handle="Breton" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Nord" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Nord" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Nord" handle="Nord" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Redguard" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Redguard" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Redguard" handle="Redguard" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Altmer" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Altmer" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Altmer" handle="Altmer" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Bosmer" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Bosmer" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Bosmer" handle="Bosmer" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Dunmer" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Dunmer" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Dunmer" handle="Dunmer" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Dunmer_Unaffiliated" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Dunmer (Unaffiliated)." version="3" />
+					<attribute id="Content" type="TranslatedString" value="Dunmer (Unaffiliated)." handle="Dunmer (Unaffiliated)." version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Dunmer_Hlaalu" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Hlaalu" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Hlaalu" handle="Hlaalu" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Dunmer_Redoran" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Redoran" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Redoran" handle="Redoran" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Dunmer_Telvanni" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Telvanni" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Telvanni" handle="Telvanni" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Dunmer_Indoril" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Indoril" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Indoril" handle="Indoril" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Dunmer_Dres" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Dres" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Dres" handle="Dres" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Orsimer" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Orsimer" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Orsimer" handle="Orsimer" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Orsimer_Iron" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Iron Orsimer" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Iron Orsimer" handle="Iron Orsimer" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Orsimer_Wood" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Wood Orsimer" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Wood Orsimer" handle="Wood Orsimer" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
-				
+
 				<!-- Special Racial Progressions -->
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Colovian_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Star of the West" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Star of the West" handle="Star of the West" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Breton_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Arcane Connection" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Arcane Connection" handle="Arcane Connection" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Breton_FeatB" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Dragon Skin" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Dragon Skin" handle="Dragon Skin" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Nord_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Battlecry" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Battlecry" handle="Battlecry" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Nord_FeatB" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Northern Hide" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Northern Hide" handle="Northern Hide" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Redguard_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Adrenaline Rush" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Adrenaline Rush" handle="Adrenaline Rush" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Redguard_FeatB" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Strong Immune System" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Strong Immune System" handle="Strong Immune System" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Altmer_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Highborne" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Highborne" handle="Highborne" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Bosmer_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Natural Shapeshifters" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Natural Shapeshifters" handle="Natural Shapeshifters" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Bosmer_FeatB" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Beast Tongue" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Beast Tongue" handle="Beast Tongue" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Dunmer_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Ancestral Protection" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Ancestral Protection" handle="Ancestral Protection" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Dunmer_FeatB" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Ashborn" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Ashborn" handle="Ashborn" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Orsimer_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="Berserker Rage" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Berserker Rage" handle="Berserker Rage" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>

@@ -66,7 +66,7 @@ new entry "AGTT_Elfborn"
 type "PassiveData"
 data "DisplayName" "The Apprentice: Elfborn"
 data "Description" "You are vulnerable to Magical attacks. You also gain an additional 1st Level Spell Slot, and receive the spell Thunderwave."
-data "Boosts" "Resistant(Slashing, VulnerableToMagical);Resistant(Piercing, VulnerableToMagical);Resistant(Bludgeoning, VulnerableToMagical);Resistant(Acid, VulnerableToMagical);Resistant(Thunder, VulnerableToMagical);Resistant(Necrotic, Vulnerable);Resistant(Fire, VulnerableToMagical);Resistant(Lightning, Vulnerable);Resistant(Cold, VulnerableToMagical);Resistant(Psychic, Vulnerable);Resistant(Poison, VulnerableToMagical);Resistant(Radiant, Vulnerable);Resistant(Force, VulnerableToMagical);ActionResource(SpellSlot,1,1);UnlockSpell(Zone_Thunderwave)"
+data "Boosts" "Resistance(Slashing, VulnerableToMagical);Resistance(Piercing, VulnerableToMagical);Resistance(Bludgeoning, VulnerableToMagical);Resistance(Acid, VulnerableToMagical);Resistance(Thunder, VulnerableToMagical);Resistance(Necrotic, Vulnerable);Resistance(Fire, VulnerableToMagical);Resistance(Lightning, Vulnerable);Resistance(Cold, VulnerableToMagical);Resistance(Psychic, Vulnerable);Resistance(Poison, VulnerableToMagical);Resistance(Radiant, Vulnerable);Resistance(Force, VulnerableToMagical);ActionResource(SpellSlot,1,1);UnlockSpell(Zone_Thunderwave)"
 data "ExtraDescriptionRef" "The Apprentice's Season is Sun's Height. Those born under the sign of the Apprentice have a special affinity for magic of all kinds, but are equally as vulnerable to it."
 
 new entry "AGTT_StuntedMagicka"

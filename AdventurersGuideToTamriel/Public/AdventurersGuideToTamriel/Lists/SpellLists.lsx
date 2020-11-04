@@ -60,39 +60,39 @@
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Shout_Buoyancy;AGTT_Shout_Candlelight;AGTT_Shout_Fortify;AGTT_Target_VerosKnock;AGTT_Projectile_AzurasRain;AGTT_Target_CreateWater;AGTT_Target_MehrunesSmoke;AGTT_Target_MeridiasGrasp;AGTT_Target_Fleabite;AGTT_Target_Chill;AGTT_Target_FrostwindBlade;AGTT_Projectile_Ignite;AGTT_Target_Melt;AGTT_Target_Grease;AGTT_Target_Gust;AGTT_Target_MentalInterference;AGTT_Teleportation_ProjectObject;AGTT_Shout_PsychicHowl;AGTT_Shout_SpectralShield;AGTT_DancingLights;AGTT_Target_Earwig;AGTT_Target_Friends;AGTT_Target_Light;AGTT_Target_MinorIllusion;AGTT_Target_PsychicShock;AGTT_Shout_SilentPortal;AGTT_Shout_Thaumaturgy;AGTT_Target_SacredFlame;AGTT_Target_LesserWard" />
                     <attribute id="UUID" type="guid" value="7bf36a27-9e1c-486e-918b-60b9a2509b41"/>
-					<attribute id="Name" type="LSString" value="All Cantrips"/>
+					<attribute id="Name" type="LSString" value="AllCantrips"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Shout_Buoyancy;AGTT_Shout_Candlelight;AGTT_Shout_Fortify;AGTT_Target_VerosKnock" />
                     <attribute id="UUID" type="guid" value="82cb20ca-2aa2-4083-bbed-54cca0f5c65f"/>
-					<attribute id="Name" type="LSString" value="Alteration Cantrips"/>
+					<attribute id="Name" type="LSString" value="AlterationCantrips"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Projectile_AzurasRain;AGTT_Target_CreateWater;AGTT_Target_MehrunesSmoke;AGTT_Target_MeridiasGrasp" />
                     <attribute id="UUID" type="guid" value="ed9fab5f-8b46-42d4-b358-27c9b29abbe5"/>
-					<attribute id="Name" type="LSString" value="Conjuration Cantrips"/>
+					<attribute id="Name" type="LSString" value="ConjurationCantrips"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Target_Fleabite;AGTT_Target_Chill;AGTT_Target_FrostwindBlade;AGTT_Projectile_Ignite;AGTT_Target_Melt;AGTT_Target_Grease;AGTT_Target_Gust" />
                     <attribute id="UUID" type="guid" value="887d72b7-2b4c-41b1-b819-95055786fce7"/>
-					<attribute id="Name" type="LSString" value="Destruction Cantrips"/>
+					<attribute id="Name" type="LSString" value="DestructionCantrips"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Target_MentalInterference;AGTT_Teleportation_ProjectObject;AGTT_Shout_PsychicHowl;AGTT_Shout_SpectralShield" />
                     <!-- attribute id="GMOnlySpells" value"AGTT_Shout_Clairvoyance_GM;AGTT_Shout_DetectMagic_GM;AGTT_Shout_DetectPoison_GM" /-->
                     <attribute id="UUID" type="guid" value="bb89ad5b-6850-42b3-8d53-b92851be3330"/>
-					<attribute id="Name" type="LSString" value="Mysticism Cantrips"/>
+					<attribute id="Name" type="LSString" value="MysticismCantrips"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_DancingLights;AGTT_Target_Earwig;AGTT_Target_Friends;AGTT_Target_Light;AGTT_Target_MinorIllusion;AGTT_Target_PsychicShock;AGTT_Shout_SilentPortal;AGTT_Shout_Thaumaturgy" />
                     <attribute id="UUID" type="guid" value="77d51b21-a436-40de-8289-13bdbd2c42e3"/>
-					<attribute id="Name" type="LSString" value="Illusion Cantrips"/>
+					<attribute id="Name" type="LSString" value="IllusionCantrips"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Target_SacredFlame;AGTT_Target_LesserWard" />
                     <!-- attribute id="GMOnlySpells" value"AGTT_Shout_PurifyFood" /-->
                     <attribute id="UUID" type="guid" value="5b76c53d-3ee5-44ea-9139-f24174b5eba4"/>
-					<attribute id="Name" type="LSString" value="Restoration Cantrips"/>
+					<attribute id="Name" type="LSString" value="RestorationCantrips"/>
                 </node>
 
                 <!-- First Level Spells -->
@@ -100,33 +100,33 @@
                     <attribute id="Spells" type="LSString" value="AGTT_Target_Barrier;AGTT_Target_BurdeningTouch;AGTT_Shout_Feather;AGTT_Target_GustForm;AGTT_Target_Magesoap;AGTT_Target_Sanction;AGTT_Shout_Stonefist" />
                     <addtribute it="UUID" type="guid" value="c5d5f3aa-4626-4ee1-9912-f72a57bf101b" />
                     <!-- attribute id="IncompleteSpells" value"AGTT_Target_Doorjam;AGTT_Target_Oakflesh" /-->
-                    <attribute id="AGTT_Source" type="FixedString" value="Alteration Spells (1st Level)" />
+                    <attribute id="AGTT_Source" type="FixedString" value="AlterationSpells1stLevel" />
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Shout_ClannfearsNose;AGTT_Projectile_ColdharborsRain;AGTT_Shout_Empathy;AGTT_Target_EnsnaringStrike;AGTT_Target_Watcher" />
                     <addtribute it="UUID" type="guid" value="fd17262e-b9ea-4716-ba77-21d375581d49" />
-                    <attribute id="AGTT_Source" type="FixedString" value="Conjuration Spells (1st Level)" />
+                    <attribute id="AGTT_Source" type="FixedString" value="ConjurationSpell1stLevel" />
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Target_Frostbite;AGTT_Target_Pinprick;AGTT_Zone_BurningHands;AGTT_Zone_Flash;AGTT_Projectile_GuidingBolt;AGTT_Target_Hex;AGTT_MagicMissile;AGTT_Target_ThunderingArmor;AGTT_Zone_Sparks;AGTT_Target_Torpor;AGTT_Target_Wound;" />
                     <attribute id="UUID" type="guid" value="84f542f5-64ad-4777-aa35-ce070f830a2b"/>
-					<attribute id="Name" type="LSString" value="Destruction Spells (1st Level)"/>
+					<attribute id="Name" type="LSString" value="DestructionSpells1stLevel"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Target_Brand;AGTT_Target_Command_Container;AGTT_Target_Dispel;AGTT_Target_Identify;AGTT_Mage_Armor;AGTT_Shout_Nightshield;AGTT_Target_Pester;AGTT_Target_Prophesized_Strike" />
                     <!-- attribute id="GMOnlySpells" value"AGTT_AppraisingTouch_GM;AGTT_Shout_DetectLife_GM" /-->
                     <attribute id="UUID" type="guid" value="061eb588-cd57-4de7-9404-740d61b0bcb6"/>
-					<attribute id="Name" type="LSString" value="Mysticism Spells (1st Level)"/>
+					<attribute id="Name" type="LSString" value="MysticismSpells1stLevel)"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Shout_Blur;AGTT_Target_Chameleon;AGTT_Zone_ColorSpray;AGTT_Shout_DisguiseSelf;AGTT_Target_EyeMaze;AGTT_Target_FaerieFire;AGTT_Target_MisdirectedMark;AGTT_Target_Muffle;AGTT_Target_HideousLaughter" />
                     <attribute id="UUID" type="guid" value="e32221e4-e41e-44b0-b365-7f70d26ef7f6"/>
-					<attribute id="Name" type="LSString" value="Illusion Spells (1st Level)"/>
+					<attribute id="Name" type="LSString" value="IllusionSpells1stLevel"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_Target_Bless;AGTT_Shout_HearthHeal;AGTT_Target_HealingHands;AGTT_Shout_ResistPoison;AGTT_Shout_ResistDisease" />
                     <attribute id="UUID" type="guid" value="a58aa5e1-89c6-461d-8f45-c5fc10f023bc"/>
-					<attribute id="Name" type="LSString" value="Restoration Spells (1st Level)"/>
+					<attribute id="Name" type="LSString" value="RestorationSpells1stLevel"/>
                 </node>
 
                 <!-- Default Spell List Overrides -->

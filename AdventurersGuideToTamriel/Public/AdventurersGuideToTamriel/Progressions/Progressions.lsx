@@ -56,7 +56,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_DragonSkin"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(7bf36a27-9e1c-486e-918b-60b9a2509b41,1,0,AGTT_Progression_ArcaneConnection,Intelligence)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(7bf36a27-9e1c-486e-918b-60b9a2509b41,1,0,AGTT_Progression_ArcaneConnection,Intelligence,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="322dfbbb-b37e-47cf-96e1-64cf9287452c"/>
                     <attribute id="UUID" type="guid" value="4d5fb255-1a17-4b02-b376-9f0eb06706c8"/>
                 </node>
@@ -110,6 +110,7 @@
 
 				        <!-- Bosmer Progressions -->
                 <node id="Progression">
+                    <attribute id="DisplayName" type="FixedString" value="Beast Tongue"/>
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="Ability(Dexterity,2);Proficiency(Shortbows);Proficiency(Longbows);ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>

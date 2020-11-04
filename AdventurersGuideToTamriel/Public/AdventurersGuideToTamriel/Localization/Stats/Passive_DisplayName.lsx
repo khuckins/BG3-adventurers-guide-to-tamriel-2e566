@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-	<version major="4" minor="0" revision="0" build="48" />
+	<version major="4" minor="0" revision="0" build="49" />
 	<region id="TranslatedStringKeys">
 		<node id="root">
 			<children>
 				<node id="TranslatedStringKey">
-					<attribute id="UUID" type="FixedString" value="AGTT_RedguardImmunity_Desc" />
-					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="FixedString" value="You have resistance to Poison." />
+					<attribute id="UUID" type="FixedString" value="AGTT_RedguardImmunity_Name" />
 					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="TranslatedString" value="Strong Immune System" handle="" version="5" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
 			</children>
