@@ -87,7 +87,7 @@ data "DisplayName" "Sanctioned"
 data "Description" "Whenver this creature deals damage to another creature, it takes [1]"
 data "DescriptionParams" "DealDamage(2d6, Radiant)"
 data "StatsFunctorContext" "OnAttack"
-data "StatsFunctorContext" "StatsFunctors(1d6, Radiant)"
+data "StatsFunctorContext" "DealDamage(1d6, Radiant)"
 
 new entry "AGTT_STATUS_STONEFIST"
 type "StatusData"

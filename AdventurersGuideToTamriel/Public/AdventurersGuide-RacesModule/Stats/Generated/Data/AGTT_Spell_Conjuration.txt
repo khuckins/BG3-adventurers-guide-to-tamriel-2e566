@@ -105,9 +105,6 @@ data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundR
 data "MemoryCost" "1"
 
 
-
-
-
 // 1st Level Spells
 // -----------------
 // Analyze Portal

@@ -13,7 +13,6 @@ data "Boosts" "Resistance(Cold, Resistant)"
 new entry "AGTT_RedguardImmunity"
 type "PassiveData"
 data "DisplayName" "Strong Immune System"
-data "Description" "AGTT_ProgDesc_Redguard_FeatB"
 data "DescriptionParams" "You have resistance to Poison."
 data "Boosts" "Resistance(Poison, Resistant)"
 
@@ -21,12 +20,11 @@ new entry "AGTT_Highborne"
 type "PassiveData"
 data "DisplayName" "Highborne"
 data "Description" "Powerful magicka courses through your veins, granting you immunity to poisons and disease, but making you more susceptible to magic attacks."
-data "Boosts" "Resistant(Slashing, VulnerableToMagical);Resistant(Piercing, VulnerableToMagical);Resistant(Bludgeoning, VulnerableToMagical);Resistant(Acid, VulnerableToMagical);Resistant(Thunder, VulnerableToMagical);Resistant(Necrotic, VulnerableToMagical);Resistant(Fire, VulnerableToMagical);Resistant(Lightning, VulnerableToMagical);Resistant(Cold, VulnerableToMagical);Resistant(Psychic, VulnerableToMagical);Resistant(Poison, VulnerableToMagical);Resistant(Radiant, VulnerableToMagical);Resistant(Force, VulnerableToMagical);"
+data "Boosts" "Resistant(Slashing, VulnerableToMagical);Resistant(Piercing, VulnerableToMagical);Resistant(Bludgeoning, VulnerableToMagical);Resistant(Acid, VulnerableToMagical);Resistant(Thunder, VulnerableToMagical);Resistant(Necrotic, VulnerableToMagical);Resistant(Fire, VulnerableToMagical);Resistant(Lightning, VulnerableToMagical);Resistant(Cold, VulnerableToMagical);Resistant(Psychic, VulnerableToMagical);Resistant(Poison, VulnerableToMagical);Resistant(Radiant, VulnerableToMagical);Resistant(Force, VulnerableToMagical);ActionResource(SpellSlot,IntelligenceModifier,1)"
 
 new entry "AGTT_BEASTTONGUE"
 type "PassiveData"
 data "DisplayName" "Beast Tongue"
-data "Description" "AGTT_ProgDesc_Dunmer_FeatB"
 data "Description" "You may converse with animals"
 data "Boosts" ApplyStatus(PETPAL,100,-1);
 

@@ -23,39 +23,6 @@ data "SpellRoll" "IF(Level < 5): not SavingThrow(Ability.Dexterity, 1d20+2+Intel
 				  IF(Level > 12 and Level < 16): not SavingThrow(Ability.Dexterity, 1d20+5+IntelligenceModifier+8);
 				  IF(Level > 15): not SavingThrow(Ability.Dexterity, 1d20+6+IntelligenceModifier+8);"
 
-// Overwriting Default FireBolt to test the above...
-new entry "Projectile_FireBolt"
-type "SpellData"
-data "SpellType" "Projectile"
-data "Level" "0"
-data "SpellSchool" "Evocation"
-data "SpellProperties" "GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Vaporize);GROUND:CreateSurface(1,0,Fire)"
-data "TargetRadius" "18"
-data "SpellRoll" "Attack(1d20+2+math.max(GetModifier(context.Source.Strength)))"
-data "SpellSuccess" "DealDamage(1d6,Fire)"
-data "TargetConditions" "not Self() and not Dead()"
-data "ProjectileCount" "1"
-data "Template" "792ba497-a6ea-46bc-81cb-deb78e4dd9d3"
-data "Icon" "Spell_Evocation_FireBolt"
-data "DisplayName" "Projectile_FireBolt_DisplayName"
-data "Description" "Projectile_FireBolt_Description"
-data "DescriptionParams" "DealDamage(1d6,Fire)"
-data "TooltipDamageList" "DealDamage(1d6,Fire)"
-data "TooltipAttackSave" "RangedSpellAttack"
-data "PrepareEffect" "VFX_Spells_Prepare_Arcane_Damage_Fire_R_HandFX_01:Dummy_R_HandFX::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Damage_Fire_R_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Prepare_01:0:None::None::0:0::::"
-data "CastEffect" "VFX_Spells_Cast_Damage_Fire_ProjectileSingle_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Somatic_01:0:None::None::0:0::::;VFX_Spells_Cast_Damage_Fire_ProjectileSingle_HandFX_Textkey_02:Dummy_R_HandFX:VFX_Somatic_02:0:None::None::0:0::::;VFX_Spells_Cast_Damage_Fire_ProjectileSingle_CastFX_Textkey_01:Dummy_CastFX:VFX_Somatic_02:0:None::None::0:0::::"
-data "PreviewCursor" "Cast"
-data "CastTextEvent" "Cast"
-data "CastSound" "Spell_Cast_Damage_Fire_FireBolt_L1to3"
-data "CycleConditions" "Enemy() and not Dead()"
-data "UseCosts" "ActionPoint:1"
-data "SpellAnimationArcaneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
-data "SpellAnimationDivineMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
-data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
-data "VerbalIntent" "Damage"
-data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
-data "RechargeValues" "4-6"
-
 // Cantrips
 // -----------------
 // Fleabite				AGTT_Target_Fleabite

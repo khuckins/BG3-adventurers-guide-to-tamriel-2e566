@@ -413,7 +413,7 @@
 						</node>
 					</children>
 				</node>
-				
+
 				<!-- Altmer -->
 				<node id="GameObjects">
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="245d5b2c-0232-4607-aa2b-8847700f468e" />
@@ -463,7 +463,7 @@
 						</node>
 					</children>
 				</node>
-				
+
 				<!-- Bosmer -->
 				<node id="GameObjects">
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="2748e65a-352d-4ec5-bd18-4da2714c998e" />
@@ -513,7 +513,7 @@
 						</node>
 					</children>
 				</node>
-				
+
 				<!-- Dunmer -->
 				<!-- Unaffiliated -->
 				<node id="GameObjects">
@@ -608,7 +608,7 @@
 						</node>
 					</children>
 				</node>
-				
+
 				<!-- Hlaalu -->
 				<node id="GameObjects">
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="550b4fa1-cada-49a6-be0e-6c7807f6b34d" />
@@ -702,7 +702,7 @@
 						</node>
 					</children>
 				</node>
-				
+
 				<!-- Redoran -->
 				<node id="GameObjects">
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="258e9a83-edfb-4271-9504-0216cff088ef" />
@@ -757,7 +757,7 @@
 						</node>
 					</children>
 				</node>
-				
+
 				<!-- Telvanni -->
 				<node id="GameObjects">
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="e127da59-478a-4113-b73e-338b1e61eda8" />
@@ -812,7 +812,7 @@
 						</node>
 					</children>
 				</node>
-				
+
 				<!-- Indoril -->
 				<node id="GameObjects">
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="54a7e4bb-d660-4902-a20b-3f723b19a82e" />
@@ -867,7 +867,7 @@
 						</node>
 					</children>
 				</node>
-				
+
 				<!-- Dres -->
 				<node id="GameObjects">
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="6a8f2394-7914-4534-9ff6-0fd78bbb73d6" />
@@ -961,7 +961,7 @@
 						</node>
 					</children>
 				</node>
-				
+
 				<!-- Iron Orsimer -->
 				<node id="GameObjects">
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="cade33f4-fd9b-4936-b80e-ccd63aa6e1e4" />
@@ -1011,7 +1011,7 @@
 						</node>
 					</children>
 				</node>
-				
+
 				<!-- Wood Orsimer -->
 				<node id="GameObjects">
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="0f3d2877-f184-4d4f-a933-37553c665f2e" />
@@ -1059,6 +1059,71 @@
 								</node>
 							</children>
 						</node>
+					</children>
+				</node>
+                <!-- Spells -->
+				<node id="GameObjects">
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6001b4dbgad04g4a8ag8dc4g6f633417dfbb" version="1" />
+					<attribute id="ImpactSound" type="FixedString" value="d44f2631-ebea-49ff-79ba-415636e0270a" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5f608275-f77d-4b0b-a589-cc5da84711fc" />
+					<attribute id="Name" type="LSString" value="TOOL_Ladder_Metal_3H_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a732d1a9-78ec-4c58-8bcb-e4c263ed61d5" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f67fd2f9-8ab9-2a3d-6e59-e2f7863442ab" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Ladder_Indestructible" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="3d75834d-f812-3aa2-a94f-df8ec0f455dd" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741872" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="3.489654" />
+									<attribute id="Max" type="fvec3" value="0.4516544 3.489656 0.1096378" />
+									<attribute id="Min" type="fvec3" value="-0.4367665 1.66893E-06 -0.1169546" />
+									<attribute id="Radius" type="float" value="0.4442105" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="3.489654" />
+									<attribute id="Max" type="fvec3" value="0.4516544 3.489656 0.1096378" />
+									<attribute id="Min" type="fvec3" value="-0.4367665 1.66893E-06 -0.1169546" />
+									<attribute id="Radius" type="float" value="0.4442105" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="3.489654" />
+									<attribute id="Max" type="fvec3" value="0.4516544 3.489656 0.1096378" />
+									<attribute id="Min" type="fvec3" value="-0.4367665 1.66893E-06 -0.1169546" />
+									<attribute id="Radius" type="float" value="0.4442105" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ParentRace" />
+								<node id="ShortHair" />
+								<node id="Visuals" />
+							</children>
+						</node>
+						<node id="GameMaster" />
 					</children>
 				</node>
 			</children>
