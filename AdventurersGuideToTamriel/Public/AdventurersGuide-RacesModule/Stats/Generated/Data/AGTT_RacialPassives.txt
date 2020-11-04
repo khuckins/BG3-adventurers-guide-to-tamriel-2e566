@@ -20,7 +20,7 @@ new entry "AGTT_Highborne"
 type "PassiveData"
 data "DisplayName" "Highborne"
 data "Description" "Powerful magicka courses through your veins, granting you immunity to poisons and disease, but making you more susceptible to magic attacks."
-data "Boosts" "Resistant(Slashing, VulnerableToMagical);Resistant(Piercing, VulnerableToMagical);Resistant(Bludgeoning, VulnerableToMagical);Resistant(Acid, VulnerableToMagical);Resistant(Thunder, VulnerableToMagical);Resistant(Necrotic, VulnerableToMagical);Resistant(Fire, VulnerableToMagical);Resistant(Lightning, VulnerableToMagical);Resistant(Cold, VulnerableToMagical);Resistant(Psychic, VulnerableToMagical);Resistant(Poison, VulnerableToMagical);Resistant(Radiant, VulnerableToMagical);Resistant(Force, VulnerableToMagical);ActionResource(SpellSlot,IntelligenceModifier,1)"
+data "Boosts" "Resistant(Slashing, VulnerableToMagical);Resistant(Piercing, VulnerableToMagical);Resistant(Bludgeoning, VulnerableToMagical);Resistant(Acid, VulnerableToMagical);Resistant(Thunder, VulnerableToMagical);Resistant(Necrotic, VulnerableToMagical);Resistant(Fire, VulnerableToMagical);Resistant(Lightning, VulnerableToMagical);Resistant(Cold, VulnerableToMagical);Resistant(Psychic, VulnerableToMagical);Resistant(Poison, VulnerableToMagical);Resistant(Radiant, VulnerableToMagical);Resistant(Force, VulnerableToMagical);ActionResource(SpellSlot,2,1)"
 
 new entry "AGTT_BEASTTONGUE"
 type "PassiveData"

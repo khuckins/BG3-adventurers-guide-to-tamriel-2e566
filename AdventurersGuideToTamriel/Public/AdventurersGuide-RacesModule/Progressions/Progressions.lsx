@@ -100,7 +100,7 @@
                     <attribute id="Boosts" type="LSString" value="Ability(Intelligence,2);Resistance(Poison, Immune);ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Altmer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="AGTT_Highborne"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(ae66cb52-fa6d-4c19-abe0-51531fc69f68,1,0,AGTT_Altmer_Cantrip,Intelligence,AlwaysPrepared);SelectSpells(bdb0b40c-981e-49d4-ab29-685ed83f267d,2,0,AGTT_Altmer_Spells,Intelligence)"/>

@@ -44,6 +44,7 @@ new entry "AGTT_Target_CreateWater"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_CreateWater"
+data "Level" "0"
 data "UseCosts" "ActionPoint:1"
 data "RootSpellID" "Target_CreateWater"
 
