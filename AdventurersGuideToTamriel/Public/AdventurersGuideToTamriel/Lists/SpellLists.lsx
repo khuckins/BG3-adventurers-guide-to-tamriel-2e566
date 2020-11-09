@@ -129,7 +129,16 @@
 					<attribute id="Name" type="LSString" value="RestorationSpells1stLevel"/>
                 </node>
 
+                <!-- 2nd Level Spells -->
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="AGTT_Target_AlterWeapon;AGTT_Target_Batvision;AGTT_Target_Bravery;AGTT_Shout_FireShield;AGTT_Target_FrostBarrier;AGTT_Target_Hypothermia;AGTT_Shout_LightningShield;AGTT_Target_Lucksap;AGTT_Target_Shatter;AGTT_Shout_Spellstrike;AGTT_Target_SpikeGrowth" />
+                    <attribute id="UUID" type="guid" value="24b2dedf-7378-4e09-92f0-4bb0cd367cc1"/>
+					<attribute id="Name" type="LSString" value="AlterationSpells2ndLevel"/>
+                </node>
+
+
                 <!-- Default Spell List Overrides -->
+                <!-- Cleric list includes Restoration Spells -->
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="Target_Guidance;Target_Light;Target_Resistance;Target_SacredFlame;Shout_Thaumaturgy;AGTT_Target_LesserWard"/>
                     <attribute id="UUID" type="guid" value="2f43a103-5bf1-4534-b14f-663decc0c525"/>
@@ -138,6 +147,8 @@
                     <attribute id="Spells" type="LSString" value="Target_Bane;Target_Command_Halt;Target_CreateWater;Projectile_GuidingBolt;Target_HealingWord;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_ShieldOfFaith;AGTT_Shout_HearthHeal;AGTT_Target_HealingHands;AGTT_Shout_ResistPoison"/>
                     <attribute id="UUID" type="guid" value="269d1a3b-eed8-4131-8901-a562238f5289"/>
                 </node>
+
+                <!-- Wizard Spells include All except for Restoration, for now -->
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="AGTT_DancingLights;AGTT_Target_Earwig;AGTT_Target_Friends;AGTT_Target_Light;AGTT_Target_MinorIllusion;AGTT_Target_PsychicShock;AGTT_Shout_SilentPortal;AGTT_Shout_Thaumaturgy;AGTT_Projectile_AzurasRain;AGTT_Target_MehrunesSmoke;AGTT_Target_MeridiasGrasp;AGTT_Target_VerosKnock;AGTT_Shout_Fortify;AGTT_Shout_Buoyancy;AGTT_Shout_Candlelight;Projectile_AcidSplash;Shout_BladeWard;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_Light;Target_MageHand;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Target_TrueStrike;AGTT_Target_Fleabite;GTT_Target_Chill;AGTT_Target_FrostwindBlade;AGTT_Target_MentalInterference;AGTT_Projectile_Ignite;AGTT_Target_Melt;AGTT_Target_Grease;AGTT_Target_Gust;AGTT_Teleportation_ProjectObject;AGTT_Shout_PsychicHowl;AGTT_Shout_SpectralShield"/>
                     <attribute id="UUID" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa"/>
@@ -145,6 +156,10 @@
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt;AGTT_Target_Barrier;AGTT_Target_BurdeningTouch;AGTT_Shout_Feather;AGTT_Target_GustForm;AGTT_Target_Magesoap;AGTT_Target_Sanction;AGTT_Shout_Stonefist;AGTT_Shout_ClannfearsNose;AGTT_Projectile_ColdharborsRain;AGTT_Shout_Empathy;AGTT_Target_EnsnaringStrike;AGTT_Target_Watcher;AGTT_Target_Frostbite;AGTT_Target_Pinprick;AGTT_Zone_BurningHands;AGTT_Zone_Flash;AGTT_Projectile_GuidingBolt;AGTT_Target_Hex;AGTT_MagicMissile;AGTT_Target_ThunderingArmor;AGTT_Zone_Sparks;AGTT_Target_Torpor;AGTT_Target_Wound;AGTT_Target_Brand;AGTT_Target_Command_Container;AGTT_Target_Dispel;AGTT_Target_Identify;AGTT_Mage_Armor;AGTT_Shout_Nightshield;AGTT_Target_Pester;AGTT_Target_Prophesized_Strike;AGTT_Shout_Blur;AGTT_Target_Chameleon;AGTT_Zone_ColorSpray;AGTT_Shout_DisguiseSelf;AGTT_Target_EyeMaze;AGTT_Target_FaerieFire;AGTT_Target_MisdirectedMark;AGTT_Target_Muffle;AGTT_Target_HideousLaughter"/>
                     <attribute id="UUID" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Target_Blindness;Shout_Blur;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt;AGTT_Target_AlterWeapon;AGTT_Target_Batvision;AGTT_Target_Bravery;AGTT_Shout_FireShield;AGTT_Target_FrostBarrier;AGTT_Target_Hypothermia;AGTT_Shout_LightningShield;AGTT_Target_Lucksap;AGTT_Target_Shatter;AGTT_Shout_Spellstrike;AGTT_Target_SpikeGrowth;AGTT_Target_Barrier;AGTT_Target_BurdeningTouch;AGTT_Shout_Feather;AGTT_Target_GustForm;AGTT_Target_Magesoap;AGTT_Target_Sanction;AGTT_Shout_Stonefist;AGTT_Shout_ClannfearsNose;AGTT_Projectile_ColdharborsRain;AGTT_Shout_Empathy;AGTT_Target_EnsnaringStrike;AGTT_Target_Watcher;AGTT_Target_Frostbite;AGTT_Target_Pinprick;AGTT_Zone_BurningHands;AGTT_Zone_Flash;AGTT_Projectile_GuidingBolt;AGTT_Target_Hex;AGTT_MagicMissile;AGTT_Target_ThunderingArmor;AGTT_Zone_Sparks;AGTT_Target_Torpor;AGTT_Target_Wound;AGTT_Target_Brand;AGTT_Target_Command_Container;AGTT_Target_Dispel;AGTT_Target_Identify;AGTT_Mage_Armor;AGTT_Shout_Nightshield;AGTT_Target_Pester;AGTT_Target_Prophesized_Strike;AGTT_Shout_Blur;AGTT_Target_Chameleon;AGTT_Zone_ColorSpray;AGTT_Shout_DisguiseSelf;AGTT_Target_EyeMaze;AGTT_Target_FaerieFire;AGTT_Target_MisdirectedMark;AGTT_Target_Muffle;AGTT_Target_HideousLaughter"/>
+                    <attribute id="UUID" type="guid" value="80c6b070-c3a6-4864-84ca-e78626784eb4"/>
                 </node>
 			</children>
         </node>
