@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|The Atronach's season is Sun's Dusk. Those born under this sign are natural sorcerers with deep reserves of Magicka, but they cannot generate Magicka on their own.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="The Atronach's season is Sun's Dusk. Those born under this sign are natural sorcerers with deep reserves of Magicka, but they cannot generate Magicka on their own." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="Wombburn" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTTBS_ATRONACH"/>
+            <attribute id="UUID" type="guid" value="e470a474-df7b-4fba-85da-d5407f02c226"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

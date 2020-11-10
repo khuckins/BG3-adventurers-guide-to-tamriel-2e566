@@ -516,3 +516,29 @@ data "CastSound" "Spell_Cast_Damage_Necrotic_InflictWounds_L1to3"
 data "TargetSound" "Spell_Impact_Damage_Necrotic_InflictWounds_L1to3"
 data "SpellFlags" "HasSomaticComponent;IsSpell;CannotTargetItems;CannotTargetTerrain;IsHarmful"
 data "MemoryCost" "1"
+
+// Second Level Spells
+// --------------------
+//
+// Upleveled
+// Burning Hands
+// Guiding Bolt
+// Magic Missile
+// Pinprick
+// Sparks
+// Thundering Armor
+// Wound
+// ---------
+// Earth Bolt
+// Elemental Blade
+// Fireball
+// Gust of Wind
+// Lightning Arrow
+// Moonbeam
+// Radiant Fist
+// Thunderwave
+// Weakness to Fire
+// Weakness to Frost
+// Weakness to Magicka -- Should this be set to 3rd level, perhaps?
+// Weakness to Shock
+// Whip of Flame
