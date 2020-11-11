@@ -1,14 +1,67 @@
 new entry "AGTT_Passive_MeridiasGrasp"
 type "PassiveData"
 data "DisplayName" "Meridia's Grasp"
-data "Description" "This creature is in Caught in Meridia's light. The next character to attack it will recieve [1]."
+data "Description" "This creature is in Caught in Meridia's light. The next character to attack it will receive [1]."
 data "DescriptionParams" "TemporaryHP(1d6/2)"
 data "Conditions" "IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
 data "StatsFunctors" TemporaryHP(1d6/2)"
 data "StatsFunctorContext" "OnAttacked"
 
 new entry "AGTT_Passive_Spellstrike"
+type "PassiveData"
 data "DisplayName" "Spell Strike"
 data "Description" "This character is able to add its Wisdom modifier for Melee and Ranged weapon attacks, and deals an additional 1d4 Force damage."
 data "StatsFunctors" "Force(2.5);"
 data "StatsFunctorContext" "OnAttack"
+
+// Classes
+
+// Mage - Minor Feats
+new entry "AGTT_IntensiveTraining_L1"
+type "PassiveData"
+data "DisplayName" "Intensive Practice"
+data "Description" "This character has had intensive training in the arcane arts granting them an additional 1st-Level Spell Slot."
+data "Boosts" "ActionResource(SpellSlot,1,1)"
+
+new entry "AGTT_IntensiveTraining_L2"
+type "PassiveData"
+data "DisplayName" "Intensive Practice"
+data "Description" "This character has had intensive training in the arcane arts granting them an additional 2nd-Level Spell Slot."
+data "Boosts" "ActionResource(SpellSlot,1,2)"
+data "Conditions" ""
+
+new entry "AGTT_IntensiveTraining_L3"
+type "PassiveData"
+data "DisplayName" "Intensive Practice"
+data "Description" "This character has had intensive training in the arcane arts granting them an additional 3rd-Level Spell Slot."
+data "Boosts" "ActionResource(SpellSlot,1,3)"
+
+new entry "AGTT_ArcaneHaste"
+type "PassiveData"
+data "DisplayName" "Arcane Haste"
+data "Description" "When you cast a spell, you may take the disengage, dash, or hide action as a bonus action."
+data "StatsFunctors" "UnlockSpell(Shout_Disengage_BonusAction);UnlockSpell(Shout_Hide_BonusAction);UnlockSpell(Shout_Dash_BonusAction)"
+data "Conditions" "HasActionResource('BonusActionPoint', 1, 0, false, context.source)"
+data "StatsFunctorContext" "OnCast"
+
+// Savant likely not currently possible, as it would require halving the LearnSpellCostPerLevel key
+// new entry "AGTT_Savant"
+
+new entry "AGTT_AdeptCasting_Damage"
+type "PassiveData"
+data "DisplayName" "Adept Casting (Damage)"
+data "Description" "When casting a spell from your chosen school, if it is an offensive spell, you may add your Spellcasting Modifier to your damage."
+data "StatsFunctorContext" "OnAttack"
+data "StatsFunctors" "IF(conext.HitDescription.AttackType==(AttackType.RangedSpellAttack or AttackType.MeleeSpellAttack)):AddProficiencyToDamage"
+
+new entry "AGTT_AdeptCasting_Save"
+type "PassiveData"
+data "DisplayName" "Adept Casting (Spell DC)"
+data "Description" "When casting a spell from your chosen school, if it would require the target to make a Saving Throw, you may add your Spellcasting Modifier to the Spell DC."
+data "StatsFunctorContext" "OnCast"
+data "StatusFunctors" "IF(context.Target):ApplyStatus(context.Target, AGTT_STATUS_ADEPTCASTINGDEBUFF, 1)"
+
+new entry "AGTT_ArcaneWard"
+type "PassiveData"
+using "ArcaneWard"
+data "Conditions" "context.HitDescription.SpellSchool == SpellSchool.Alteration and context.HitDescription.SpellLevel > 0"

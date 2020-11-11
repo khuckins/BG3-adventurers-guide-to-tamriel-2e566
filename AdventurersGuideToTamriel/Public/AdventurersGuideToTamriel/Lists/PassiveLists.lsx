@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="48"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList" name="IntensivePracticeA">
+                    <attribute id="Passives" type="LSString" value="AGTT_IntensiveTraining_L1"/>
+                    <attribute id="UUID" type="guid" value="53090a3b-d307-4861-8728-989edaf27444"/>
+                </node>
+                <node id="PassiveList" name="IntensivePracticeB">
+                    <attribute id="Passives" type="LSString" value="AGTT_IntensiveTraining_L1,AGTT_IntensiveTraining_L2"/>
+                    <attribute id="UUID" type="guid" value="53e2a3b3-5414-46c7-9027-8e039683534f"/>
+                </node>
+                <node id="PassiveList" name="IntensivePracticeC">
+                    <attribute id="Passives" type="LSString" value="AGTT_IntensiveTraining_L1,AGTT_IntensiveTraining_L2,AGTT_IntensiveTraining_L3"/>
+                    <attribute id="UUID" type="guid" value="c04bb46f-36d2-46f1-9dd4-2b8df5bbe9ff"/>
+                </node>
+                <node id="PassiveList" name="AdeptCasting">
+                    <attribute id="Passives" type="LSString" value="AGTT_AdeptCasting_Damage,AGTT_AdeptCasting_Save"/>
+                    <attribute id="UUID" type="guid" value="0f1fae84-22f4-44d3-85f1-23a74ef56fa2"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

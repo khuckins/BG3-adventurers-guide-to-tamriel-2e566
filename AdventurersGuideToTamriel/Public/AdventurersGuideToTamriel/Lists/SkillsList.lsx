@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="21"/>
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList" name="MageMinorFeatExpertise">
+                    <attribute id="Skills" type="LSString" value="Arcana, History, Insight, Investigation, Medicine"/>
+                    <attribute id="UUID" type="guid" value="0a850c73-acff-40ea-a1b9-18bef6e102e9"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
