@@ -10,8 +10,8 @@
                     <attribute id="CanLearnSpells" type="bool" value="true"/>
                     <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Wizard"/>
-                    <attribute id="Description" type="FixedString" value="AGTT_CLASS_MAGE_DESCRIPTION"/>
-                    <attribute id="DisplayName" type="FixedString" value="AGTT_CLASS_MAGE_DISPLAYNAME"/>
+                    <attribute id="Description" type="FixedString" value="Mage Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Mage"/>
                     <attribute id="HasGod" type="bool" value="false"/>
                     <attribute id="HpPerLevel" type="int32" value="4"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -27,6 +27,7 @@
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c"/>
+                            <attribute id="Object" type="guid" value="5d185ec7-2fc4-4161-bdc8-da8e40377a5c"/>
                         </node>
                     </children>
                 </node>
@@ -35,8 +36,8 @@
                     <attribute id="CanLearnSpells" type="bool" value="true"/>
                     <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="ClassEquipment" type="FixedString" value=""/>
-                    <attribute id="Description" type="FixedString" value="AGTT_SUBCLASS_ALTERATION_DESCRIPTION"/>
-                    <attribute id="DisplayName" type="FixedString" value="AGTT_SUBCLASS_ALTERATION_DISPLAYNAME"/>
+                    <attribute id="Description" type="FixedString" value="Spells in this school affect the normal physical truths around the caster, though it is still bound by the laws of nature. Specializing in the Alteration school of Magic grants access to higher level Alteration magic, and features improving your abilities with Alteration spells. Your Spellcasting Modifier shifts to Wisdom."/>
+                    <attribute id="DisplayName" type="FixedString" value="Alteration School"/>
                     <attribute id="HasGod" type="bool" value="false"/>
                     <attribute id="HpPerLevel" type="int32" value="0"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -49,6 +50,86 @@
                     <attribute id="SoundMagicType" type="uint8" value="5"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="5"/>
                     <attribute id="UUID" type="guid" value="ee497b5f-a6aa-49b1-8d48-4e73e50c8d1a"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="f6a04f95-32eb-449c-832d-88e0402884ed"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Destruction magic focuses on damaging or making vulnerable teh world around the caster. Specializing in the Destruction school of Magic grants access to higher level Destruction magic, and features improving your abilities with Destruction spells. Your Spellcasting Modifier remains as Intelligence."/>
+                    <attribute id="DisplayName" type="FixedString" value="Destruction School"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Destruction"/>
+                    <attribute id="ParentGuid" type="guid" value="949ff00b-d2ad-4fc1-bf0a-e7a18c39e5e9"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="dc387b03-d96b-43af-8c8f-7c72b9439057"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="79541131-137c-44e2-bc8c-86f36e56c17c"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="9ff4b1d9-e8eb-4924-a0eb-89c745b05b33"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Similar to Alteration, Illusion magic changes the world around the caster, though its rules are not bound by the laws of nature. The effects are fleeting, the changes are noticeable only for the caster and their target. Specializing in the Illusion school of Magic grants access to higher level Illusion magic, and features improving your abilities with Illusion spells. Your Spellcasting Modifier shifts to Charisma."/>
+                    <attribute id="DisplayName" type="FixedString" value="Illusion School"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Illusion"/>
+                    <attribute id="ParentGuid" type="guid" value="949ff00b-d2ad-4fc1-bf0a-e7a18c39e5e9"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="4d1690c1-479e-421a-884f-0408869a717f"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="e4fcf73c-fc1a-4165-9314-116fff837585"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="2f97cb19-6839-45a7-bc11-abea5f2af244"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The school of Mysticism is the least understood school of magic. Those who master it are able to bypass  the strctural limitations of the physical world. Specializing in the Mysticism school of Magic grants access to higher level Mysticism magic, and features improving your abilities with Mysticism spells. Your Spellcasting Modifier shifts to Wisdom."/>
+                    <attribute id="DisplayName" type="FixedString" value="Mysticism School"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Mysticism"/>
+                    <attribute id="ParentGuid" type="guid" value="949ff00b-d2ad-4fc1-bf0a-e7a18c39e5e9"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c694884c-bf94-4fe1-bb87-b23038f7a224"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="447bd6cf-cd86-47aa-8215-a080bcf867e1"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="9b9fedd9-5bd1-4756-bd75-9e002af73c0b"/>
+                        </node>
+                    </children>
                 </node>
             </children>
         </node>

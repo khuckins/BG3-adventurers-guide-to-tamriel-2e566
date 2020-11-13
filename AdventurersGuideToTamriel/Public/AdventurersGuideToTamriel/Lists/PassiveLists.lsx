@@ -4,21 +4,37 @@
     <region id="PassiveLists">
         <node id="root">
             <children>
-                <node id="PassiveList" name="IntensivePracticeA">
-                    <attribute id="Passives" type="LSString" value="AGTT_IntensiveTraining_L1"/>
+                <node id="PassiveList" name="MageMinorFeatLevel2_Alteration">
+                    <attribute id="Passives" type="LSString" value="AGTT_MageMinorFeat_Expertise_Arcana,AGTT_MageMinorFeat_Expertise_History,AGTT_MageMinorFeat_Expertise_Insight,AGTT_MageMinorFeat_Expertise_Investigation,AGTT_MageMinorFeat_Expertise_Medicine,AGTT_MageMinorFeat_ArcaneHaste,AGTT_MageMinorFeat_ArcaneCombatant_Archery,AGTT_MageMinorFeat_ArcaneCombatant_Defense,AGTT_MageMinorFeat_ArcaneCombatant_Dueling,AGTT_MageMinorFeat_ArcaneCombatant_GreatWeaponFighting,AGTT_MageMinorFeat_ArcaneCombatant_Protection,AGTT_MageMinorFeat_ArcaneCombatant_TwoWeaponFighting,AGTT_MageMinorFeat_IntensiveTraining_L1,AGTT_MageMinorFeat_AdeptCasting_Damage,AGTT_MageMinorFeat_AdeptCasting_Save,AGTT_MageMinorFeat_ArcaneWard"/>
                     <attribute id="UUID" type="guid" value="53090a3b-d307-4861-8728-989edaf27444"/>
                 </node>
-                <node id="PassiveList" name="IntensivePracticeB">
-                    <attribute id="Passives" type="LSString" value="AGTT_IntensiveTraining_L1,AGTT_IntensiveTraining_L2"/>
-                    <attribute id="UUID" type="guid" value="53e2a3b3-5414-46c7-9027-8e039683534f"/>
+                <node id="PassiveList" name="MageMinorFeatLevel4_Alteration">
+                    <attribute id="Passives" type="LSString" value="AGTT_MageMinorFeat_Expertise_Arcana,AGTT_MageMinorFeat_Expertise_History,AGTT_MageMinorFeat_Expertise_Insight,AGTT_MageMinorFeat_Expertise_Investigation,AGTT_MageMinorFeat_Expertise_Medicine,AGTT_MageMinorFeat_ArcaneHaste,AGTT_MageMinorFeat_ArcaneCombatant_Archery,AGTT_MageMinorFeat_ArcaneCombatant_Defense,AGTT_MageMinorFeat_ArcaneCombatant_Dueling,AGTT_MageMinorFeat_ArcaneCombatant_GreatWeaponFighting,AGTT_MageMinorFeat_ArcaneCombatant_Protection,AGTT_MageMinorFeat_ArcaneCombatant_TwoWeaponFighting,AGTT_MageMinorFeat_IntensiveTraining_L1,AGTT_MageMinorFeat_IntensiveTraining_L2,AGTT_MageMinorFeat_AdeptCasting_Damage,AGTT_MageMinorFeat_AdeptCasting_Save,AGTT_MageMinorFeat_ArcaneWard"/>
+                    <attribute id="UUID" type="guid" value="80baa149-2655-4819-ac19-6d69c0bff319"/>
                 </node>
-                <node id="PassiveList" name="IntensivePracticeC">
-                    <attribute id="Passives" type="LSString" value="AGTT_IntensiveTraining_L1,AGTT_IntensiveTraining_L2,AGTT_IntensiveTraining_L3"/>
-                    <attribute id="UUID" type="guid" value="c04bb46f-36d2-46f1-9dd4-2b8df5bbe9ff"/>
+                <node id="PassiveList" name="MageMinorFeatLevel2_Destruction">
+                    <attribute id="Passives" type="LSString" value="AGTT_MageMinorFeat_Expertise_Arcana,AGTT_MageMinorFeat_Expertise_History,AGTT_MageMinorFeat_Expertise_Insight,AGTT_MageMinorFeat_Expertise_Investigation,AGTT_MageMinorFeat_Expertise_Medicine,AGTT_MageMinorFeat_ArcaneHaste,AGTT_MageMinorFeat_ArcaneCombatant_Archery,AGTT_MageMinorFeat_ArcaneCombatant_Defense,AGTT_MageMinorFeat_ArcaneCombatant_Dueling,AGTT_MageMinorFeat_ArcaneCombatant_GreatWeaponFighting,AGTT_MageMinorFeat_ArcaneCombatant_Protection,AGTT_MageMinorFeat_ArcaneCombatant_TwoWeaponFighting,AGTT_MageMinorFeat_IntensiveTraining_L1,AGTT_MageMinorFeat_AdeptCasting_Damage,AGTT_MageMinorFeat_AdeptCasting_Save"/>
+                    <attribute id="UUID" type="guid" value="b349e456-c95e-4627-ba67-801879736e9c"/>
                 </node>
-                <node id="PassiveList" name="AdeptCasting">
-                    <attribute id="Passives" type="LSString" value="AGTT_AdeptCasting_Damage,AGTT_AdeptCasting_Save"/>
-                    <attribute id="UUID" type="guid" value="0f1fae84-22f4-44d3-85f1-23a74ef56fa2"/>
+                <node id="PassiveList" name="MageMinorFeatLevel4_Destruction">
+                    <attribute id="Passives" type="LSString" value="AGTT_MageMinorFeat_Expertise_Arcana,AGTT_MageMinorFeat_Expertise_History,AGTT_MageMinorFeat_Expertise_Insight,AGTT_MageMinorFeat_Expertise_Investigation,AGTT_MageMinorFeat_Expertise_Medicine,AGTT_MageMinorFeat_ArcaneHaste,AGTT_MageMinorFeat_ArcaneCombatant_Archery,AGTT_MageMinorFeat_ArcaneCombatant_Defense,AGTT_MageMinorFeat_ArcaneCombatant_Dueling,AGTT_MageMinorFeat_ArcaneCombatant_GreatWeaponFighting,AGTT_MageMinorFeat_ArcaneCombatant_Protection,AGTT_MageMinorFeat_ArcaneCombatant_TwoWeaponFighting,AGTT_MageMinorFeat_IntensiveTraining_L1,AGTT_MageMinorFeat_IntensiveTraining_L2,AGTT_MageMinorFeat_AdeptCasting_Damage,AGTT_MageMinorFeat_AdeptCasting_Save"/>
+                    <attribute id="UUID" type="guid" value="5d1ccabd-d3bd-43aa-ac4f-436879871f11"/>
+                </node>
+                <node id="PassiveList" name="MageMinorFeatLevel2_Illusion">
+                    <attribute id="Passives" type="LSString" value="AGTT_MageMinorFeat_Expertise_Arcana,AGTT_MageMinorFeat_Expertise_History,AGTT_MageMinorFeat_Expertise_Insight,AGTT_MageMinorFeat_Expertise_Investigation,AGTT_MageMinorFeat_Expertise_Medicine,AGTT_MageMinorFeat_ArcaneHaste,AGTT_MageMinorFeat_ArcaneCombatant_Archery,AGTT_MageMinorFeat_ArcaneCombatant_Defense,AGTT_MageMinorFeat_ArcaneCombatant_Dueling,AGTT_MageMinorFeat_ArcaneCombatant_GreatWeaponFighting,AGTT_MageMinorFeat_ArcaneCombatant_Protection,AGTT_MageMinorFeat_ArcaneCombatant_TwoWeaponFighting,AGTT_MageMinorFeat_IntensiveTraining_L1,AGTT_MageMinorFeat_AdeptCasting_Damage,AGTT_MageMinorFeat_AdeptCasting_Save,AGTT_MageMinorFeat_ImprovedMinorIllusion"/>
+                    <attribute id="UUID" type="guid" value="fa8e2ba8-b2dd-465c-a3cc-e57f94fb4aea"/>
+                </node>
+                <node id="PassiveList" name="MageMinorFeatLevel4_Illusion">
+                    <attribute id="Passives" type="LSString" value="AGTT_MageMinorFeat_Expertise_Arcana,AGTT_MageMinorFeat_Expertise_History,AGTT_MageMinorFeat_Expertise_Insight,AGTT_MageMinorFeat_Expertise_Investigation,AGTT_MageMinorFeat_Expertise_Medicine,AGTT_MageMinorFeat_ArcaneHaste,AGTT_MageMinorFeat_ArcaneCombatant_Archery,AGTT_MageMinorFeat_ArcaneCombatant_Defense,AGTT_MageMinorFeat_ArcaneCombatant_Dueling,AGTT_MageMinorFeat_ArcaneCombatant_GreatWeaponFighting,AGTT_MageMinorFeat_ArcaneCombatant_Protection,AGTT_MageMinorFeat_ArcaneCombatant_TwoWeaponFighting,AGTT_MageMinorFeat_IntensiveTraining_L1,AGTT_MageMinorFeat_IntensiveTraining_L2,AGTT_MageMinorFeat_AdeptCasting_Damage,AGTT_MageMinorFeat_AdeptCasting_Save,AGTT_MageMinorFeat_ImprovedMinorIllusion"/>
+                    <attribute id="UUID" type="guid" value="890b632a-6d3a-40e1-bce6-a7ece4ad0096"/>
+                </node>
+                <node id="PassiveList" name="MageMinorFeatLevel2_Mysticism">
+                    <attribute id="Passives" type="LSString" value="AGTT_MageMinorFeat_Expertise_Arcana,AGTT_MageMinorFeat_Expertise_History,AGTT_MageMinorFeat_Expertise_Insight,AGTT_MageMinorFeat_Expertise_Investigation,AGTT_MageMinorFeat_Expertise_Medicine,AGTT_MageMinorFeat_ArcaneHaste,AGTT_MageMinorFeat_ArcaneCombatant_Archery,AGTT_MageMinorFeat_ArcaneCombatant_Defense,AGTT_MageMinorFeat_ArcaneCombatant_Dueling,AGTT_MageMinorFeat_ArcaneCombatant_GreatWeaponFighting,AGTT_MageMinorFeat_ArcaneCombatant_Protection,AGTT_MageMinorFeat_ArcaneCombatant_TwoWeaponFighting,AGTT_MageMinorFeat_IntensiveTraining_L1,AGTT_MageMinorFeat_AdeptCasting_Damage,AGTT_MageMinorFeat_AdeptCasting_Save,AGTT_MageMinorFeat_Portent"/>
+                    <attribute id="UUID" type="guid" value="cd626be5-4754-4f4d-83cd-02d3da09a1ff"/>
+                </node>
+                <node id="PassiveList" name="MageMinorFeatLevel4_Mysticism">
+                    <attribute id="Passives" type="LSString" value="AGTT_MageMinorFeat_Expertise_Arcana,AGTT_MageMinorFeat_Expertise_History,AGTT_MageMinorFeat_Expertise_Insight,AGTT_MageMinorFeat_Expertise_Investigation,AGTT_MageMinorFeat_Expertise_Medicine,AGTT_MageMinorFeat_ArcaneHaste,AGTT_MageMinorFeat_ArcaneCombatant_Archery,AGTT_MageMinorFeat_ArcaneCombatant_Defense,AGTT_MageMinorFeat_ArcaneCombatant_Dueling,AGTT_MageMinorFeat_ArcaneCombatant_GreatWeaponFighting,AGTT_MageMinorFeat_ArcaneCombatant_Protection,AGTT_MageMinorFeat_ArcaneCombatant_TwoWeaponFighting,AGTT_MageMinorFeat_IntensiveTraining_L1,AGTT_MageMinorFeat_AdeptCasting_Damage,AGTT_MageMinorFeat_AdeptCasting_Save,AGTT_MageMinorFeat_Portent"/>
+                    <attribute id="UUID" type="guid" value="cb2a22d6-d9f3-47b9-ac95-0b4651c67456"/>
                 </node>
             </children>
         </node>

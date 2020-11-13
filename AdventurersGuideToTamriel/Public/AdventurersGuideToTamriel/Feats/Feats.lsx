@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <!-- Mage Feats -->
-                <node id="Feat" name="MageMinorExpertise">
+                <!--node id="Feat" name="MageMinorExpertise">
                     <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
                     <attribute id="Name" type="FixedString" value="AGTT_Expertise"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -94,7 +94,7 @@
                     <attribute id="Requirements" type="LSString" value="IsTagged('AGTT_SUBCLASS_MYSTICISM')"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(a8f50c11-0d22-495a-a8e5-103ba5d040ae,,,AGTT_FeatSpellList_ImprovedMinorIllusion,AlwaysPrepared)"/>
                     <attribute id="UUID" type="guid" value="0eed7e12-d4ea-4859-8d00-90cabe55959b"/>
-                </node>
+                </node-->
             </children>
         </node>
     </region>

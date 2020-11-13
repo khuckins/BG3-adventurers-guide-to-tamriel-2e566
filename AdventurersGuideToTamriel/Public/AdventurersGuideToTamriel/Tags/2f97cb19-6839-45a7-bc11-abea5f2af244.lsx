@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="A scholarly magic-user capable of manipulating the structures of reality."/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="Wizards master the arcane through research and experimentation. They specialize in individual schools of magic, honing ancient spells to modern heights." handle="h03d0c474gb68cg43d0g97f4g784be26d9f90"/>
+            <attribute id="DisplayName" type="TranslatedString" value="ILLUSION MAGE" handle="h794117b8g3a50g4399gb755gc446b1d0837b"/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTT_CLASS_ILLUSIONMAGE"/>
+            <attribute id="UUID" type="guid" value="2f97cb19-6839-45a7-bc11-abea5f2af244"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Class"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
