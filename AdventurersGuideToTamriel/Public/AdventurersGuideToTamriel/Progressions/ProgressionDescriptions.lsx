@@ -450,6 +450,76 @@
                     <attribute id="UUID" type="guid" value="8cdc9287-f266-44d6-9bec-affd7c9e09c5"/>
                 </node>
 
+                <!-- Classes -->
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="Mage"/>
+                    <attribute id="Description" type="FixedString" value="Mages, like Wizards, wield arcane energy to weave phantom illusions, communicate beyond great distances, and alter the elements. They channel energy from Aetherius itself - Magicka - to fuel their abilities."/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="9702347a-b805-4e17-b9f5-12b11493172c"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Mage"/>
+                    <attribute id="UUID" type="guid" value="257e8d6d-c1fd-4c9c-b8e6-9466e722d861"/>
+                </node>
+
+                <!-- Subclasses -->
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="Alteration Spell-School"/>
+                    <attribute id="Description" type="FixedString" value="Magea specializing in the school of Alteration Magic have access to stronger Alteration spells, and are adept at changing the composition of the land."/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="9958974c-c00c-4903-9c45-b92b7ce797d5"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="AlterationMage"/>
+                    <attribute id="UUID" type="guid" value="fb28bd43-92cb-4906-a752-f54d9eaec780"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="Destruction Spell-School"/>
+                    <attribute id="Description" type="FixedString" value="Those who specialize in the arts of Destruction are fearsome opponents. They have access to more powerful Destruction spells, and can manipulate a person's resistance to the elements."/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="dc387b03-d96b-43af-8c8f-7c72b9439057"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="DestructionMage"/>
+                    <attribute id="UUID" type="guid" value="52a30158-cd69-4919-88c6-be456d405608"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="Illusion Spell-School"/>
+                    <attribute id="Description" type="FixedString" value="Mages who focus their studies on the Illusion spell school are capable tricksters. They have access to higher level Illusion spells, augmenting their own senses and disorienting their foes."/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="4d1690c1-479e-421a-884f-0408869a717f"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="IllusionMage"/>
+                    <attribute id="UUID" type="guid" value="9499d9bb-2c35-4c3f-a297-28e339542edf"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="Mysticism Spell-School"/>
+                    <attribute id="Description" type="FixedString" value="Mages meditating on the Mysticism spell school are far wiser than most would assume. They have access to powerful Mysticism spells, and defy the natural laws of the universe."/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="c694884c-bf94-4fe1-bb87-b23038f7a224"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="MysticismMage"/>
+                    <attribute id="UUID" type="guid" value="3aa575fe-8633-4c34-a974-a27ecccdb34b"/>
+                </node>
+
+
             </children>
         </node>
     </region>
