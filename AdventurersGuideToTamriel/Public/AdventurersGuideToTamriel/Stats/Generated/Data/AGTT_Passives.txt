@@ -1,3 +1,5 @@
+// Spell Passives
+
 new entry "AGTT_Passive_MeridiasGrasp"
 type "PassiveData"
 data "DisplayName" "Meridia's Grasp"
@@ -14,7 +16,28 @@ data "Description" "This character is able to add its Wisdom modifier for Melee 
 data "StatsFunctors" "Force(2.5);"
 data "StatsFunctorContext" "OnAttack"
 
-// Classes
+new entry "AGTT_Passive_MagicAura_Advantage"
+type "PassiveData"
+data "DisplayName" "Magic Aura (Advantage)"
+data "StatsFunctorContext" "OnSpellCast"
+data "StatsFunctors" "Advantage(AttackRoll)"
+
+new entry "AGTT_Passive_MagicAura_Healing"
+type "PassiveData"
+data "DisplayName" "Magic Aura (Healing)"
+data "StatusFunctorContext" "OnHeal"
+data "StatsFunctors" "RegainHealth(1)"
+
+new entry "AGTT_Passive_MagicAura_Damage"
+type "PassiveData"
+data "DisplayName" "Magic Aura (Damage)"
+data "StatusFunctorContext" "OnAttack"
+data "StatsFunctors" "DealDamage(1d4, Psychic)"
+data "Conditions" "context.HitDescription.AttackType==(AttackType.RangedSpellAttack or AttackType.MeleeSpellAttack) and HasDamageEffectFlag(DamageFlags.Hit)"
+
+new entry
+
+// Class Passives
 
 // Mage - Minor Feats
 new entry "AGTT_MageMinorFeat_Expertise_Arcana"
