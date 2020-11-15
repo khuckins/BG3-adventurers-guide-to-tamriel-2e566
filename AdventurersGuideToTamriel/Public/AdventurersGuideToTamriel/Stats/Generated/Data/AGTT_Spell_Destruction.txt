@@ -540,7 +540,7 @@ data "MemoryCost" "1"
 // Weakness to Frost                AGTT_Target_WeaknessToFrost
 // Weakness to Magicka -- Should this be set to 3rd level, perhaps?
 // Weakness to Shock                AGTT_Target_WeaknessToShock
-// Whip of Flame
+// Whip of Flame                    AGTT_Shout_WhipOfFlame
 
 new entry "AGTT_Target_Pinprick_2"
 type "SpellData"
