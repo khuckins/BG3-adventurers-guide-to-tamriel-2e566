@@ -162,3 +162,10 @@ type "PassiveData"
 data "DisplayName" "Portent"
 data "Description" "Once per long rest, you may re-roll any attack roll, saving throw, or ability check for three turns."
 data "Boosts" "UnlockSpell(AGTT_Shout_Portent)"
+
+// Rogue: Nightblade
+new entry "AGTT_Nightblade_Verisimilitude"
+type "PassiveData"
+data "DisplayName" "Verisimilitude"
+data "Description" "When casting Thaumaturgy, you gain an additional +1 to Intimidation, Performance, and Advantage in Sleight of Hand."
+data "Boosts" "Advantage(Skill, SLeightOfHand);Skill(Intimidation, 1);Skill(Performance, 1);"

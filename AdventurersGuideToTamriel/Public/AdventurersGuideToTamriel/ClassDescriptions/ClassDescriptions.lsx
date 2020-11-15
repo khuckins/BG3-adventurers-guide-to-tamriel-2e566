@@ -131,6 +131,28 @@
                         </node>
                     </children>
                 </node>
+
+                <!-- Rogue: Nightblade -->
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Some Rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These Rogues include pickpockets and burglers, but also pranksters, mischief-makers, and a significant number of adventurers."/>
+                    <attribute id="DisplayName" type="FixedString" value="Nightblade"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Nightblade"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="3a653c74-059c-4add-b7be-2547ae9c8c12"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="07b18ea9-a524-4bc2-991f-27ca30bdc29d"/>
+                </node>
             </children>
         </node>
     </region>

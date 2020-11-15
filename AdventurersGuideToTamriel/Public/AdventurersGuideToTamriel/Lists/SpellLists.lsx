@@ -211,6 +211,12 @@
                     <attribute id="UUID" type="guid" value="8d960c51-8b30-4518-934d-7cca7a32c610"/>
                 </node>
 
+                <!-- Rogue: NightBlade -->
+                <node id="SpellList" name="NightbladeStartingCantrips_Thaumaturgy" schools="Illusion">
+                    <attribute id="Spells" type="LSString" value="AGTT_Shout_Thaumaturgy"/>
+                    <attribute id="UUID" type="guid" value="0cb4767d-20e8-4e75-b69c-f95e9ce5f0c3"/>
+                </node>
+
 			</children>
         </node>
     </region>

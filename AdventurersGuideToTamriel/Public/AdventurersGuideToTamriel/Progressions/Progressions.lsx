@@ -516,6 +516,84 @@
                     <attribute id="TableUUID" type="guid" value="c694884c-bf94-4fe1-bb87-b23038f7a224"/>
                     <attribute id="UUID" type="guid" value="deee0bc9-db1f-4fcd-995a-e57e00de33be"/>
                 </node>
+
+                <!-- Rogue -->
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Rogue"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
+                    <attribute id="UUID" type="guid" value="6f8d3e70-9b20-4fe0-914f-0f8f19206329"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="ede4778e-7602-440f-9075-b4bc8dc31cea"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="32c7b8df-a6ec-4848-a9db-c0dce781beb9"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="07b18ea9-a524-4bc2-991f-27ca30bdc29d"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <!-- Nightblade -->
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Nightblade"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="3a653c74-059c-4add-b7be-2547ae9c8c12"/>
+                    <attribute id="UUID" type="guid" value="a51113fd-e395-42fa-a35b-f1a7a0a769de"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="Nightblade"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="3a653c74-059c-4add-b7be-2547ae9c8c12"/>
+                    <attribute id="UUID" type="guid" value="0f5f001e-ea6b-462b-b843-e9337712b0fc"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Nightblade"/>
+                    <attribute id="PassivesAdded" type="LSString" value="AGTT_Nightblade_Verisimilitude"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(0cb4767d-20e8-4e75-b69c-f95e9ce5f0c3,,,AGTT_Progression_NightbladeCantrip1,AlwaysPrepared);SelectSpells(77d51b21-a436-40de-8289-13bdbd2c42e3,2,0,AGTT_Progression_NightbladeCantripSelect1,AlwaysPrepared);SelectSpells(e32221e4-e41e-44b0-b365-7f70d26ef7f6,3,0,AGTT_Progression_NightbladeSpellSelect1)"/>
+                    <attribute id="TableUUID" type="guid" value="3a653c74-059c-4add-b7be-2547ae9c8c12"/>
+                    <attribute id="UUID" type="guid" value="a34a98a9-8cb3-445a-bdf5-a4dda746b7b8"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Nightblade"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(e32221e4-e41e-44b0-b365-7f70d26ef7f6,1,0,AGTT_Progression_NightbladeSpellSelect1)"/>
+                    <attribute id="TableUUID" type="guid" value="3a653c74-059c-4add-b7be-2547ae9c8c12"/>
+                    <attribute id="UUID" type="guid" value="79ad1bbe-ef38-48da-8a6a-841a92283ba2"/>
+                </node>
             </children>
         </node>
     </region>
