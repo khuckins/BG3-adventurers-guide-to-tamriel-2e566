@@ -447,7 +447,7 @@ data "SpellContainerID" "AGTT_Target_AlterWeapon"
 data "Icon" "Spell_Evocation_CureWounds"
 data "DisplayName" "Healing Strike"
 data "Description" "While holding a weapon, you channel Magicka into it, altering its properties to be able to Heal targets for [1], or deal Radiant damage if undead."
-data "DescriptionParams" "RegainHitPoints(MainMeleeWeapon)"
+data "DescriptionParams" "RegainHitPoints(1d6)"
 data "ExtraDescription" "This Manifests itself as an extra Action in your hotbar."
 data "SpellProperties" "ApplyEquipmentStatus(SLEF,AGTT_STATUS_ALTERWEAPON_HEALINGSTRIKE_2, 100, 6)"
 
@@ -458,7 +458,7 @@ data "SpellContainerID" "AGTT_Target_AlterWeapon"
 data "Icon" "Spell_Evocation_CureWounds"
 data "DisplayName" "Healing Strike"
 data "Description" "While holding a weapon, you channel Magicka into it, altering its properties to be able to Heal targets for [1], or deal Radiant damage if undead."
-data "DescriptionParams" "RegainHitPoints(MainMeleeWeapon)"
+data "DescriptionParams" "RegainHitPoints(1d6)"
 data "ExtraDescription" "This Manifests itself as an extra Action in your hotbar."
 data "SpellProperties" "ApplyStatus(SELF,AGTT_STATUS_ALTERWEAPON_HEALINGSTRIKE, 100, 6)"
 
@@ -707,13 +707,7 @@ data "Level" "2"
 data "SpellSchool" "Alteration"
 data "Icon" "Spell_Enchantment_Hex"
 data "DisplayName" "Lucksap"
-data "Description" "When you cast this spell, you bestow a minor curse on a creature you can see within range. That creature must make a successful Wisdom saving throw, or suffer your choice of on of the following effects for the duration:
-
-Foil: The target has disadvantage on Intelligence and Wisdom saving throws.
-
-Fumble: The target has disadvantage on Attack rolls.
-
-Foul: Whenever the target is attacked, they deal an extra [1]."
+data "Description" "When you cast this spell, you bestow a minor curse on a creature you can see within range. That creature must make a successful Wisdom saving throw, or suffer your choice of on of the following effects for the duration: Foil: The target has disadvantage on Intelligence and Wisdom saving throws. | Fumble: The target has disadvantage on Attack rolls. | Foul: Whenever the target is attacked, they deal an extra [1]."
 data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
 data "TargetRadius" "18"
 data "DescriptionParams" "DealDamage(1d8, Necrotic)"
