@@ -7,7 +7,7 @@
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_RedguardImmunity_Desc" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="FixedString" value="You have resistance to Poison." />
+					<attribute id="Content" type="TranslatedString" value="You have resistance to Poison." handle="" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>

@@ -120,7 +120,7 @@ new entry "AGTT_MageMinorFeat_AdeptCasting_Save"
 type "PassiveData"
 data "DisplayName" "Adept Casting (Spell DC)"
 data "Description" "When casting a spell from your chosen school, if it would require the target to make a Saving Throw, you may add your Spellcasting Modifier to the Spell DC."
-data "StatsFunctorContext" "OnCast"
+data "StatsFunctorContext" "OnSpellCast"
 data "StatusFunctors" "IF(context.Target):ApplyStatus(context.Target, AGTT_STATUS_ADEPTCASTINGDEBUFF, 1)"
 
 new entry "AGTT_MageMinorFeat_ArcaneWard"
