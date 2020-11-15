@@ -35,6 +35,12 @@ data "Description" "You have been marked by a pinprick spell. You will take 3 da
 data "TickType" "StartTurn"
 data "TickFunctors" "DealDamage(3,Piercing)"
 
+new entry "AGTT_PRICKED_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "AGTT_PRICKED"
+data "TickFunctors" "DealDamage(6,Piercing)"
+
 new entry "AGTT_WOUND"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -64,3 +70,9 @@ data "Icon" "Spell_Abjuration_MageArmor"
 data "StatusEffect" "VFX_Status_MageArmor_01"
 data "StackId" "AGTT_STATUS_THUNDERINGARMOR"
 data "Boosts" "AC(2);Resistance(Force,Resistant);UnlockSpell(AGTT_Target_ThunderingArmor_Release);UnlockSpell(AGTT_Zone_ThunderingArmor_Release)"
+
+new entry "AGTT_STATUS_THUNDERINGARMOR_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "AGTT_STATUS_THUNDERINGARMOR"
+data "Boosts" "AC(2);Resistance(Force,Resistant);UnlockSpell(AGTT_Target_ThunderingArmor_Release_2);UnlockSpell(AGTT_Zone_ThunderingArmor_Release_2)"

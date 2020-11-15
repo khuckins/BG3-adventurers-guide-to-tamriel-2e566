@@ -326,7 +326,6 @@ data "Description" "Sparks of electricity shoot from your fingertips in a 15-foo
 data "ExtraDescription" "On a successful save, targets only take half as much damage."
 data "DescriptionParams" "DealDamage(2d6+WisdomModifier,Lightning)"
 data "TooltipDamageList" "DealDamage(2d6+WisdomModifier,Lightning)"
-data "TooltipDamageList" "DealDamage(1d12,Lightning)"
 data "TooltipAttackSave" "Dexterity"
 data "TooltipStatusApply" "ApplyStatus(SHOCKED,100,2)"
 data "PrepareEffect" "VFX_Spells_Prepare_Arcane_Damage_Lightning_R_HandFX_01:Dummy_R_HandFX::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Damage_Lightning_R_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Prepare_01:0:None::None::0:0::::"
@@ -519,11 +518,11 @@ data "MemoryCost" "1"
 
 // Second Level Spells
 // --------------------
-//
 // Upleveled
-// Burning Hands
-// Guiding Bolt
-// Magic Missile
+// ----
+// Burning Hands                    Zone_BurningHands_2
+// Guiding Bolt                     Projectile_GuildingBolt_2
+// Magic Missile                    Projectile_MagicMissile_2
 // Pinprick
 // Sparks
 // Thundering Armor
@@ -542,3 +541,65 @@ data "MemoryCost" "1"
 // Weakness to Magicka -- Should this be set to 3rd level, perhaps?
 // Weakness to Shock
 // Whip of Flame
+
+new entry "AGTT_Target_Pinprick_2"
+type "SpellData"
+data "SpellType" "Target"
+using "AGTT_Target_Pinprick"
+data "SpellSuccess" "DealDamage(6,Piercing);ApplyStatus(AGTT_PRICKED_2, 100, 1)"
+data "DescriptionParams" "DealDamage(6,Piercing)"
+data "TooltipDamageList" "DealDamage(6,Piercing)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+data "RootSpellID" "AGTT_Target_Pinprick"
+data "PowerLevel" "2"
+
+
+new entry "AGTT_Zone_Sparks_2"
+type "SpellData"
+data "SpellType" "Zone"
+using "AGTT_Zone_Sparks"
+data "SpellSuccess" "DealDamage(3d6+WisdomModifier,Lightning); ApplyStatus(SHOCKED,100,2);"
+data "SpellFail" "DealDamage((3d6+WisdomModifier)/2,Lightning)"
+data "DescriptionParams" "DealDamage(3d6+WisdomModifier,Lightning)"
+data "TooltipDamageList" "DealDamage(3d6+WisdomModifier,Lightning)"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+data "RootSpellID" "AGTT_Zone_Sparks"
+data "PowerLevel" "2"
+
+new entry "AGTT_Target_ThunderingArmor_2"
+type "SpellData"
+data "SpellType" "Target"
+using "AGTT_Target_ThunderingArmor"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+data "RootSpellID" "AGTT_Target_ThunderingArmor"
+data "PowerLevel" "2"
+data "SpellProperties" "ApplyStatus(AGTT_STATUS_THUNDERINGARMOR_2,100,2)"
+
+new entry "AGTT_Target_ThunderingArmor_Release_2"
+type "SpellData"
+data "SpellType" "Target"
+using "AGTT_Target_ThunderingArmor_Release"
+data "DescriptionParams" DealDamage(4d6,Thunder)"
+data "TooltipDamageList" "DealDamage(4d6,Thunder)"
+data "SpellSuccess" "DealDamage(4d6,Thunder),Force(8.5);SELF:RemoveStatus(AGTT_STATUS_THUNDERINGARMOR_2)"
+data "SpellFail" "DealDamage(3d4,Thunder),Force(5);SELF:RemoveStatus(AGTT_STATUS_THUNDERINGARMOR_2)"
+
+new entry "AGTT_Zone_ThunderingArmor_Release_2"
+type "SpellData"
+data "SpellType" "Target"
+using "AGTT_Zone_ThunderingArmor_Release"
+data "Range" "6"
+data "TooltipDamageList" "DealDamage(3d4,Thunder)"
+data "SpellSuccess" "DealDamage(3d4,Thunder),Force(5);SELF:RemoveStatus(AGTT_STATUS_THUNDERINGARMOR_2)"
+data "SpellFail" "DealDamage(2d4,Thunder),Force(2.5);SELF:RemoveStatus(AGTT_STATUS_THUNDERINGARMOR_2)"
+
+new entry "AGTT_Target_Wound_2"
+type "SpellData"
+data "SpellType" "Target"
+using "AGTT_Target_Wound"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:2"
+data "DescriptionParams" "DealDamage(2d4+WisdomModifier,Necrotic)"
+data "TooltipDamageList" "DealDamage(2d4+WisdomModifier,Necrotic)"
+data "SpellSuccess" "ApplyStatus(AGTT_WOUND, 100, 5);DealDamage(2d4+WisdomModifier,Necrotic)"
+data "RootSpellID" "AGTT_Target_Wound"
+data "PowerLevel" "2"
