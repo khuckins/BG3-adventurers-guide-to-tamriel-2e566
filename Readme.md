@@ -10,26 +10,22 @@ This is an early build, and will no doubt be full of bugs. I'm still learning th
 of modding the game pre-mod tools, and I expect that I'll still be finding bugs as the game
 is updated and eventually released. This module includes the Human Elven races: Cyrodiils
 (Imperials), Breton, Nord, Redguard, Altmer, Bosmer, Dunmer, and Orsimer, including some
-subraces.
+subraces. It also contains the Mage class - based on the existing Wizard, this class has
+access to different spells, and a somewhat different class feat system.
 
 ## Features
 - Racial traits/features can be found under the [Races](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Races) page of the Wiki.
 - Birthsign Information can be found under the [Birthsign](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Birthsigns) page of the Wiki.
 - Spell Information can be found under the [Spells](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Spells) page.
+- Class Information can be found under the [Classes](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Classes) page.
 
 ## Known Issues
-- Nord Northern Hide has no Progression Description
 - Nord Battlecry Action doesn't list that it may only be used once per long rest
-- Redguard Strong Immune System has no Preogression Description
-- Redguard Adrenaline Rush Action has no icon
+- Some Progressions have no Progression Description
 - Bosmer Natural Shapeshifter claims to last until a long rest, but correctly ends after 5 turns
-- Dunmer Ashborn has no Progression Description
-- Orsimer Berserker Rage has no icon
 - Atronach Birthsign does not exist
 - Lady's Favor displays calculation on Background selection, is not factored into Class Panel's Max HP
 - Warrior, Mage, and Thief Birthsign Backgrounds don't display their Stat bonuses on Left Panel of Character Creator
-- Some Birthsign Powers don't have icons
-- Installation under Candor Mod Manager breaks modsettings.lsx (.pak file does not fully extract)
 - Some spells do not yet have icons
 
 ## Installation
@@ -62,7 +58,7 @@ At the moment, Candor Mod Manager doesn't play nice when installing this mod, ho
 
 ## Other Links
 - [GMBinder link](https://www.gmbinder.com/share/-L3u-2oe4GFo8GtXlRHC) to Adventurer's Guide to Tamriel
-- [BetterUI](https://github.com/Purlana/BetterUI) makes this mod less of a strain on the Character Creation UI
+- [ImprovedUI](https://www.nexusmods.com/baldursgate3/mods/13) makes this mod less of a strain on the Character Creation UI
 - [Candor Mod Manager](https://www.nexusmods.com/baldursgate3/mods/22) eases the process of installing mods
 
 ## Acknowledgements
