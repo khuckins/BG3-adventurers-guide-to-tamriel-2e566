@@ -29,7 +29,7 @@ access to different spells, and a somewhat different class feat system.
 - Some spells do not yet have icons
 
 ## Installation
-At the moment, Candor Mod Manager doesn't play nice when installing this mod, however it is packaged for installation once a fix is released. For now, I recommend using the manual method, though I generally recommend Candor.
+This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual Installations. Candor is by far the simplest method, and as such is the recommended one.
 
 ### Candor
 1. Select Baldur's Gate 3 in Candor Mod Manager
