@@ -523,23 +523,23 @@ data "MemoryCost" "1"
 // Burning Hands                    Zone_BurningHands_2
 // Guiding Bolt                     Projectile_GuildingBolt_2
 // Magic Missile                    Projectile_MagicMissile_2
-// Pinprick
-// Sparks
-// Thundering Armor
-// Wound
+// Pinprick                         AGTT_Target_Pinprick_2
+// Sparks                           AGTT_Zone_Sparks_2
+// Thundering Armor                 AGTT_Target_ThunderingArmor_2
+// Wound                            AGTT_Target_Wound_2
 // ---------
-// Earth Bolt
+// Earth Bolt                       AGTT_Zone_Earthbolt
 // Elemental Blade
-// Fireball
-// Gust of Wind
-// Lightning Arrow
+// Fireball                         AGTT_Projectile_Fireball
+// Gust of Wind                     Zone_GustOfWind
+// Lightning Arrow                  AGTT_Projectile_LightningArrow
 // Moonbeam
-// Radiant Fist
-// Thunderwave
-// Weakness to Fire
-// Weakness to Frost
+// Radiant Fist                     AGTT_Target_RadiantFist
+// Thunderwave                      AGTT_Zone_Thunderwave
+// Weakness to Fire                 AGTT_Target_WeaknessToFire
+// Weakness to Frost                AGTT_Target_WeaknessToFrost
 // Weakness to Magicka -- Should this be set to 3rd level, perhaps?
-// Weakness to Shock
+// Weakness to Shock                AGTT_Target_WeaknessToShock
 // Whip of Flame
 
 new entry "AGTT_Target_Pinprick_2"
@@ -603,3 +603,181 @@ data "TooltipDamageList" "DealDamage(2d4+WisdomModifier,Necrotic)"
 data "SpellSuccess" "ApplyStatus(AGTT_WOUND, 100, 5);DealDamage(2d4+WisdomModifier,Necrotic)"
 data "RootSpellID" "AGTT_Target_Wound"
 data "PowerLevel" "2"
+
+new entry "AGTT_Zone_Earthbolt"
+type "SpellData"
+data "SpellType" "Zone"
+data "SpellSchool" "Desctruction"
+data "Icon" "unknown"
+data "Level" "2"
+data "DisplayName" "Earth Bolt"
+data "Description" "With a shout, you touch the ground at your feet and create a bolt of geomantic force that travels 6m long and 3m wide, through the earth, causing the earth, rock, or sand to fly upward. Any creature caught in its path must succeed a Dexterity saving through, or take [1] and be flung backwards."
+data "ExtraDescription" "On a successful save, enemies take only half as much damage."
+data "DescriptionParams" "DealDamage(6d4,Bludgeoning)"
+data "TooltipDamageList" "DealDamage(6d4,Bludgeoning)"
+data "TooltipAttackSave" "Dexterity"
+data "TooltipStatusApply" "ApplyStatus(PRONE,100,1)"
+data "TargetConditions" "HasPassive('SculptSpells', context.Source) and (not Ally() or Item()) or (not HasPassive('SculptSpells', context.Source) and (Character() or Item()))"
+data "SpellSuccess" "DealDamage(6d6,Bludgeoning);Force(3,OriginToEntity,Aggressive);IF(TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1)"
+data "SpellFail" "DealDamage((6d6)/2,Bludgeoning);Force(2,OriginToEntity,Aggressive)"
+data "CastTextEvent" "Cast"
+data "CastEffect" "VFX_Enemies_Jump_Bulette_Cast_Root_01,Detach:Dummy_Root:Cast:0:None::None::0:0::::"
+data "SurfaceType" "Sentinel"
+data "SurfaceLifetime" "0"
+data "SurfaceGrowStep" "50"
+data "SurfaceGrowInterval" "1"
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
+data "Shape" "Square"
+data "FrontOffset" "-2"
+data "Range" "6"
+data "Base" "2"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1;SpellSlot:1:1:2"
+data "SpellAnimationArcaneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;5e7e63e1-0e69-46e7-ade7-fe3dadcc9184(SPL_Somatic_Cone_Combat_01_Cast);e9ad50df-e7f1-43a0-b782-4c08f92b0f5a(SPL_Somatic_Cone_Combat_01_Recover);;"
+data "SpellAnimationDivineMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;5e7e63e1-0e69-46e7-ade7-fe3dadcc9184(SPL_Somatic_Cone_Combat_01_Cast);e9ad50df-e7f1-43a0-b782-4c08f92b0f5a(SPL_Somatic_Cone_Combat_01_Recover);;"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;5e7e63e1-0e69-46e7-ade7-fe3dadcc9184(SPL_Somatic_Cone_Combat_01_Cast);e9ad50df-e7f1-43a0-b782-4c08f92b0f5a(SPL_Somatic_Cone_Combat_01_Recover);;"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;IsHarmful"
+
+// TODO: Lets add this once we can do decent summoning
+// new entry "AGTT_Target_ElementalBlade"
+
+new entry "AGTT_Projectile_Fireball"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Fireball"
+data "SpellSchool" "Destruction"
+data "Level" "2"
+data "SpellSuccess" "DealDamage(6d6,Fire)"
+data "SpellFail" "DealDamage((6d6)/2,Fire)"
+data "UseCosts" "ActionPoint:1;SpellSlot:1:1:2"
+
+// TODO: Need to look into how to properly have the attack chain to nearby enemies
+new entry "AGTT_Projectile_LightningArrow"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_MainHandAttack"
+data "Icon" "Spell_Evocation_WitchBolt"
+data "SpellSchool" "Destruction"
+data "Level" "2"
+data "DisplayName" "Lightning Arrow"
+data "TooltipAttackSave" "RangedSpellAttack"
+data "Description" "Make a ranged weapon attack on the enemy. Rather than firing your regular ammunition, you let off a bolt of lightning. The target takes [1] if your attack roll succeeds."
+data "ExtraDescription" "On a failed attack roll, the enemy takes half as much damage."
+data "SpellProperties" "GROUND:SurfaceChange(Electrify);"
+data "SpellSuccess" "DealDamage(2d8, Lightning);ExecuteWeaponFunctors(MainHand);ApplyStatus(SHOCKED,100,3)"
+data "SpellFail" "DealDamage((2d8)/2, Lightning);ExecuteWeaponFunctors(MainHand)"
+data "ExplodeRadius" "3"
+data "PrepareEffect" "VFX_Actions_Prepare_Range_Arrow_Lightning_Weapon_01:Dummy_FX:VFX_Prepare_01:0:None::None::0:0::::"
+data "CastEffect" "VFX_Actions_Cast_Range_Arrow_Lightning_Weapon_01:Dummy_FX::0:None::None::0:0::::"
+data "CastSound" "Proj_Arr_Cast_Arrow_Of_Lightning"
+data "Template" "e11d8ca4-6880-4876-88af-220851075f80"
+data "UseCosts" "ActionPoint:1;SpellSlot:1:1:2"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
+data "Requirement" "RangedWeapon"
+
+// TODO: Need to create a whole new type of surface for this... Skip for now.
+// new entry "AGTT_Projectile_Moonbeam"
+
+new entry "AGTT_Target_RadiantFist"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+data "Icon" "Spell_Evocation_GuidingBolt"
+data "DisplayName" "Radiant Fist"
+data "Description" "A fist of light smashes down on the target, and holds it in its grip. The target must succeed a Dexterity Saving Throw, or take [1], and become Restrained until the end of its next turn."
+data "ExtraDescription" "On a succesful save, the creature takes half as much damage."
+data "DescriptionParams" "DealDamage(3d8, Radiant)"
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
+data "SpellSuccess" "DealDamage(3d8, Radiant);ApplyStatus(HOLD_PERSON, 100, 1)"
+data "SpellFail" "DealDamage((3d8)/2, Radiant)"
+data "TooltipStatusApply" "ApplyStatus(HOLD_PERSON, 100, 1)"
+data "TooltipAttackSave" "Dexterity"
+data "TargetConditions" "Character() and not Dead()"
+data "TargetRadius" "9"
+data "ExplodeRadius" "3"
+data "UseCosts" "ActionPoint:1;SpellSlot:1:1:2"
+data "PrepareEffect" "VFX_Spells_Prepare_Arcane_Damage_Radiant_R_HandFX_01:Dummy_R_HandFX::0:None::None::0:0::::;VFX_Spells_Prepare_Arcane_Damage_Radiant_R_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Prepare_01:0:None::None::0:0::::"
+data "CastEffect" "VFX_Spells_Cast_Damage_Radiant_ProjectileSingle_R_HandFX_Textkey_01:Dummy_R_HandFX:VFX_Somatic_01:0:None::None::0:0::::;VFX_Spells_Cast_Damage_Radiant_ProjectileSingle_R_HandFX_Textkey_02:Dummy_R_HandFX:VFX_Somatic_02:0:None::None::0:0::::"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "SpellAnimationArcaneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "SpellAnimationDivineMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_Combat_01_Cast);85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_Combat_01_Recover);;"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "HasSomaticComponent;HasVerbalComponent;IsSpell;IgnoreVisionBlock;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
+data "MemoryCost" "1"
+
+new entry "AGTT_Zone_Thunderwave"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_Thunderwave"
+data "Level" "2"
+data "SpellSchool" "Destruction"
+
+new entry "AGTT_Target_WeaknessToFire"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+data "SpellSchool" "Destruction"
+data "Icon" "Status_Burning"
+data "DisplayName" "Weakness to Fire"
+data "Description" "A creature that you can see within range glimmers with a red light. For the duration of the spell, they are vulnerable to Fire damage."
+data "TargetConditions" "Character() and not Dead()"
+data "TargetRadius" "18"
+data "SpellProperties" "ApplyStatus(AGTT_STATUS_WEAKNESS_TO_FIRE, 100, 9)"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1;SpellSlot:1:1:2"
+data "SpellAnimationArcaneMagic" "554a18f7-952e-494a-b301-7702a85d4bc9(SPL_Arcane_Control_Combat_01_Prepare);;7abe77ed-9c77-4eac-872c-5b8caed070b6(SPL_Somatic_Aoe_Rise_Combat_01_Cast);cb171bda-f065-4520-b470-e447f678ba1f(SPL_Somatic_Aoe_Rise_Combat_01_Recover);;"
+data "SpellAnimationDivineMagic" "554a18f7-952e-494a-b301-7702a85d4bc9(SPL_Arcane_Control_Combat_01_Prepare);;7abe77ed-9c77-4eac-872c-5b8caed070b6(SPL_Somatic_Aoe_Rise_Combat_01_Cast);cb171bda-f065-4520-b470-e447f678ba1f(SPL_Somatic_Aoe_Rise_Combat_01_Recover);;"
+data "SpellAnimationNoneMagic" "554a18f7-952e-494a-b301-7702a85d4bc9(SPL_Arcane_Control_Combat_01_Prepare);;7abe77ed-9c77-4eac-872c-5b8caed070b6(SPL_Somatic_Aoe_Rise_Combat_01_Cast);cb171bda-f065-4520-b470-e447f678ba1f(SPL_Somatic_Aoe_Rise_Combat_01_Recover);;"
+data "VerbalIntent" "Control"
+data "SpellFlags" "HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;CannotTargetItems"
+
+new entry "AGTT_Target_WeaknessToFrost"
+type "SpellData"
+data "SpellType" "Target"
+using "AGTT_Target_WeaknessToFire"
+data "Icon" "Status_Chilled"
+data "DisplayName" "Weakness to Shock"
+data "Description" "A creature that you can see within range glimmers with a blue light. For the duration of the spell, they are vulnerable to Cold damage."
+data "SpellProperties" "ApplyStatus(AGTT_STATUS_WEAKNESS_TO_FROST, 100, 9)"
+
+new entry "AGTT_Target_WeaknessToShock"
+type "SpellData"
+data "SpellType" "Target"
+using "AGTT_Target_WeaknessToFire"
+data "Icon" "Status_Shocked"
+data "DisplayName" "Weakness to Shock"
+data "Description" "A creature that you can see within range glimmers with a purple light. For the duration of the spell, they are vulnerable to Electric damage."
+data "SpellProperties" "ApplyStatus(AGTT_STATUS_WEAKNESS_TO_SHOCK, 100, 9)"
+
+new entry "AGTT_Shout_WhipOfFlame"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "2"
+data "SpellSchool" "Destruction"
+data "UseCosts" "ActionPoint:1;SpellSlot:1:1:2"
+data "Icon" "unknown"
+data "DisplayName" "Whip of Flame"
+data "Description" "A Whip of fire extends from one of your hands, shedding bright light, and allowing you to make an attack dealing [1]."
+data "DescriptionParams" "DealDamage(3d4+SpellCastingAbilityModifier, Fire)"
+data "SpellProperties" "ApplyStatus(AGTT_STATUS_WHIP_OF_FLAME, 100, 5)"
+data "TooltipStatusApply" "ApplyStatus(AGTT_STATUS_WHIP_OF_FLAME, 100, 5)"
+data "TargetConditions" "Self() and not Dead()"
+data "SpellAnimationArcaneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;9bcbf658-8433-46f0-a34a-9c9d2dcd585b(SPL_Arcane_Damage_Combat_01_Cast);d75865cd-fddd-4ad1-be34-d5b89155d7c6(SPL_Arcane_Damage_Combat_01_Recover);;"
+data "SpellAnimationDivineMagic" "26810cdb-342f-4e93-96ea-927ed6f0de65(SPL_Divine_Damage_Combat_01_Prepare);;99de2c83-19ab-4479-ab5c-676a58a1f01e(SPL_Divine_Damage_Combat_01_Cast);9a01c2f4-1a12-4dcb-a18c-6d9f6d3c1d9e(SPL_Divine_Damage_Combat_01_Recover);;"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_Combat_01_Prepare);;9bcbf658-8433-46f0-a34a-9c9d2dcd585b(SPL_Arcane_Damage_Combat_01_Cast);d75865cd-fddd-4ad1-be34-d5b89155d7c6(SPL_Arcane_Damage_Combat_01_Recover);;"
+data "SpellFlags" "HasSomaticComponent;IsSpell;CannotTargetItems"
+
+new entry "AGTT_Target_WhipOfFlame_Attack"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MainHandAttack"
+data "Icon" "unknown"
+data "DisplayName" "Flame Whip (Attack)"
+data "Description" "Make a melee spell attack with your Flame Whip, dealing [1]."
+data "SpellRoll" "MeleeSpellAttack"
+data "SpellSuccess" "DealDamage(3d4+SpellCastingAbilityModifier, Fire);ApplyStatus(BURNING)"
+data "TargetRadius" "3"
+data "UseCosts" "ActionPoint:1"
