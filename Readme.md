@@ -1,4 +1,4 @@
-# Adventurer's Guide to Tamriel (2E566) 0.4.0.0
+# Adventurer's Guide to Tamriel (2E566) 0.4.1.0
 
 ## Background
 Three years ago, I started creating a setting sourcebook of ~210 pages for d&d 5th edition, set
@@ -10,7 +10,7 @@ This is an early build, and will no doubt be full of bugs. I'm still learning th
 of modding the game pre-mod tools, and I expect that I'll still be finding bugs as the game
 is updated and eventually released. This module includes the Human Elven races: Cyrodiils
 (Imperials), Breton, Nord, Redguard, Altmer, Bosmer, Dunmer, and Orsimer, including some
-subraces. It also contains the Mage class - based on the existing Wizard, this class has
+subraces. It also contains the Mage class and the Nightblade Rogue subclass. The Mage is based on the existing Wizard, this class has
 access to different spells, and a somewhat different class feat system.
 
 ## Features
@@ -27,6 +27,7 @@ access to different spells, and a somewhat different class feat system.
 - Lady's Favor displays calculation on Background selection, is not factored into Class Panel's Max HP
 - Warrior, Mage, and Thief Birthsign Backgrounds don't display their Stat bonuses on Left Panel of Character Creator
 - Some spells do not yet have icons
+- Dying while shapeshifted as a Bosmer may block your ability to perform actions upon resurrection.
 
 ## Installation
 This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual Installations. Candor is by far the simplest method, and as such is the recommended one.
