@@ -10,8 +10,9 @@ This is an early build, and will no doubt be full of bugs. I'm still learning th
 of modding the game pre-mod tools, and I expect that I'll still be finding bugs as the game
 is updated and eventually released. This module includes the Human Elven races: Cyrodiils
 (Imperials), Breton, Nord, Redguard, Altmer, Bosmer, Dunmer, and Orsimer, including some
-subraces. It also contains the Mage class and the Nightblade Rogue subclass. The Mage is based on the existing Wizard, this class has
-access to different spells, and a somewhat different class feat system.
+subraces. It also contains new Deities, the Mage class and the Nightblade Rogue subclass.
+The Mage is based on the existing Wizard, this class has access to different spells, and
+a somewhat different class feat system.
 
 ## Features
 - Racial traits/features can be found under the [Races](https://github.com/khuckins/BG3-adventurers-guide-to-tamriel-2e566/wiki/Races) page of the Wiki.
