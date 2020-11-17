@@ -518,6 +518,19 @@
                     <attribute id="Type" type="FixedString" value="MysticismMage"/>
                     <attribute id="UUID" type="guid" value="3aa575fe-8633-4c34-a974-a27ecccdb34b"/>
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="AGTT_ProgName_Nightblade_Verisimilitude"/>
+                    <attribute id="Description" type="FixedString" value="AGTT_ProgDesc_Nightblade_Verisimilitude"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="AGTT_Nightblade_Verisimilitude"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="3a653c74-059c-4add-b7be-2547ae9c8c12"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Nightblade"/>
+                    <attribute id="UUID" type="guid" value="4db547ef-b4a0-486f-87d8-ae9077063d63"/>
+                </node>
 
 
             </children>

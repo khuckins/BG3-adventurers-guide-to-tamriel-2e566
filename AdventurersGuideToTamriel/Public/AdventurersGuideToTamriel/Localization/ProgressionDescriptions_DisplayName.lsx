@@ -28,7 +28,7 @@
 				<node id="TranslatedStringKey">
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Nibenese" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" value="Nibense" handle="Nibenese" version="3" />
+					<attribute id="Content" type="TranslatedString" value="Nibenese" handle="Nibenese" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
@@ -227,6 +227,13 @@
 					<attribute id="UUID" type="FixedString" value="AGTT_Prog_Orsimer_FeatA" />
 					<attribute id="Stub" type="bool" value="True" />
 					<attribute id="Content" type="TranslatedString" value="Berserker Rage" handle="Berserker Rage" version="3" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgName_Nightblade_Verisimilitude" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="TranslatedString" value="Verisimilitude" handle="" version="3" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>

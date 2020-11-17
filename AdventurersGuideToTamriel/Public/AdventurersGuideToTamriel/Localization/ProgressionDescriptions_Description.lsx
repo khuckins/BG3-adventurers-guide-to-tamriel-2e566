@@ -11,6 +11,13 @@
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="AGTT_ProgDesc_Nightblade_Verisimilitude" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="TranslatedString" value="When casting Thaumaturgy, you gain an additional +1 to Intimidation, Performance, and Advantage in Sleight of Hand." handle="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
 			</children>
 		</node>
 	</region>

@@ -142,7 +142,7 @@
                     <attribute id="DisplayName" type="FixedString" value="Nightblade"/>
                     <attribute id="HasGod" type="bool" value="false"/>
                     <attribute id="HpPerLevel" type="int32" value="0"/>
-                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
                     <attribute id="MagicType" type="uint8" value="1"/>
                     <attribute id="MustPrepareSpells" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="Nightblade"/>

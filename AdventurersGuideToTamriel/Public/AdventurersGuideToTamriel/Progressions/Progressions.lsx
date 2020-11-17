@@ -578,7 +578,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="AGTT_Nightblade_Verisimilitude"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(0cb4767d-20e8-4e75-b69c-f95e9ce5f0c3,,,AGTT_Progression_NightbladeCantrip1,AlwaysPrepared);SelectSpells(77d51b21-a436-40de-8289-13bdbd2c42e3,2,0,AGTT_Progression_NightbladeCantripSelect1,AlwaysPrepared);SelectSpells(e32221e4-e41e-44b0-b365-7f70d26ef7f6,3,0,AGTT_Progression_NightbladeSpellSelect1)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(0cb4767d-20e8-4e75-b69c-f95e9ce5f0c3,,,AGTT_Progression_NightbladeCantrip1,AlwaysPrepared);SelectSpells(77d51b21-a436-40de-8289-13bdbd2c42e3,2,1,AGTT_Progression_NightbladeCantripSelect1,AlwaysPrepared);SelectSpells(e32221e4-e41e-44b0-b365-7f70d26ef7f6,3,0,AGTT_Progression_NightbladeSpellSelect1)"/>
                     <attribute id="TableUUID" type="guid" value="3a653c74-059c-4add-b7be-2547ae9c8c12"/>
                     <attribute id="UUID" type="guid" value="a34a98a9-8cb3-445a-bdf5-a4dda746b7b8"/>
                 </node>
@@ -590,7 +590,7 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(e32221e4-e41e-44b0-b365-7f70d26ef7f6,1,0,AGTT_Progression_NightbladeSpellSelect1)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(e32221e4-e41e-44b0-b365-7f70d26ef7f6,1,1,AGTT_Progression_NightbladeSpellSelect1)"/>
                     <attribute id="TableUUID" type="guid" value="3a653c74-059c-4add-b7be-2547ae9c8c12"/>
                     <attribute id="UUID" type="guid" value="79ad1bbe-ef38-48da-8a6a-841a92283ba2"/>
                 </node>
