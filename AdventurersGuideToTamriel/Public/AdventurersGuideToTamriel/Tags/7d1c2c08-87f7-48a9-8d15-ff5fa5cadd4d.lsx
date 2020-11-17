@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|Player or NPC chose Almalexia.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="This character worships Almalexia, the Dunmer God-Queen." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="ALMALEXIA" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTT_GOD_ALMALEXIA"/>
+            <attribute id="UUID" type="guid" value="7d1c2c08-87f7-48a9-8d15-ff5fa5cadd4d"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

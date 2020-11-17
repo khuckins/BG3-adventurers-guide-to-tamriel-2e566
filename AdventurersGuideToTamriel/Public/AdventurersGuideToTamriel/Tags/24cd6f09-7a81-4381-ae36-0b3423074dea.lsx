@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|Player or NPC chose Arkay.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="This character worships Arkay, the god of Life and Death." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="ARKAY" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTT_GOD_ARKAY"/>
+            <attribute id="UUID" type="guid" value="24cd6f09-7a81-4381-ae36-0b3423074dea"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

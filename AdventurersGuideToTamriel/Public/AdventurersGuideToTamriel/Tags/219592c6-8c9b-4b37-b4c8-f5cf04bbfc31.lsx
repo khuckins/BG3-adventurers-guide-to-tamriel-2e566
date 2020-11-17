@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|Player or NPC chose Stendarr.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="This character worships Stendarr, the God of Luck and Justice." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="STENDARR" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTT_GOD_STENDARR"/>
+            <attribute id="UUID" type="guid" value="219592c6-8c9b-4b37-b4c8-f5cf04bbfc31"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

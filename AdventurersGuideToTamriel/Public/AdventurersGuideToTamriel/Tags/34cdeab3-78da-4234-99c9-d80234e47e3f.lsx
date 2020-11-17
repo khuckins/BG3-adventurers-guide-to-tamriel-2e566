@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|Player or NPC chose Hermaeus Mora.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="This character worships Hermaeus Mora, the Daedric Prince of Knowledge." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="HERMAEUS MORA" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTT_GOD_HERMAMORA"/>
+            <attribute id="UUID" type="guid" value="34cdeab3-78da-4234-99c9-d80234e47e3f"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

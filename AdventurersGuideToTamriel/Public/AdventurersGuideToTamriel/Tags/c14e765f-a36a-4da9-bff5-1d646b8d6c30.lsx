@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|Player or NPC chose Azura.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="This character worships Azura, the Daedric Prince of Dawn and Dusk." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="AZURA" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTT_GOD_AZURA"/>
+            <attribute id="UUID" type="guid" value="c14e765f-a36a-4da9-bff5-1d646b8d6c30"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

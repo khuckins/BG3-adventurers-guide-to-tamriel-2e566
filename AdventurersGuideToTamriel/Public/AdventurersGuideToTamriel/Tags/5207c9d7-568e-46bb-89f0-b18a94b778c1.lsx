@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="19"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|Player or NPC chose Mehrunes Dagon.|"/>
+            <attribute id="DisplayDescription" type="TranslatedString" value="This character worships Mehrunes Dagon, Daedric Prince of Destruction and Ambition." handle=""/>
+            <attribute id="DisplayName" type="TranslatedString" value="MEHRUNES DAGON" handle=""/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="AGTT_GOD_MEHRUNESDAGON"/>
+            <attribute id="UUID" type="guid" value="5207c9d7-568e-46bb-89f0-b18a94b778c1"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Dialog"/>
+                        </node>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Background"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

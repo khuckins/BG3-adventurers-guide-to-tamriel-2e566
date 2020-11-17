@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="47"/>
+    <region id="Gods">
+        <node id="root">
+            <children>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="AKA, Akatosh, Aka-Tusk, Auri-El, Alkosh, Bormah. All names of the Aedric dragon god of time. Akatosh was the first of the et'Ada to emerge. He is present in most Tamrielic faiths, and exists as the chief deity among them. He embodies the qualities of endurance, invincibility, and legitimacy. His sign is the Hourglass."/>
+                    <attribute id="DisplayName" type="FixedString" value="Akatosh"/>
+                    <attribute id="Name" type="FixedString" value="Akatosh"/>
+                    <attribute id="UUID" type="guid" value="f47f0b7d-97c9-4dc2-9fe1-bd701b858b7b"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="5524396a-52c7-4bca-b320-7064b1d6d7c1"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Known also as Ayem, the Lady of Mercy, the Warden, the Lover. Almalexia is the Healing Mother of Morrowind, one of its three God-Kings. She is associated with Boethiah, the Prince of Plots. Hear realms are compassion, sympathy, and forgiveness."/>
+                    <attribute id="DisplayName" type="FixedString" value="Almalexia"/>
+                    <attribute id="Name" type="FixedString" value="Almalexia"/>
+                    <attribute id="UUID" type="guid" value="2d5f6a41-4b50-4ee8-9a05-5e8c6f30d130"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="7d1c2c08-87f7-48a9-8d15-ff5fa5cadd4d"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Arkay, Tu'whacca, and Xaxes are the most well known names for the Aedric god of life and death. He's associated with funeral rites, the seasons, and all things cyclical. His followers despise necromancy and the undead. As such, any bodies buried under the rites of Arkay are blessed, and cannot be raised by Necromancy. His symbol is two overlapping squares, surrounding a sphere."/>
+                    <attribute id="DisplayName" type="FixedString" value="Arkay"/>
+                    <attribute id="Name" type="FixedString" value="Arkay"/>
+                    <attribute id="UUID" type="guid" value="5914327b-cdd3-4097-996e-c2e0c9fa3cfd"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="24cd6f09-7a81-4381-ae36-0b3423074dea"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Presiding over the realm of Moonshadow, Azura's sphere is Dawn and Dusk, Vanity and Egotism. She is one of the few Daedric Princes seen by mortals as consistently 'good', and is primarily associated with the DUnmer and the Khajiit. Her Daedric servents are the Winged Twilights."/>
+                    <attribute id="DisplayName" type="FixedString" value="Azura"/>
+                    <attribute id="Name" type="FixedString" value="Azura"/>
+                    <attribute id="UUID" type="guid" value="234504e8-e9fb-438b-b3a3-46075bd1b5ba"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c14e765f-a36a-4da9-bff5-1d646b8d6c30"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Known as the Prince of Plots, Boethiah's sphere is revolution, deceit, and conspiracy. Despite these spheres, she is often considered one of the 'good' Daedric Princes, occasionally aligning herself with Stendarr. She loves competition and battle. Her realm is Attribution's Share, and her most prized Daedric servants are the Hunger."/>
+                    <attribute id="DisplayName" type="FixedString" value="Boethiah"/>
+                    <attribute id="Name" type="FixedString" value="Boethiah"/>
+                    <attribute id="UUID" type="guid" value="215e61f8-d901-491d-90d6-1867010d297f"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="375e1328-fa89-4559-b29f-e1d3a8370293"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Known as the Prince of Pacts, Clavicus Vile's sphere covers pacts and wishes, trickery and serenity. He is often accompanie by a Daedric being in the form of a Dog, Barbas. His realm is Desideratum, an idyllic countryside, and his servants are the Skaafin and Djinn."/>
+                    <attribute id="DisplayName" type="FixedString" value="Clavicus Vile"/>
+                    <attribute id="Name" type="FixedString" value="ClavicusVile"/>
+                    <attribute id="UUID" type="guid" value="a7831e15-4840-4c7a-b657-019a9497113c"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="53deddb4-03d7-48d4-a26d-5895c6c9e819"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Dibella is the Aedric goddess of beauty, art, and music. Often compared to Mara, the goddess of love, Dibella is more focused on the physical. Her orders are often denounced as filled with prostitutes, but it is filled with many great artists, poets, writers, and musicians. Her symbol is the lily."/>
+                    <attribute id="DisplayName" type="FixedString" value="Dibella"/>
+                    <attribute id="Name" type="FixedString" value="Dibella"/>
+                    <attribute id="UUID" type="guid" value="4cc653f5-3edd-4bf1-98df-48199600f6c6"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="24c89a6e-5a1d-4f5e-a71a-51583f6a89f5"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Hermaeus Mora's sphere is knowledge and understanding. Usually taking the shape of an amorphous, tentacled, many-eyed being, his realm is Apocrypha, an endless library with books of every era. His servants are the Seekers and Lurkers."/>
+                    <attribute id="DisplayName" type="FixedString" value="Hermaeus Mora"/>
+                    <attribute id="Name" type="FixedString" value="HermaMora"/>
+                    <attribute id="UUID" type="guid" value="cb865e38-d784-4e1b-a9c8-5b3140863174"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="34cdeab3-78da-4234-99c9-d80234e47e3f"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Hircine is the God of the Hunt, the Daedric Prince of Sport, father of Therianthrops, and he presides over the realm of the Hunting Grounds. His servants are the Huntsmen, humanoid hunters with the appearance of wild men, and werebeasts."/>
+                    <attribute id="DisplayName" type="FixedString" value="Hircine"/>
+                    <attribute id="Name" type="FixedString" value="Hircine"/>
+                    <attribute id="UUID" type="guid" value="c71bfcde-18ba-4357-b30d-4a7930c56f09"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="967ce66f-4111-4c8a-8bbe-9569b71f8b75"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Julianos, also known as Jhunal, is the Aedric god of knowledge and wisdom. Widely accepted by mages across Tamriel, he is most associated with magic, though he is also the one who gave the gift of language and mathematics to the kingdoms of Man. He espouses virtues of knowledge, scholarship, and justice. His symbol is a triangle."/>
+                    <attribute id="DisplayName" type="FixedString" value="Julianos"/>
+                    <attribute id="Name" type="FixedString" value="Julianos"/>
+                    <attribute id="UUID" type="guid" value="fa23b94a-0f4f-4643-9e62-d711fa46897c"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="38ba3ad7-1d35-4915-8cef-e0fe29a185ba"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Kynareth, who is also known as Kyne, Khenarthi, and Tava, is the Aedric goddess of nature and the lady of storms. A fearsome Aedra, she is equal parts mercy and fury. She was the first to accept Lorkhan's plan, and the rain is her tears after he was torn apart. Her symbol is the dove in some cultures, and in others, the hawk."/>
+                    <attribute id="DisplayName" type="FixedString" value="Kynareth"/>
+                    <attribute id="Name" type="FixedString" value="Kynareth"/>
+                    <attribute id="UUID" type="guid" value="45b04cf9-ee9d-4fd7-8982-c37de614c6dc"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b72d0af2-3a97-45a2-97bb-f88046f05363"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Lorkhan, the progenitor of all Mortals. Neither Aedra nor Daedra, He is the spirit who convinced the Aedra to create the Mundus, dying in the process. His symbol is the void."/>
+                    <attribute id="DisplayName" type="FixedString" value="Lorkhan"/>
+                    <attribute id="Name" type="FixedString" value="Lorkhan"/>
+                    <attribute id="UUID" type="guid" value="57308a31-13dd-4614-81cc-8195879102c3"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="683d7ac0-f89e-43c0-8f4a-422d607dcfce"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Malacath, known by some as Mauloch, Orkey, and the Orc-father, is intrinsically related to the dead god Trinimac, and is the Daedric Prince of the spurned and ostraciszed, patron of the Orsimer; Keeper or Oaths and Curses. His realm is the Ashpit, and his servants are the Ogrim."/>
+                    <attribute id="DisplayName" type="FixedString" value="Malacath"/>
+                    <attribute id="Name" type="FixedString" value="Malacath"/>
+                    <attribute id="UUID" type="guid" value="4cbc5837-32ff-4c79-9076-218f41fa7686"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="f0824f01-b530-49e7-9ddc-ea0f949d5cb6"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Mara, or in the Yokudan pantheon, Morwha, is the Aedric goddess of fertility and agriculture. Associated with weddings, healers, and bountiful harvests, Mara is one of the more popoular Aedra among the common people. Her symbol is the knot."/>
+                    <attribute id="DisplayName" type="FixedString" value="Mara"/>
+                    <attribute id="Name" type="FixedString" value="Mara"/>
+                    <attribute id="UUID" type="guid" value="dffa237d-28a3-4549-acd5-149038ea0009"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c2ca3945-91ec-480d-b7b5-92c246785fba"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Mehrunes Dagon is the Prince of Destruction. His sphere is change, energy, and ambition, and is generally considered one of the 'evil' Daedric Princes. His realm is the Deadlands, and his servants are most commonly Scamps, Daedroths, Dremorae, and Xivilai."/>
+                    <attribute id="DisplayName" type="FixedString" value="Mehrunes Dagon"/>
+                    <attribute id="Name" type="FixedString" value="MehrunesDagon"/>
+                    <attribute id="UUID" type="guid" value="46be6f1f-0e15-42cb-8d60-f288cb8936e7"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="5207c9d7-568e-46bb-89f0-b18a94b778c1"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Mephala is the Webspinner, the Daedric Prince of Shadows and Murder. Despite this, she is considered one of the more benign Daedric Princes. Her realm is the Spiral Skein, and the Spider Daedra are her servants."/>
+                    <attribute id="DisplayName" type="FixedString" value="Mephala"/>
+                    <attribute id="Name" type="FixedString" value="Mephala"/>
+                    <attribute id="UUID" type="guid" value="3ca86964-f487-40a8-9881-3c4fd3cd7e9f"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="f9113472-599f-47c2-9c18-708569bc0598"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Known by some as the Glister Witch, or the Lady of Infinite Energies, is the Daedric Prince of the energies of all things. Associated with both the Magna-Ge and the Daedric Princes, she presides over the Colored Rooms. Her servants are the Aurorans."/>
+                    <attribute id="DisplayName" type="FixedString" value="Meridia"/>
+                    <attribute id="Name" type="FixedString" value="Meridia"/>
+                    <attribute id="UUID" type="guid" value="4178ea53-b69e-4b19-8d8c-fa3c2d1b5462"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="50a0404c-16d9-46af-b2f2-1c91b08cf8c3"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Molag Bal is the Daerdric Prince who's sphere is the enslavement of mortals. Ostensibly one of the truly evil Daedric Princes, he is the father of Vampires. He presides over Coldharbor, and employes Dremorae, Daedroths, and Daedric Titans."/>
+                    <attribute id="DisplayName" type="FixedString" value="Molag Bal"/>
+                    <attribute id="Name" type="FixedString" value="MolagBal"/>
+                    <attribute id="UUID" type="guid" value="bba8590c-bcc1-4a46-9dce-e5894bd3e604"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b2383fb7-9485-4fba-88de-05ed647b7b27"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Known as the Lady of Decay, Namira is the Daedric Prince of ancient darkness. One of the 'evil' Daedric Princes, she presides over the Scuttling Void, and her favored servants are the dro-M'athra, dark shadows of long-dead Khajiit."/>
+                    <attribute id="DisplayName" type="FixedString" value="Namira"/>
+                    <attribute id="Name" type="FixedString" value="Namira"/>
+                    <attribute id="UUID" type="guid" value="109a1047-92f3-49bf-a7cd-3b0be8cc5287"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="acdb4b0e-53d1-4e03-af26-f86eaf4f2443"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Known to some as the Night Mistress, Namira is the Daedric Prince of Night and Darkness. She presides over the Evergloam, Shade Perilous, and other planes, and her servants are the lesser and greater Nocturnals."/>
+                    <attribute id="DisplayName" type="FixedString" value="Nocturnal"/>
+                    <attribute id="Name" type="FixedString" value="Nocturnal"/>
+                    <attribute id="UUID" type="guid" value="ba6c4957-4f6d-41e4-915b-7c4413892745"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="098718aa-1e00-4d09-a070-32313d3f1244"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Peryite is the Daedfric Prince of Tasks, Pestilence, and Natural Order. He generally takes the form of a green, snakelike dragon. He presides over hte realm of the Infernal Pits, and his servants are often Daedrats, Plague Atronacht, and Pestilent Dremorae."/>
+                    <attribute id="DisplayName" type="FixedString" value="Peryite"/>
+                    <attribute id="Name" type="FixedString" value="Peryite"/>
+                    <attribute id="UUID" type="guid" value="8d51cd1b-7b09-43d7-acba-213ad518a7fe"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c36450a4-2a68-4075-aa50-49bc90fcf76f"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Sanguine is the Daedric Prince of debauchery, hedonism, and indulgence. He presides over the Myriad Realms of Revelry, a conglomeration of Daedric planes, and his servants are unknown."/>
+                    <attribute id="DisplayName" type="FixedString" value="Sanguine"/>
+                    <attribute id="Name" type="FixedString" value="Sanguine"/>
+                    <attribute id="UUID" type="guid" value="b9011fc1-334a-4315-bdd3-f124d08b955d"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="d5ff25e2-3a3b-4168-929a-96d49d4d9641"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Sheogorath, the fourth corner of the House of Troubles, the King of the Never-There, and Prince of Madness. He rules over the Shivering Isles, and his favored followers are the Golden Saints and the Dark Seducers."/>
+                    <attribute id="DisplayName" type="FixedString" value="Sheogorath"/>
+                    <attribute id="Name" type="FixedString" value="Sheogorath"/>
+                    <attribute id="UUID" type="guid" value="827006d5-f7a3-415d-8818-533bd5abc0a8"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="79b2c198-8042-419a-a231-7bf97d2dd314"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Sotha Sil, or Seht, the Sage of the Tribunal, Morrowind's God-Kings. He resides in a city made of clockwork, always busy studying the way the world turns."/>
+                    <attribute id="DisplayName" type="FixedString" value="Sotha Sil"/>
+                    <attribute id="Name" type="FixedString" value="SothaSil"/>
+                    <attribute id="UUID" type="guid" value="16df3f2c-4a34-4e03-8bbe-8dc70c0fb357"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b425d72e-5999-4e17-8e5f-2f921cee2959"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Stendarr, S'rendarr, Onsi, or Stuhn, is the Aedric god of compassion, mercy, and rule by might. As Stuhn, he was the god of ransom as well. He commands his followers to heal the wounded, give to the needy, and give kindness to all mortals. They are also commanded to root out and destroy the undead, lycanthropes, vampires, and lesser Daedra. For this, he is known as the patron god of witchhunters. His symbol is the Chalice, except to the Nords, who visualisze a drinking horn."/>
+                    <attribute id="DisplayName" type="FixedString" value="Stendarr"/>
+                    <attribute id="Name" type="FixedString" value="Stendarr"/>
+                    <attribute id="UUID" type="guid" value="42467f4e-288a-47be-a3ee-1cb6c5ba6773"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="219592c6-8c9b-4b37-b4c8-f5cf04bbfc31"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Vaermina is the patron Daedra of Mysticism. Her sphere is dreams, nightmares, and visions. She presides over Quagmire, also known as the Dreamstride, and her servants are the Dreamwalkers."/>
+                    <attribute id="DisplayName" type="FixedString" value="Vaermina"/>
+                    <attribute id="Name" type="FixedString" value="Vaermina"/>
+                    <attribute id="UUID" type="guid" value="1a832a94-a8da-4c85-aa8f-83bcd4ad9032"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="46d32ddc-7e13-4d91-8614-b718e86c232f"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Vivec, known also as Vehk, the Poet, is the head of the Tribunal, Morrowind's trio of God-Kings. They lead from the temple-city bearing their name. Half Vivec's body is split: Their left, Dunmer, their right, Chimer."/>
+                    <attribute id="DisplayName" type="FixedString" value="Vivec"/>
+                    <attribute id="Name" type="FixedString" value="Vivec"/>
+                    <attribute id="UUID" type="guid" value="b5d4868a-0728-45a2-9004-c38373de8e92"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="092e4648-6632-455b-8473-a85a8f1d8fd8"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="FixedString" value="Zenithar, or Zeht, Xen, Z'en, or Tsun, is typically the twin of Stendarr, and the Aedric god of trade, commerce, and communication. He looks after the worker class, and is the patron god of smiths and traders in particular. His symbol is the Anvil."/>
+                    <attribute id="DisplayName" type="FixedString" value="Zenithar"/>
+                    <attribute id="Name" type="FixedString" value="Zenithar"/>
+                    <attribute id="UUID" type="guid" value="d37e64ca-bd59-47d0-867d-e9e74cf7460f"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="bbdc9d0b-b080-4356-94d2-5674500a1b82"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
