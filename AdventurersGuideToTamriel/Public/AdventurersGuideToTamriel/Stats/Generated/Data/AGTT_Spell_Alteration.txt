@@ -147,7 +147,7 @@ data "SpellFlags" "HasSomaticComponent;IsSpell;CannotTargetCharacter;CannotTarge
 // Gust Form					AGTT_Target_GustForm
 // Leaf
 // Magesoap						AGTT_Target_Magesoap
-// Oakflesh						AGTT_Target_Oakflesh - Not yet working
+// Oakflesh						AGTT_Target_Oakflesh
 // Piercing Strike
 // Sanction						AGTT_Target_Sanction
 // Shieldbearer
@@ -761,9 +761,20 @@ data "DescriptionParams" "DealDamage(1d8, Necrotic)"
 data "TooltipStatusApply" "ApplyStatus(AGTT_STATUS_FOUL, 100, 85)"
 data "SpellSuccess" "ApplyStatus(AGTT_STATUS_FOUL, 100, 85)"
 
-// See Oakflesh issues -- Barkskin not Implemented
-//new entry "AGTT_Shout_Razorskin"
-//type "SpellData"
+new entry "AGTT_Target_Razorskin"
+type "SpellData"
+data "SpellType" "Target"
+using "AGTT_Target_Oakflesh"
+data "Level" "2"
+data "DisplayName" "Razorskin"
+data "Description" "You touch a creature, transforming their skin into Razor-Sharp scales. Its Armor Class can't become lower than 15, regardless of armor. In addition, any creature that attacks it with a melee attack during the duration must roll a Dexterity saving throw. On a failed save, the creature takes [1]."
+data "ExtraDescription" "On a succesful save, attackin creatures take only half as much damage."
+data "TooltipDamageList" "DealDamage(2d4, Slashing)"
+data "DescriptionParams" "DealDamage(2d4, Slashing)"
+data "SpellProperties" "ApplyStatus(AGTT_STATUS_OAKFLESH, 100, 9)"
+data "TooltipStatusApply" "ApplyStatus(AGTT_STATUS_OAKFLESH, 100, 9)"
+data "UseCosts" "ActionPoint:1;SpellSlot:1:1:2"
+data "SpellFlags" "IsSpell;HasSomaticComponent;IsConcentration"
 
 new entry "AGTT_Target_Shatter"
 type "SpellData"

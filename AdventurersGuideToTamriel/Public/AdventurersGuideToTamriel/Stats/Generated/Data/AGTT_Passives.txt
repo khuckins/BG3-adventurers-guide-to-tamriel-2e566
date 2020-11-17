@@ -25,17 +25,22 @@ data "StatsFunctors" "Advantage(AttackRoll)"
 new entry "AGTT_Passive_MagicAura_Healing"
 type "PassiveData"
 data "DisplayName" "Magic Aura (Healing)"
-data "StatusFunctorContext" "OnHeal"
+data "StatsFunctorContext" "OnHeal"
 data "StatsFunctors" "RegainHealth(1)"
 
 new entry "AGTT_Passive_MagicAura_Damage"
 type "PassiveData"
 data "DisplayName" "Magic Aura (Damage)"
-data "StatusFunctorContext" "OnAttack"
+data "StatsFunctorContext" "OnAttack"
 data "StatsFunctors" "DealDamage(1d4, Psychic)"
 data "Conditions" "context.HitDescription.AttackType==(AttackType.RangedSpellAttack or AttackType.MeleeSpellAttack) and HasDamageEffectFlag(DamageFlags.Hit)"
 
-new entry
+new entry "AGTT_Passive_Razorskin"
+type "PassiveData"
+data "DisplayName" "Razorskin"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "context.HitDescripton.AttackType==(AttackType.MeleeWeaponAttack or AttackType.MeleeUnarmedAttack or AttackType.MeleeSpellAttack)"
+data "StatsFunctors" "DealDamage(2d4/2, Slashing);IF(not SavingThrow(Ability.Dexterity, 15)):DealDamage(2d4/2, Slashing)"
 
 // Class Passives
 
