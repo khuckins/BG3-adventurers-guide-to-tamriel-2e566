@@ -183,7 +183,7 @@ data "SpellType" "Shout"
 using "Shout_DisguiseSelf"
 data "SpellSchool" "Illusion"
 data "Level" "1"
-data "DisplayName" "Minor Illusion"
+data "DisplayName" "Minor Disguise"
 
 new entry "AGTT_Target_EyeMaze"
 type "SpellData"
