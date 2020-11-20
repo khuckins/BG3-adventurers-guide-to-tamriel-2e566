@@ -1,0 +1,24 @@
+EVENTS
+
+EVENT AGTT_CharacterSummonBoundWeapon
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+    ITEM:_Item
+    ITEM:_EqItem
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_BATTLEAXE)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_BATTLEAXE)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Battleaxe", 1, 0)
+    ItemGetFromInventory(_Item, "AGTT_WPN_Bound_Battleaxe")
+    RETURN(_RemoveList,_Result,null)
+
+EVENT AGTT_DispelBoundItem
+VARS
+	CHARACTER:_Character
+ON
+	OnCharacterStatusRemoved(_Character,AGTT_STATUS_HASBOUND_BATTLEAXE)
+ACTIONS
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Battleaxe",-1)

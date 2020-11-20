@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="51" />
+	<region id="ScriptBank">
+		<node id="ScriptBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="f0ace8e7-d6ad-461f-ac67-72c86e149dc3" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="SummonBoundWeapon" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/AdventurersGuideToTamriel/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

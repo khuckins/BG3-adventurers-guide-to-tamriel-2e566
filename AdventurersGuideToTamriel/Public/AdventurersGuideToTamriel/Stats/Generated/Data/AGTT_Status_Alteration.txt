@@ -82,8 +82,8 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "Icon" "Action_RegainHP"
 data "DisplayName" "Oakflesh"
-data "Description" "This creature's skin is covered in bark, adding +2 to their AC, but rendering them vulnerable to fire." ...keeping their AC at a minimum of 15. - For now we'll just add +2AC
-data "Boost" "ACOverrideMinimum(2);Resistance(Fire, Vulnerable);"
+data "Description" "This creature's skin is covered in bark, setting their minimum AC to 15, but rendering them vulnerable to fire."
+data "Boosts" "ACOverrideMinimum(15,true);Resistance(Fire, Vulnerable);"
 
 new entry "AGTT_STATUS_SANCTION"
 type "StatusData"

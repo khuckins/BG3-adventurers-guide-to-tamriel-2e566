@@ -27,7 +27,24 @@
                         <node id="PublishVersion">
                             <attribute id="Version" type="int32" value="268435456"/>
                         </node>
-                        <node id="Scripts"/>
+                        <node id="Scripts">
+                            <children>
+                                <node id="Script">
+                                    <attribute id="UUID" type="FixedString" value="f0ace8e7-d6ad-461f-ac67-72c86e149dc3"/>
+                                    <children>
+                                        <node id="Parameters">
+                                            <children>
+                                                <node id="Parameter">
+                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
+                                                    <attribute id="Type" type="int32" value="1"/>
+                                                    <attribute id="Value" type="LSString" value="0"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
                         <node id="TargetModes">
                             <children>
                                 <node id="Target">

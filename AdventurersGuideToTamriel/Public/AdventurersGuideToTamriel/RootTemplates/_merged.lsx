@@ -1126,6 +1126,128 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
+
+                <!-- Bound Equipment -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Battleaxe." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Battleaxe" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="095a3034-1efe-491a-9958-3e548b9819cc" />
+					<attribute id="Name" type="LSString" value="Bound Battleaxe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c17ee133-cbb5-418f-88be-5ef27991cf50" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Battleaxe" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Greataxe." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Greataxe" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="75ce2ae2-328d-46dc-9f2e-eb71ee9e5878" />
+					<attribute id="Name" type="LSString" value="Bound Greataxe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="afbfaee7-e2cd-48e7-8c46-d2377c7320e3" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Greataxe" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Dagger." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Dagger" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="bc910df4-9a7a-4282-a075-8ff902fcc92e" />
+					<attribute id="Name" type="LSString" value="Bound Dagger" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eab180b-5bf9-48ea-aece-7ba20d1deb78" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Dagger" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Mace." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Mace" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="3c784b52-a3d4-455f-8e5c-68f30410b6c1" />
+					<attribute id="Name" type="LSString" value="Bound Mace" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5a948b12-ca43-4256-9821-0d151036dbd1" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Mace" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Warhammer." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Warhammer" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="33b4fb4f-d12e-4a9b-95e4-7c42b9123688" />
+					<attribute id="Name" type="LSString" value="Bound Warhammer" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3e1b3db9-036e-4931-ab92-c3730a1c3d5f" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Warhammer" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Trident." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Trident" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="96206511-c213-4363-b10d-a1be6566450e" />
+					<attribute id="Name" type="LSString" value="Bound Trident" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2fab5801-76b1-4669-95d9-7df76bed12dd" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Trident" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Spear." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Spear" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="ce45c0d9-db27-4efe-b255-857d08c16f1f" />
+					<attribute id="Name" type="LSString" value="Bound Spear" />
+					<attribute id="ParentTemplateId" type="FixedString" value="158e6f29-89e9-4279-8f8f-85078f047225" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Spear" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Pike." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Pike" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="fbabe3ff-a923-4a38-a0e2-a97f5737597f" />
+					<attribute id="Name" type="LSString" value="Bound Pike" />
+					<attribute id="ParentTemplateId" type="FixedString" value="40fa8049-b6c1-4463-b212-52ad13b5d687" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Pike" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Shortsword." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Shortsword" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="a097bd64-d169-48ec-8a0c-4adfc5333fa3" />
+					<attribute id="Name" type="LSString" value="Bound Shortsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="261b946f-154b-4f75-8985-cab6531034a2" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Shortsword" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Longsword." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Longsword" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="a9eed011-b11d-4162-b09d-6bb198499378" />
+					<attribute id="Name" type="LSString" value="Bound Longsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3fc2ba50-3070-4caa-abe8-3bf885969bde" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Longsword" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Greatsword." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Greatsword" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="c8b14f84-0701-45b2-8151-a6fb30b8d6c3" />
+					<attribute id="Name" type="LSString" value="Bound Greatsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1a2a58b7-4bd5-44d5-b1fe-8cd7e5b53def" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Greatsword" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Light Crossbow." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Light Crossbow" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="16bb802c-bcd5-4a34-90e1-deef9f764208" />
+					<attribute id="Name" type="LSString" value="Bound Light Crossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="509dd5c3-7c72-4335-9b23-19a14a884f2e" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_LightCrossbow" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Heavy Crossbow." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Heavy Crossbow" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="a2fcd6fd-cfcc-45f1-88eb-5678ab1fd308" />
+					<attribute id="Name" type="LSString" value="Bound Heavy Crossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6af59cba-cc38-4511-9c3b-75caac4b96b5" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_HeavyCrossbow" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Shortbow." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Shortbow" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="4f9bc4cd-d152-4c0e-b724-dd957a40ce93" />
+					<attribute id="Name" type="LSString" value="Bound Shortbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a46173b7-afd6-48e0-9c76-817acd027574" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Shortbow" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" value="A Lesser Daedra, conjured from a plane of Oblivion in the form of a Longbow." handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" value="Bound Longbow" handle="" version="2" />
+					<attribute id="MapKey" type="FixedString" value="c9cb9cbf-11e9-40c8-99b2-234e17b2ebaf" />
+					<attribute id="Name" type="LSString" value="Bound Longbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="049173ec-636a-487e-a9ed-bfafeadf6bb7" />
+					<attribute id="Stats" type="FixedString" value="AGTT_WPN_Bound_Longbow" />
+				</node>
 			</children>
 		</node>
 	</region>
