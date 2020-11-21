@@ -49,7 +49,7 @@ This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual Installat
               <attribute id="UUID" type="FixedString" value="46c59a34-b3b1-40d0-8424-6f59ded3d575"/>
             </node>
 ```
-4. Place this under the Mods Children Node, beneath the Gustav ModuleShortDesc block:
+4. Place this under the Mods Children Node, **beneath the Gustav and Merid-Nunda ModuleShortDesc blocks**:
 ```
             <node id="ModuleShortDesc">
               <attribute id="Folder" type="LSWString" value="AdventurersGuideToTamriel"/>
