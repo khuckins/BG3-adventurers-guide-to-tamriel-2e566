@@ -1,24 +1,219 @@
 EVENTS
 
-EVENT AGTT_CharacterSummonBoundWeapon
+// Dispel all
+EVENT AGTT_DispelBoundItem
+VARS
+	CHARACTER:_Character
+ON
+	OnCharacterStatusRemoved(_Character,AGTT_STATUS_HASBOUNDWEAPON)
+ACTIONS
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Battleaxe",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Greataxe",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Dagger",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Mace",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Warhammer",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Trident",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Spear",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Pike",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Shortsword",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Longsword",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Greatsword",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_LightCrossbow",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_HeavyCrossbow",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Shortbow",-1)
+    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Longbow",-1)
+
+// BattleAxe
+EVENT AGTT_CharacterSummonBoundBattleaxe
 VARS
 	CHARACTER:_Character
 	LIST<STATUS>:_RemoveList
 	STATUS:_Result
-    ITEM:_Item
-    ITEM:_EqItem
 ON
     FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_BATTLEAXE)
 ACTIONS
     Set(_Result,AGTT_STATUS_HASBOUND_BATTLEAXE)
     CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Battleaxe", 1, 0)
-    ItemGetFromInventory(_Item, "AGTT_WPN_Bound_Battleaxe")
     RETURN(_RemoveList,_Result,null)
 
-EVENT AGTT_DispelBoundItem
+// Greataxe
+EVENT AGTT_CharacterSummonBoundGreataxe
 VARS
 	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
 ON
-	OnCharacterStatusRemoved(_Character,AGTT_STATUS_HASBOUND_BATTLEAXE)
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_GREATAXE)
 ACTIONS
-    CharacterRemoveFromInventory(_Character,"AGTT_WPN_Bound_Battleaxe",-1)
+    Set(_Result,AGTT_STATUS_HASBOUND_GREATAXE)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Greataxe", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Dagger
+EVENT AGTT_CharacterSummonBoundDagger
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_DAGGER)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_DAGGER)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Dagger", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Mace
+EVENT AGTT_CharacterSummonBoundMace
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_MACE)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_MACE)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Mace", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Warhammer
+EVENT AGTT_CharacterSummonBoundWarhammer
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_WARHAMMER)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_WARHAMMER)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Warhammer", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Trident
+EVENT AGTT_CharacterSummonBoundTrident
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_TRIDENT)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_TRIDENT)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Trident", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Spear
+EVENT AGTT_CharacterSummonBoundSpear
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_SPEAR)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_SPEAR)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Spear", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Pike
+EVENT AGTT_CharacterSummonBoundPike
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_PIKE)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_PIKE)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Pike", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Shortsword
+EVENT AGTT_CharacterSummonBoundShortsword
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_SHORTSWORD)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_SHORTSWORD)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Shortsword", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Longsword
+EVENT AGTT_CharacterSummonBoundLongsword
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_LONGSWORD)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_LONGSWORD)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Longsword", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Greatsword
+EVENT AGTT_CharacterSummonBoundGreatsword
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_GREATSWORD)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_GREATSWORD)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Greatsword", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Light Crossbows
+EVENT AGTT_CharacterSummonBoundLightCrossbow
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_LIGHTCROSSBOW)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_LIGHTCROSSBOW)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_LightCrossbow", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Heavy Crossbow
+EVENT AGTT_CharacterSummonBoundHeavyCrossbow
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_HEAVYCROSSBOW)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_HEAVYCROSSBOW)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_HeavyCrossbow", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Shortbow
+EVENT AGTT_CharacterSummonBoundShortbow
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_SHORTBOW)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_SHORTBOW)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Shortbow", 1, 0)
+    RETURN(_RemoveList,_Result,null)
+
+// Longbow
+EVENT AGTT_CharacterSummonBoundLongbow
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON
+    FetchCharacterApplyStatusData(_Character, AGTT_STATUS_HASBOUND_LONGBOW)
+ACTIONS
+    Set(_Result,AGTT_STATUS_HASBOUND_LONGBOW)
+    CharacterAddToInventory(_Character, "AGTT_WPN_Bound_Longbow", 1, 0)
+    RETURN(_RemoveList,_Result,null)

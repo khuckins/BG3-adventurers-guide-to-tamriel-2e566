@@ -267,7 +267,7 @@ new entry "AGTT_Shout_BoundGreataxe"
 type "SpellData"
 data "SpellType" "Shout"
 using "AGTT_Shout_BoundWeapon"
-data "SpellProperties" "ApplyStatus(AGTT_STATUS_HASBOUNDWEAPON, 100, 9);ApplyStatus(AGTT_STATUS_HASBOUND_GREATAXE, 100, 9)"
+data "SpellProperties" "ApplyStatus(AGTT_STATUS_HASBOUND_GREATAXE, 100, 9);ApplyStatus(AGTT_STATUS_HASBOUNDWEAPON, 100, 9)"
 data "DisplayName" "Bound Weapon (Greataxe)"
 data "Description" "You summon a Lesser Daedra, warping its form into that of a Greataxe."
 
